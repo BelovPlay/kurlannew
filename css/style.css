@@ -4329,3 +4329,11 @@ span.bold {
     align-items: center;
     justify-content:space-around;
 }
+iframe.video__footer{
+    text-align: center;
+    margin:auto;
+    position:absolute;
+    left:700px;
+    top:0px;
+    margin-top: 50px;
+}
