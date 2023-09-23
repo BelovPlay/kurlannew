@@ -4454,3 +4454,6 @@ iframe.video__footer{
     text-transform: uppercase;
     font-weight: bold;
 }
+.soc__links a{
+    display:inline-block;
+}
