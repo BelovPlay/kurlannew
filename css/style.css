@@ -2442,6 +2442,9 @@ span.bold {
     .sales__secondList li:nth-child(3) {
         margin-right: 888px;
     }
+    .map-mb,.soc__links-mb{
+        display:none;
+    }
 }
 @media (max-width: 1441px) {
     .btn-close {
