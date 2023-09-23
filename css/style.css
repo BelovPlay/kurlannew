@@ -2376,7 +2376,6 @@ span.bold {
     padding: 10px 20px;
 }
 .open-modal-krl span {
-    text-transform: uppercase;
     font-size: 20px;
 }
 .open-modal-sale {
@@ -4380,4 +4379,37 @@ iframe.video__footer{
 }
 .open-modal-krl:hover{
     color:white;
+}
+.bron{
+    padding-top:10px;
+    width:750px;
+}
+@media(min-width:200px) and (max-width:600px){
+    .header__inner{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .open-modal-faq{
+        width: 500px;
+        text-align: center;
+    }
+    .open-modal-krl{
+        padding-top:10px;
+    }
+    .bron{
+        width: 250px;
+        padding-top:15px;
+    }
+    .map-mb{
+        display:block;
+    }
+    .soc__links-mb{
+        display:inline-block;
+        margin-top: 20px;
+        margin-left:40px;
+    }
+    .soc__links-header img, .header__logo img, .header__phone-text img{
+        height:60px;
+    }
 }
