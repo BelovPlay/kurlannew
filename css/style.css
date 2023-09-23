@@ -4384,7 +4384,7 @@ iframe.video__footer{
     padding-top:10px;
     width:750px;
 }
-@media(min-width:200px) and (max-width:600px){
+@media(min-width:200px) and (max-width:1000px){
     .header__inner{
         display:flex;
         justify-content:space-around;
