@@ -4450,3 +4450,7 @@ iframe.video__footer{
     top:200px;
     left:30px;
 }
+.videlenie{
+    text-transform: uppercase;
+    font-weight: bold;
+}
