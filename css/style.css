@@ -2362,6 +2362,7 @@ span.bold {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left:750px;
 }
 .open-modal-faq span {
     text-transform: uppercase;
