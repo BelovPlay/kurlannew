@@ -4467,6 +4467,7 @@ iframe.video__footer{
         margin-left:5px;
         margin-top:0px;
         flex-direction:column;
+        display:none;
     }
     .services__item-img{
         height:60px;
