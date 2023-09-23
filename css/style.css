@@ -2760,6 +2760,9 @@ span.bold {
     .map__title {
         font-size: 34px;
     }
+    .map,.soc__links{
+        display:none;
+    }
 }
 @media (max-width: 769px) {
     .menu__btn-open {
@@ -2948,6 +2951,9 @@ span.bold {
     }
     .map__title {
         font-size: 26px;
+    }
+    .map,.soc__links{
+        display:none;
     }
 }
 @media (max-width: 541px) {
@@ -3340,6 +3346,9 @@ span.bold {
     .services__item-title.conts {
         bottom: 11px;
         right: -7px;
+    }
+    .map,.soc__links{
+        display:none;
     }
 }
 @media (max-width: 415px) {
