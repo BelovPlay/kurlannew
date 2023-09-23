@@ -4352,3 +4352,31 @@ iframe.video__footer{
 .map-mb, .soc__links-mb{
     display:none;
 }
+@keyframes black {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 4px #000, 0 0 11px #000, 0 0 11px #000, 0 0 11px #000, 0 0 11px #000, 0 0 11px #000, 0 0 11px #000, 0 0 11px #000;
+    }
+}
+.black{
+    animation:black 1s alternate infinite;
+    color:#fff;
+}
+.black b{
+    text-transform: uppercase;
+    color:white;
+}
+.open-modal-krl{
+    text-align: center;
+    margin: 0px auto;
+    padding-top:15px;
+    margin-top:30px;
+}
+.open-modal-krl:hover{
+    color:white;
+}
