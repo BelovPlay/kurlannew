@@ -4349,3 +4349,6 @@ iframe.video__footer{
     top:0px;
     margin-top: 50px;
 }
+.map-mb, .soc__links-mb{
+    display:none;
+}
