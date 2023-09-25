@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const e = document.querySelectorAll(".header__phone"),
         t = document.querySelector("span.header__phone-text");
     e.forEach(o => {
-        o.addEventListener("mousemove", () => {
-            o.innerHTML = '\n            <span class="header__phone-arrow">&#8594;</span>\n            <span class="header__phone-text" style="font-size: 15px;">+7 (927) 634 02 46</span>', e.append(t)
-        }), o.addEventListener("mouseout", () => {
-            o.innerHTML = '\n              <span class="header__phone-arrow">&#8594;</span>\n              <span  class="header__phone-text">Позвоните нам</span>', e.append(t)
-        })
+        // o.addEventListener("mousemove", () => {
+        //     o.innerHTML = '\n            <span class="header__phone-arrow">&#8594;</span>\n<span  class="header__phone-text">Купить билет</span>', e.append(t)
+        // }), o.addEventListener("mouseout", () => {
+        //     o.innerHTML = '\n              <span class="header__phone-arrow">&#8594;</span>\n<span  class="header__phone-text">Купить билет</span>', e.append(t)
+        // })
     });
     const o = document.querySelector(".modal-menu"),
         s = document.querySelector(".modal-tubing"),
