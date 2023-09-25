@@ -191,6 +191,6 @@ buybtn.addEventListener('click',function(){
     alert('Сумма билетов без скидки:'+sum+' рублей');
     alert('Количество билетов для покупки:'+Number(kolvo.value)+' шт');
     percent=sum/100*(Number(kolvo.value));
-    alert('Размер скидки: '+percent+' рублей');
+    alert('Размер скидки: '+(Number(kolvo.value))+'%');
     alert('Итоговая стоимость билетов:'+(Number(sum-percent))+' рублей');
 })
