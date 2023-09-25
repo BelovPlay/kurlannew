@@ -4481,3 +4481,21 @@ iframe.video__footer{
 .zachto{
     margin-left:150px;
 }
+#block{
+    width:100%;
+    height:1000px;
+    opacity:0.9;
+    left:0;
+    top:600;
+    background-color:#000;
+    margin:auto;
+    position:absolute;
+    display:none;
+}
+.tickets{
+    width:200px;
+    height:100px;
+}
+.buy{
+    width:600px;
+}

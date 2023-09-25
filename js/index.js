@@ -147,3 +147,50 @@ document.addEventListener("DOMContentLoaded", () => {
         V.classList.add("active")
     })
 });
+let btn=document.getElementById('btn');
+let block=document.getElementById('block');
+let content=document.getElementById('content');
+let plus=document.getElementById('plus');
+let minus=document.getElementById('minus');
+let kolvo=document.getElementById('kolvo');
+let buybtn=document.getElementById('buybtn');
+let sum;
+let price=2000;
+btn.addEventListener('click',function(){
+    block.style.display='block';
+    content.style.display='block';
+})
+btn.addEventListener('dblclick',function(){
+    block.style.display='none';
+    content.style.display='none';
+})
+plus.addEventListener('click',function(){
+    event.preventDefault();
+    kolvo.value=Number(kolvo.value)+1;
+    if(Number(kolvo.value>50)){
+        plus.disabled='true';
+    }
+    sum=price*(Number(kolvo.value));
+})
+minus.addEventListener('click',function(){
+    event.preventDefault();
+    kolvo.value=Number(kolvo.value)-1;
+    if(Number(kolvo.value)<1){
+        minus.disabled='true';
+        if(Number(kolvo.value>0)){
+            minus.disabled='false';
+        }
+        sum=price*(Number(kolvo.value));
+        alert(sum);
+    }
+})
+let percent;
+buybtn.addEventListener('click',function(){
+    event.preventDefault();
+    sum=price*(Number(kolvo.value));
+    alert('Сумма билетов без скидки:'+sum+' рублей');
+    alert('Количество билетов для покупки:'+Number(kolvo.value)+' шт');
+    percent=sum/100*(Number(kolvo.value));
+    alert('Размер скидки: '+percent+' рублей');
+    alert('Итоговая стоимость билетов:'+(Number(sum-percent))+' рублей');
+})
