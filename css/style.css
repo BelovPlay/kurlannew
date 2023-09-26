@@ -4382,7 +4382,7 @@ iframe.video__footer{
     color:white;
 }
 .bron{
-    padding-top:10px;
+    padding-top:20px;
     width:750px;
 }
 @media(min-width:200px) and (max-width:1000px){
@@ -4501,4 +4501,12 @@ iframe.video__footer{
 }
 .header__phone-arrow{
     color:#000;
+}
+.time{
+    margin-left:90px;
+}
+.price__descr{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:250px;
 }
