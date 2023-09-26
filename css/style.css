@@ -495,13 +495,13 @@ body {
     color: #fff;
 }
 .header__phone:hover .header__phone-arrow {
-    color: #b19911;
+    color: #000;
 }
 .header__phone:hover .header__phone-text {
-    color: #b19911;
+    color: #000;
 }
 .header__phone:hover .header__phone-text span {
-    color: #b19911;
+    color: #000;
 }
 .header.fixed {
     color: #e6c619;
@@ -559,13 +559,13 @@ body {
 }
 .header.fixed .header__phone:hover .header__phone-arrow,
 .header.fixed .header__phone:hover .header__phone-text {
-    color: #e6c619;
+    color: #000;
     -webkit-transition: all 0.4s ease-in;
     -o-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
 }
 .header__phone:hover .header__phone-text span {
-    color: #e6c619;
+    color: #000;
     -webkit-transition: all 0.4s ease-in;
     -o-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
