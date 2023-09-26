@@ -1126,7 +1126,7 @@ span.bold {
     justify-content: center;
     cursor: pointer;
     height: 32px;
-    max-width:80%;
+    max-width: 175px;
     color: #000;
     margin: 0 auto;
     margin-top: 10px;
@@ -1152,11 +1152,7 @@ span.bold {
     padding: 0 7px;
 }
 .navigation__btn.map-btn-nav {
-    margin-top:100px;
-    width:6000px;
-}
-.navigation__btn.map-btn-nav:hover{
-    color:white;
+    max-width: 105px;
 }
 .navigation__btn-img {
     width: 22px;
@@ -4386,7 +4382,7 @@ iframe.video__footer{
     color:white;
 }
 .bron{
-    padding-top:20px;
+    padding-top:10px;
     width:750px;
 }
 @media(min-width:200px) and (max-width:1000px){
@@ -4505,21 +4501,4 @@ iframe.video__footer{
 }
 .header__phone-arrow{
     color:#000;
-}
-.time{
-    margin-left:90px;
-}
-.price__descr{
-    display:inline-block;
-    margin-top:20px;
-    margin-left:250px;
-}
-.btn__faq{
-    padding-top: 20px;
-    text-align: center;
-    margin:0px auto;
-    left:40%;
-    display:block;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
