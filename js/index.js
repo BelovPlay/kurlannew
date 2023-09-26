@@ -156,6 +156,7 @@ let kolvo=document.getElementById('kolvo');
 let buybtn=document.getElementById('buybtn');
 let sum;
 let price=2000;
+let percent;
 btn.addEventListener('click',function(){
     block.style.display='block';
     content.style.display='block';
@@ -181,16 +182,19 @@ minus.addEventListener('click',function(){
             minus.disabled='false';
         }
         sum=price*(Number(kolvo.value));
-        alert(sum);
     }
 })
-let percent;
 buybtn.addEventListener('click',function(){
     event.preventDefault();
     sum=price*(Number(kolvo.value));
     alert('Сумма билетов без скидки:'+sum+' рублей');
     alert('Количество билетов для покупки:'+Number(kolvo.value)+' шт');
-    percent=sum/100*(Number(kolvo.value));
-    alert('Размер скидки: '+(Number(kolvo.value))+'%');
+    if(Number(kolvo.value<31)){
+        percent=sum/100*(Number(kolvo.value));
+        alert('Размер скидки: '+(Number(kolvo.value))+'%');
+    }else{
+        percent=sum/100*30;
+        alert('Размер скидки:30%');
+    }
     alert('Итоговая стоимость билетов:'+(Number(sum-percent))+' рублей');
 })
