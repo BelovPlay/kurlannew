@@ -944,8 +944,8 @@ body {
     text-align: start;
 }
 .description__text-title span {
-    display: block;
-    font-size: 64px;
+    display:inline-block;
+    font-size:60px;
 }
 .description__text-title span.small {
     font-size: 24px;
@@ -956,7 +956,8 @@ body {
     text-align: start;
 }
 .small-spacing--left {
-    margin-right: 50px;
+    margin-right:0px;
+    font-size: 32px;
 }
 #dog .description__text-title span.small-spacing {
     font-size: 46px;
