@@ -158,6 +158,7 @@ let sum;
 let price=2000;
 let percent;
 btn.addEventListener('click',function(){
+    event.preventDefault();
     block.style.display='block';
     content.style.display='block';
 })

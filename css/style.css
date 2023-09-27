@@ -4491,7 +4491,7 @@ iframe.video__footer{
     height:1000px;
     opacity:0.9;
     left:0;
-    top:600;
+    top:0;
     background-color:#000;
     margin:auto;
     position:absolute;
@@ -4499,7 +4499,7 @@ iframe.video__footer{
 }
 .tickets{
     width:200px;
-    height:100px;
+    height:600px;
 }
 .buy{
     width:600px;
