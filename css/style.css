@@ -739,8 +739,8 @@ body {
 }
 .services__item-title {
     position: absolute;
-    bottom: 6px;
-    right: 17px;
+    bottom:-5px;
+    right:5px;
     color: #000;
     font-size: 18px;
     -webkit-transform: rotatez(-33deg);
@@ -749,7 +749,7 @@ body {
     font-weight: 700;
     text-align: end;
 }
-.services__item-title.quadro {
+/* .services__item-title.quadro {
     bottom: 11px;
     right: -9px;
 }
@@ -813,7 +813,7 @@ body {
 .services__item-title.kurlanchik {
     bottom: 12px;
     right: 0;
-}
+} */
 .rotatePulse {
     -webkit-animation-name: rotatePulse;
     animation-name: rotatePulse;
