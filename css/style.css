@@ -419,8 +419,8 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 30px;
-    height: 1px;
-    background-color: #b19911;
+    height: 5px;
+    background-color: #000;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
