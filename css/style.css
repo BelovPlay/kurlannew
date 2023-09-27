@@ -4509,6 +4509,8 @@ iframe.video__footer{
 }
 .time{
     margin-left:90px;
+    margin-top:25px;
+    display:inline-block;
 }
 .price__descr{
     display:inline-block;
