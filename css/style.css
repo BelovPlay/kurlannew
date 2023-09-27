@@ -4490,7 +4490,7 @@ iframe.video__footer{
 }
 #block{
     width:100%;
-    height:1000px;
+    height:100%;
     opacity:0.9;
     left:0;
     top:0;
@@ -4498,10 +4498,20 @@ iframe.video__footer{
     margin:auto;
     position:absolute;
     display:none;
+    z-index:1111;
+    position:fixed;
+}
+form{
+    margin-left: 650px;
+    margin-top: 300px;
+}
+.title-pay{
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
 .tickets{
     width:200px;
-    height:600px;
+    height:100px;
 }
 .buy{
     width:600px;
