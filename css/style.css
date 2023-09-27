@@ -4552,3 +4552,14 @@ h2.description__text-title .smallinger{
 .description__text-title .smallinger-two{
     font-size:40px;
 }
+.open-modal-buy{
+    display:inline-block;
+    width:650px;
+    padding-top:20px;
+    padding-bottom:50px;
+    text-align: center;
+    margin-top:25px;
+}
+.open-modal-buy:hover{
+    color:white;
+}
