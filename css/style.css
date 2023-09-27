@@ -1216,6 +1216,8 @@ span.bold {
     text-align: center;
     color: #2c97a5;
     font-weight: 700;
+    display:inline-block;
+    margin-top:20px;
 }
 .animators {
     background-color: #e9e9e9;
