@@ -948,7 +948,7 @@ body {
     font-size:60px;
 }
 .description__text-title span.small {
-    font-size: 24px;
+    font-size:24px;
     color: #fff;
 }
 .description__text-title span.left-text {
@@ -4523,4 +4523,11 @@ iframe.video__footer{
     display:block;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.title-sec{
+    width:500px;
+    margin-bottom:20px;
+}
+.description__text-title span.smalling{
+    font-size:36px;
 }
