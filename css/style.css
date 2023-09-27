@@ -4525,9 +4525,22 @@ iframe.video__footer{
     margin-bottom: 50px;
 }
 .title-sec{
-    width:500px;
+    width:550px;
     margin-bottom:20px;
+    font-size: 32px;
 }
 .description__text-title span.smalling{
+    font-size:36px;
+}
+.head-sec{
+    font-size:60px;
+}
+.description__text-title{
+    text-align:left;
+}
+.title-third{
+    width:600px;
+}
+h2.description__text-title .smallinger{
     font-size:36px;
 }
