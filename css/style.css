@@ -1153,7 +1153,7 @@ span.bold {
     padding: 0 7px;
 }
 .navigation__btn.map-btn-nav {
-    margin-top:100px;
+    /* margin-top:100px; */
     width:6000px;
 }
 .navigation__btn.map-btn-nav:hover{
@@ -4582,9 +4582,10 @@ h2.description__text-title .smallinger{
     border-radius:15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
     display:inline-block;
     color:#000;
+    width: 500px;
+    font-weight: bold;
 }
 .more-program:hover{
     color:#fff;
@@ -4600,4 +4601,30 @@ h2.description__text-title .smallinger{
 }
 .sales__firstList{
     width:850px;
+}
+.yarche{
+    display:inline-block;
+    text-indent: 35px;
+}
+.title-yarche{
+    font-size:42px;
+    margin-bottom: 50px;
+}
+.date-group{
+    color:#000;
+}
+.yarche-descr{
+    color:#000;
+}
+.nav-descr{
+    text-align: center;
+    margin-top: 60px;
+    display:block;
+    margin-bottom: 0;
+}
+.nav-descr-block{
+    margin-top:300px;
+}
+.title-rasst{
+    padding-left: 25px;
 }
