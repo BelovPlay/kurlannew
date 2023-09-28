@@ -13,12 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
         i = document.querySelector(".modal-faq"),
         u = document.querySelector(".modal-krl"),
         k = document.querySelector(".modal-open-tubing"),
+        K = document.querySelector(".modal-open-tubing-sec");
         q = document.querySelector(".open-modal-faq"),
         b = document.querySelector(".open-modal-buy"),
         M = document.querySelector(".open-modal-menu"),
         T = document.querySelectorAll(".modal-close"),
         B = document.querySelector(".social"),
         P = document.querySelector(".arrow-top");
+        
     q.addEventListener("click", e => {
         e.preventDefault(), i.classList.add("active")
     }), 
@@ -36,6 +38,19 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }), 
     k.addEventListener("click", e => {
+        e.preventDefault(), s.classList.add("active")
+    }),
+    T.forEach(e => {
+        e.addEventListener("click", e => {
+            e.preventDefault(), s.classList.remove("active")
+        })
+    }),
+    T.forEach(e => {
+        e.addEventListener("click", e => {
+            e.preventDefault(), o.classList.remove("active")
+        })
+    });
+    K.addEventListener("click", e => {
         e.preventDefault(), s.classList.add("active")
     }),
     T.forEach(e => {
