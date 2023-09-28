@@ -4628,16 +4628,13 @@ h2.description__text-title .smallinger{
 .title-rasst{
     padding-left: 25px;
 }
-#gorki, #snegohody, #oleni, #cafe{
+#gorki, #snegohody, #oleni, #cafe,#besedki,#corporative,#animators,#kurlanchiki{
     display:flex;
     justify-content:space-around;
 }
-#gorki{
+#gorki,#snegohody,#besedki,#kurlanchiki{
     flex-direction:row-reverse;
 } 
-#snegohody{
-    flex-direction:row-reverse;
-} 
-#oleni{
+#oleni,#corporative,#animators{
     flex-direction:row;
 } 
