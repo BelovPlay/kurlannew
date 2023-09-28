@@ -4698,3 +4698,19 @@ h2.description__text-title .smallinger{
 .tickets{
     height: 50px;
 }
+.btn-buy-ticket{
+    display:inline-block;
+    height:100px;
+    margin-top:-5px;
+    padding-top:35px;
+    font-size:18px;
+    text-align: center;
+}
+.header-text-buy{
+    display:inline-block;
+    text-align: center;
+}
+.header__phone-arrow{
+    display:inline-block;
+    margin-top:-100px;
+}
