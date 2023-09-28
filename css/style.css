@@ -4591,3 +4591,13 @@ h2.description__text-title .smallinger{
     background-color:#000;
     transition: all 0.3s ease-in;
 }
+.modal-question li{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.hr{
+    width:380px;
+}
+.sales__firstList{
+    width:850px;
+}
