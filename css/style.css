@@ -4630,11 +4630,71 @@ h2.description__text-title .smallinger{
 }
 #gorki, #snegohody, #oleni, #cafe,#besedki,#corporative,#animators,#kurlanchiki{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
 }
 #gorki,#snegohody,#besedki,#kurlanchiki{
     flex-direction:row-reverse;
 } 
 #oleni,#corporative,#animators{
     flex-direction:row;
-} 
+}
+.navigation__inner{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.nav-navig{
+    display:flex;
+    flex-direction:column;
+    width:750px;
+    margin-top:50px;
+    justify-content:space-around;
+}
+.text-navig{
+    margin-bottom: 50px;
+}
+.modalng,.modalpng{
+    width:100%;
+    height:100%;
+    opacity:0.9;
+    margin:auto;
+    position:absolute;
+    display:none;
+    z-index:3333;
+    position:fixed;
+}
+.modal-priceng,.modal-pricepng{
+    display:none;
+    width:100%;
+    height:100%;
+    opacity:0.9;
+    left:0;
+    top:0;
+    margin:auto;
+    position:absolute;
+    display:none;
+    z-index:3333;
+    position:fixed;
+    background-color:#000;
+    padding-left:700px;
+    padding-top:400px;
+}
+.btn-priceng-dop{
+    border:1px solid #fff;
+    border-radius:30px;
+    color:white;
+    display:inline-block;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    padding-top: 15px;
+}
+.tickets-num-card{
+    width: 600px;
+}
+.tickets-name, .tickets-mail, .tikets-cvc, .tickets-date{
+    width:298px;
+}
+.tickets{
+    height: 50px;
+}

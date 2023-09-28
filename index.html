@@ -80,12 +80,12 @@
 			<form action="">
 				<h3 class="title-pay">Количество билетов для покупки</h3>
 				<input type="submit" value="-" class="tickets" id="minus"><input type="submit" value="1" class="tickets" id="kolvo"><input type="submit" value="+" class="tickets" id="plus"><br><br>
-				<input type="text" placeholder="Введите имя" class="tickets" id="name"><br><br>
-				<input type="text" placeholder="Введите Email" class="tickets" id="email"><br><br>
-				<input type="text" placeholder="Введите номер карты" class="tickets" id="num-card"><br><br>
-				<input type="text" placeholder="Введите дату действия карты" class="tickets" id="date"><br><br>
-				<input type="text" placeholder="Введите CVC код" class="tickets" id="cvc"><br><br>
-				<br><br><input type="submit" value="Купить билеты" class="buy" id="buybtn">
+				<input type="text" placeholder="Введите имя" class="tickets tickets-name" id="name">
+				<input type="text" placeholder="Введите Email" class="tickets tickets-mail" id="email"><br><br>
+				<input type="text" placeholder="Введите номер карты" class="tickets tickets-num-card" id="num-card"><br><br>
+				<input type="text" placeholder="Введите дату действия карты" class="tickets tickets-date" id="date">
+				<input type="text" placeholder="Введите CVC код" class="tickets tikets-cvc" id="cvc"><br><br>
+				<input type="submit" value="Купить билеты" class="buy tickets-buybtn" id="buybtn">
 			</form>
 		</div>
 	</div>
@@ -318,8 +318,8 @@
 						<br>
 						<div style="display: flex; align-items:center; justify-content: space-around; font-weight: 700;">
 						</div>
-						<br><a class="navigation__btn modal-open-tubing open-modal-krl"><span>ЦЕНЫ (на Новогодние праздники)</span></a>
-						<a class="navigation__btn modal-open-tubing open-modal-krl"><span>ЦЕНЫ (после Новогодних праздников)</span></a>
+						<br><a class="navigation__btn open-modal-krl" id="btn-modal-priceng"><span>ЦЕНЫ (на Новогодние праздники)</span></a>
+						<a class="navigation__btn open-modal-krl" id="btn-modal-pricepng"><span>ЦЕНЫ (после Новогодних праздников)</span></a>
 					</div>
 				</div>
 				<div class="description__images description__images--right">
@@ -669,28 +669,26 @@
 	</section>
 	<section class="navigation" id="rozigrish">
 		<h2 class="title nav__title"><div class="title-text neon" style="color:#fff">Дорогие подарки<br>для дорогих гостей</div></h2>
-		<div class="container">
+		<div class="container cont-nav">
 			<div class="navigation__inner">
-				<div class="navigation__items">
-					<div class="navigation__item--border-r">
+				<div class="navigation__items nav-navig">
+					<div class="navigation__item--border-">
 						<div class="navigation__item-title">Каждый час
 							<br><span>мы возвращаем</span> нашим гостям деньги за входные билеты</div>
 						<div class="navigation__item-descr">В нашем Парке каждый гость получает при входе билет с уникальным номером. Каждый час в Новогодние праздники мы проводим розыгрыш по номерам среди билетов проданных за этот день. Случайным образом выбираем билет и возвращаем ту сумму денег за которую этот билет был куплен. Очень просто. Очень выгодно.</div>
 					</div>
-					<div class="navigation__item--border-b pl">
+					<div class="navigation__item--border-">
 						<div class="navigation__item-title"><span class="ls">С 1 по 8 января снимайте сторис в Курланпарк и отмечайте наш профиль в нельзяграмм - @kurlanpark</span></div>
 						<div class="navigation__item-descr navigation__item-descr-left">
 							<br><span class="bolder"> - Выигрывайте iPhone 15, фен Dyson, робот-пылесос, Яндекс. Станцию, а так же другие ценные подарки и денежные призы.</span>
 							<br><br>Принять участие может каждый кто в этом сезоне приезжал в Курланпарк и сохранил свой входной билет. По номерам входных билетов за весь сезон и будет проходить этот розыгрыш. Сумма в 200000 рублей распределится среди нескольких участников. Кому-то достанется 1000 р, кому-то 5000, а кому-то и 50 тысяч. Если Вас не будет 26 февраля в Парке - денежный приз отправиться Вам на банковскую карту, а тем кто придёт в Парк повезёт гораздо больше. И правило здесь только одно - чем больше у Вас билетов, тем больше шанс выиграть!</div>
 					</div>
 				</div>
-				<div class="navigation__items navigation__items--second">
-					<div class="navigation__item--border-r padding-0">
-						<div class="navigation__item-title"><span class="ls"></span>
-							<br></div>
+				<div class="navigation__items nav-navig navigation__items--second">
+					<div class="navigation__item--border padding-0 text-navig">
 						<div class="navigation__item-descr">17-го марта - широкая Масленица в Курланпарк и розыгрыш - 350000 рублей. Принять участие может каждый кто в сезоне 2024 приезжал в Курланпарк и сохранил свой входной билет. По номерам входных билетов за весь сезон и будет проходить этот розыгрыш. Сумма в 350000 рублей распределится среди нескольких участников. Кому-то достанется 1000 р, кому-то 5000, а кому-то и 50 тысяч рублей. Если Вас не будет 17 марта в Парке - денежный приз отправиться Вам на банковскую карту, а тем кто придёт в Парк повезёт гораздо больше. И правило здесь только одно - чем больше у Вас билетов, тем больше шанс выиграть!</div>
 					</div>
-					<div class="navigation__item--border-b flex">
+					<div class="navigation__item--border flex text-navig">
 						<div class="navigation__item-descr navigation__item-descr-left">Мы бережно сохраним каждое фото, каждое видео ваших историй и 8 января в 16:30 в прямом эфире с помощью генератора случайных чисел определим счастливчиков и отправим им приз, где бы они не находились. А тем кто будет присутствовать во время розыгрыша - повезёт больше всех!<br><br> P.S. Прямой эфир и  результаты будут опубликованы в социальных сетях. </div>
 					</div>
 				</div>
@@ -834,18 +832,20 @@
 	<div class="modal-tubing">
 		<div class="overlay">
 			<div class="modal__tubing">
-				<div class="modal__content">&mdash;&nbsp;Аренда тюбинга;
-					<br>&mdash;&nbsp;Катание на&nbsp;горках под наблюдением опытных инструкторов
-					<br>на&nbsp;новых суперватрушках, которые не&nbsp;надо будет поднимать
-					<br>самим, так как у&nbsp;нас есть подьемники;
-					<br>&mdash;&nbsp;Игры, танцы, конкурсы от&nbsp;наших весёлых аниматоров;
-					<br>&mdash;&nbsp;Специально оборудованный тир, где инструктор поможет Вам
-					<br>попасть в&nbsp;мишень и&nbsp;получить не&nbsp;только победу, но&nbsp;и&nbsp;приз;
-					<br>&mdash;&nbsp;Путешествие по&nbsp;заснеженному зимнему лесу на&nbsp;турбо-банане;
-					<br>&mdash;&nbsp;Обнимашки и&nbsp;фото с&nbsp;милыми собачками хаски;
-					<br>&mdash;&nbsp;Мангальные зоны, чтобы пожарить шашлыки;
-					<br>&mdash;&nbsp;Глинтвейн, морс, пончики и&nbsp;другие угощения.
-					<br>
+				<div class="modal__content">
+					∗ Аренда тюбинга;<br>
+					∗ Катание на снежных горках;<br>
+					∗ Пользование канатными дорогами;<br>
+					∗ Авторская программа от Деда Мороза;<br>
+					∗ Катание на северных оленях;<br>
+					∗ Обнимашки и фото с сибирскими хаски;<br>
+					∗ Еда и напитки в кафе;<br>
+					∗ Стрелковый призовой тир;<br>
+					∗ Путешествие по зимнему лесу на турбо-банане;<br>
+					∗ Мангальные зоны, чтобы пожарить шашлыки;<br>
+					∗ Камеры хранения для вещей;<br>
+					∗ Участие в розыгрышах ценных призов;<br>
+					∗ Сувениры и подарки.<br>
 					<button class="modal-close"><img class="lazyload close-img" data-src="img/navigation/close.png" alt="close modal"></button>
 				</div>
 			</div>
@@ -944,6 +944,24 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="modal-priceng" id="modal-priceng">
+		<h2 class="title-priceng">*All inclusive (всё включено)</h2>
+		<ul class="list-priceng">
+			<li class="item-priceng">• 1 час — 1250 руб</li>
+			<li class="item-priceng">• 2 часа — 2000 руб</li>
+			<li class="item-priceng">• Весь день — 2500 руб</li>
+			<a href="" class="btn-priceng-dop navigation__btn modal-open-tubing" id="price-infong">Что входит в стоимость?</a>
+		</ul>
+	</div>
+	<div class="modal-pricepng" id="modal-pricepng">
+		<h2 class="title-priceng">*All inclusive (всё включено)</h2>
+		<ul class="list-priceng">
+			<li class="item-priceng">• 1 час — 1000 руб</li>
+			<li class="item-priceng">• 2 часа — 1500 руб</li>
+			<li class="item-priceng">• Весь день — 2000 руб</li>
+			<a href="" class="btn-priceng-dop navigation__btn modal-open-tubing" id="price-infopng">Что входит в стоимость?</a>
+		</ul>
 	</div>
 	<script src="js/libs/lazyload.js"></script>
 	<script defer="defer" src="js/libs/swiper.js"></script>

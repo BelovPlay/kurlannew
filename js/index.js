@@ -147,6 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
         V.classList.add("active")
     })
 });
+// Скрипт для расчета стоимости и формы покупки билетов
 let btn=document.getElementById('btn');
 let block=document.getElementById('block');
 let content=document.getElementById('content');
@@ -198,4 +199,25 @@ buybtn.addEventListener('click',function(){
         alert('Размер скидки:30%');
     }
     alert('Итоговая стоимость билетов:'+(Number(sum-percent))+' рублей');
+})
+// Скрипт для кнопок до/после новогодних праздников
+let btnng=document.getElementById('btn-modal-priceng');
+let btnpng=document.getElementById('btn-modal-pricepng');
+let modalng=document.getElementById('modal-priceng');
+let modalpng=document.getElementById('modal-pricepng');
+let priceng=document.getElementById('price-infong');
+let pricepng=document.getElementById('price-infopng');
+btnng.addEventListener('click',function(){
+    modalng.style.display='block';
+    modalng.classList.add('overlay');
+})
+btnpng.addEventListener('click',function(){
+    modalpng.style.display='block';
+    modalpng.classList.add('overlay');
+})
+priceng.addEventListener('click',function(){
+    event.preventDefault();
+})
+pricepng.addEventListener('click',function(){
+    event.preventDefault();
 })
