@@ -331,18 +331,10 @@ body {
     max-width: 100%;
 }
 .menu__btn-open {
-<<<<<<< HEAD
     width:100px;
     height:100px;
     border:3px solid #fff;
     border-radius:100%;
-=======
-    width: 40px;
-    height: 40px;
-    border:3px solid black;
-    border-radius:100%;
-    padding:20px;
->>>>>>> f1b21c9346afebacdbbe55e5846a98e30e7fd4f3
     background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
