@@ -2199,9 +2199,6 @@ span.bold {
     -ms-flex-pack: center;
     justify-content: center;
 }
-.modal__content {
-    position: relative;
-}
 .modal-menu .modal__menu,
 .modal-menu-banket .modal__menu,
 .modal-child .modal__menu,
@@ -4751,4 +4748,10 @@ h2.description__text-title .smallinger{
 }
 .navigation__items, .nav-navig, .navigation__items--second{
     border:none;
+}
+.modal__content{
+    position:absolute;
+}
+.modal__content{
+    position:absolute;
 }
