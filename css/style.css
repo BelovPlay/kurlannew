@@ -331,9 +331,10 @@ body {
     max-width: 100%;
 }
 .menu__btn-open {
-    width: 40px;
-    height: 40px;
-    border: none;
+    width:100px;
+    height:100px;
+    border:3px solid #fff;
+    border-radius:100%;
     background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -345,6 +346,8 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     cursor: pointer;
+    display:inline-block;
+    padding: 20px;
 }
 .menu__btn-open span {
     display: block;
@@ -4713,4 +4716,9 @@ h2.description__text-title .smallinger{
 .header__phone-arrow{
     display:inline-block;
     margin-top:-100px;
+}
+.header__phone-text{
+    text-align: center;
+    font-size: 20px;
+    margin-top:-10px;
 }
