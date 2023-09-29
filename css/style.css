@@ -4817,3 +4817,64 @@ h2.description__text-title .smallinger{
     display:inline-block;
     margin-left:20px;
 }
+.tickets-test__title, .tickets-test__descr, .tickets-price-test, .tickets-kolvo-test{
+    color:black;
+}
+legend h3{
+    color:#fff;
+}
+.ticket-test{
+    display:flex;
+    align-items:center;
+    margin-left:500px;
+}
+.tickets-test__data form{
+    margin-top:0;
+    margin-left: 0px;
+}
+.tickets-test__data form input{
+    width: 200px;
+} 
+.title-ticket-kolvo{
+    margin-bottom:25px;
+    margin-left:25px;
+}
+.tickets-cost{
+    display:flex;
+}
+input.oper{
+    width:0px;
+    height: 25px;
+    border:1px solid black;
+}
+.tickets-test__data form div .oper{
+    width:50px;
+    border:none;
+    outline:none;
+}
+.tickets-test__data form div .oper:hover{
+    cursor:pointer;
+}
+.form-tickets{
+    display:flex;
+    justify-content:space-around;
+}
+.pay:hover,#sum:hover,#percent:hover{
+    cursor: pointer;
+}
+.pay{
+    margin-top:5px;
+    width:585px;
+}
+.tickets{
+    height: 25px;
+}
+.pay-ticket{
+    margin-left: 25px;
+}
+.title-ticket-sum{
+    margin-left:50px;
+}
+#plus,#minus{
+    background-color:transparent;
+}

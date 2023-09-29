@@ -76,17 +76,32 @@
 		<video class="lazyload hero__video" data-src="video/hero.mp4" playsinline autoplay loop preload="auto" muted></video>
 	</div>
 	<div id="block">
-		<div id="content">
-			<form action="">
-				<h3 class="title-pay">Количество билетов для покупки</h3>
-				<input type="submit" value="-" class="tickets" id="minus"><input type="submit" value="1" class="tickets" id="kolvo"><input type="submit" value="+" class="tickets" id="plus"><br><br>
-				<input type="tel" placeholder="Введите номер телефона" class="tickets tickets-name" id="name" name="tel" pattern="2[0-9]{3}-[0-9]{3}">
-				<input type="email" placeholder="Введите Email" class="tickets tickets-mail" id="email"><br><br>
-				<input type="text" placeholder="Введите номер карты" class="tickets tickets-num-card" id="num-card"><br><br>
-				<input type="text" placeholder="Введите дату действия карты" class="tickets tickets-date" id="date">
-				<input type="text" placeholder="Введите CVC код" class="tickets tikets-cvc" id="cvc"><br><br>
-				<input type="submit" value="Купить билеты" class="buy tickets-buybtn" id="buybtn">
-			</form>
+		<div class="ticket-test">
+			<div class="tickets__text">
+				<h2 class="tickets-test__title">Билет в Курланпарк<br> тариф безлимит</h2>
+				<p class="tickets-test__descr">Каждый следующий билет<br> дешевле предыдущего.<br> Чем больше билетов<br> тем больше скидка.</p>
+				<h3 class="tickets-price-test">Стоимость билета</h3>
+				<p class="tickets-kolvo-test"></p>
+			</div>
+			<div class="tickets-test__data">
+				<form action="" class="form-tickets">
+					<div>
+						<h3 class="neon title-ticket-kolvo">Количество</h3>
+						<input type="submit" value="-" class="tickets oper" id="minus">
+						<input type="submit" value="1" class="tickets oper" id="kolvo">
+						<input type="submit" value="+" class="tickets oper" id="plus">
+					</div>
+					<div class="pay-ticket">
+						<h3 class="neon title-ticket-kolvo title-ticket-sum">Сумма</h3>
+						<input type="submit" value="2000" class="tickets" id="sum"><br>
+					</div>
+					<div class="pay-percent">
+						<h3 class="neon title-ticket-kolvo">Размер скидки</h3>
+						<input type="submit" value="1%" class="tickets" id="percent"><br>
+					</div>
+				</form>
+				<input type="submit" class="tickets pay" value="Оплатить" id="buybtn">
+			</div>
 		</div>
 	</div>
 	<div class="about" id="about">

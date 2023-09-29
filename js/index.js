@@ -170,10 +170,14 @@ let plus=document.getElementById('plus');
 let minus=document.getElementById('minus');
 let kolvo=document.getElementById('kolvo');
 let buybtn=document.getElementById('buybtn');
-let sum;
+let sum,percent;
+let inpsum=document.getElementById('sum');
 let price=2000;
-let percent;
 let numticket=680;
+let skidka=document.getElementById('percent');
+kolvo.addEventListener('click',function(){
+    event.preventDefault();
+})
 btn.addEventListener('click',function(){
     event.preventDefault();
     block.style.display='block';
@@ -186,35 +190,31 @@ btn.addEventListener('dblclick',function(){
 plus.addEventListener('click',function(){
     event.preventDefault();
     kolvo.value=Number(kolvo.value)+1;
-    if(Number(kolvo.value>50)){
-        plus.disabled='true';
+    inpsum.value=price*(Number(kolvo.value));
+    skidka.value=(Number(kolvo.value));
+    if(Number(kolvo.value<31)){
+        percent=inpsum.value/100*(Number(kolvo.value));
+        skidka.value+='%';
+    }else{
+        skidka.value=30;
+        skidka.value+='%';
     }
-    sum=price*(Number(kolvo.value));
+    inpsum.value=(Number(inpsum.value-percent))+' рублей';
 })
 minus.addEventListener('click',function(){
     event.preventDefault();
-    kolvo.value=Number(kolvo.value)-1;
-    if(Number(kolvo.value)<1){
-        minus.disabled='true';
-        if(Number(kolvo.value>0)){
-            minus.disabled='false';
-        }
-        sum=price*(Number(kolvo.value));
-    }
-})
-buybtn.addEventListener('click',function(){
-    event.preventDefault();
-    sum=price*(Number(kolvo.value));
-    alert('Сумма билетов без скидки:'+sum+' рублей');
-    alert('Количество билетов для покупки:'+Number(kolvo.value)+' шт');
-    if(Number(kolvo.value<31)){
-        percent=sum/100*(Number(kolvo.value));
-        alert('Размер скидки: '+(Number(kolvo.value))+'%');
+    if(Number(kolvo.value)>30){
+        skidka.value=30;
+        skidka.value+='%';
     }else{
-        percent=sum/100*30;
-        alert('Размер скидки:30%');
+        kolvo.value=Number(kolvo.value)-1;
+        skidka.value+='%';
     }
-    alert('Итоговая стоимость билетов:'+(Number(sum-percent))+' рублей');
+    if(Number(kolvo.value)<=0){
+        minus.disabled='true';
+    }
+    percent=inpsum.value/100*(Number(kolvo.value));
+    sum=price*(Number(kolvo.value));
 })
 // Скрипт для кнопок до/после новогодних праздников
 let btnng=document.getElementById('btn-modal-priceng');
