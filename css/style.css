@@ -4648,10 +4648,10 @@ h2.description__text-title .smallinger{
 }
 .nav-navig{
     display:flex;
-    flex-direction:column;
-    width:750px;
     margin-top:50px;
-    justify-content:space-around;
+    justify-content:space-between;
+    border:1px solid black;
+    width: 900px;
 }
 .text-navig{
     margin-bottom: 50px;
@@ -4736,6 +4736,19 @@ h2.description__text-title .smallinger{
     font-size:40px;
     display:inline-block;
 }
-.{
-    
+.navigation__item-descr{
+    width:400px;
+    text-align: justify;
+}
+.vigod{
+    color:black;
+}
+.navigation__item-title{
+    font-weight: normal;
+}
+.bold{
+    color:black;
+}
+.navigation__items, .nav-navig, .navigation__items--second{
+    border:none;
 }
