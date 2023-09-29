@@ -2200,7 +2200,7 @@ span.bold {
     justify-content: center;
 }
 .modal__content {
-    position: relative;
+    position:absolute;
 }
 .modal-menu .modal__menu,
 .modal-menu-banket .modal__menu,
