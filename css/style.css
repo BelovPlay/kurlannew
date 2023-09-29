@@ -4763,5 +4763,21 @@ h2.description__text-title .smallinger{
 }
 #btnbuys{
     width: 200px;
-    border:3px solid red;
+}
+.ticket-control{
+    display:flex;
+    border:1px solid #fff;
+    width:600px;
+    position:absolute;
+    top:14000px;
+    left:600px;
+}
+.ticket-hr{
+    border:1px dashed #000;
+    height:180px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.adress{
+    width: 1000px;
 }

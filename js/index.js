@@ -243,5 +243,5 @@ btnbuys.addEventListener('click',function getRandomIntInclusive(min, max) {
     max = Math.floor(5);
     let res=(Math.floor(Math.random() * (max - min + 1) + min));
     numticket+=res;
-    alert(numticket);
+    alert('Ваш номер билета:'+numticket);
 });
