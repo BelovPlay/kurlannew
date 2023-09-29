@@ -331,10 +331,18 @@ body {
     max-width: 100%;
 }
 .menu__btn-open {
+<<<<<<< HEAD
     width:100px;
     height:100px;
     border:3px solid #fff;
     border-radius:100%;
+=======
+    width: 40px;
+    height: 40px;
+    border:3px solid black;
+    border-radius:100%;
+    padding:20px;
+>>>>>>> f1b21c9346afebacdbbe55e5846a98e30e7fd4f3
     background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4717,8 +4725,11 @@ h2.description__text-title .smallinger{
     display:inline-block;
     margin-top:-100px;
 }
+<<<<<<< HEAD
 .header__phone-text{
     text-align: center;
     font-size: 20px;
     margin-top:-10px;
 }
+=======
+>>>>>>> f1b21c9346afebacdbbe55e5846a98e30e7fd4f3
