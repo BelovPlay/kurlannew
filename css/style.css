@@ -4767,7 +4767,7 @@ h2.description__text-title .smallinger{
 .ticket-control{
     display:flex;
     border:1px solid #fff;
-    width:600px;
+    width:500px;
     position:absolute;
     top:14000px;
     left:600px;
@@ -4780,4 +4780,40 @@ h2.description__text-title .smallinger{
 }
 .adress{
     width: 1000px;
+}
+.ticket-client h3{
+    margin-left:50px;
+    margin-top:25px;
+}
+.ticket-ctrl h3{
+    margin-top: 25px;
+}
+.ticket-ctrl{
+    text-align: center;
+}
+.data-ticket{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+    margin-left:25px;
+}
+.small-ticket{
+    font-size:14px;
+}
+.title-ctrl{
+    font-size:25px;
+    margin-left: 20px;
+}
+.price-ctrl b{
+    text-align:center;
+    font-size:20px;
+    display:inline-block;
+    margin-bottom:15px;
+    margin-left:15px;
+    font-size:20px;
+    margin-top: 15px;
+}
+.num-ticket{
+    display:inline-block;
+    margin-left:20px;
 }
