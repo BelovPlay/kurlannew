@@ -4717,11 +4717,22 @@ h2.description__text-title .smallinger{
     display:inline-block;
     margin-top:-100px;
 }
-<<<<<<< HEAD
 .header__phone-text{
     text-align: center;
     font-size: 20px;
     margin-top:-10px;
 }
-=======
->>>>>>> f1b21c9346afebacdbbe55e5846a98e30e7fd4f3
+.navigation__title{
+    font-size:40px;
+    text-align: center;
+}
+.title-up{
+    font-size: 62px;
+}
+.div{
+    display:inline-block;
+}
+.ml{
+    font-size:40px;
+    display:inline-block;
+}
