@@ -173,6 +173,7 @@ let buybtn=document.getElementById('buybtn');
 let sum;
 let price=2000;
 let percent;
+let numticket=680;
 btn.addEventListener('click',function(){
     event.preventDefault();
     block.style.display='block';
@@ -236,3 +237,11 @@ priceng.addEventListener('click',function(){
 pricepng.addEventListener('click',function(){
     event.preventDefault();
 })
+let btnbuys=document.getElementById('btnbuys');
+btnbuys.addEventListener('click',function getRandomIntInclusive(min, max) {
+    min = Math.ceil(1);
+    max = Math.floor(5);
+    let res=(Math.floor(Math.random() * (max - min + 1) + min));
+    numticket+=res;
+    alert(numticket);
+});
