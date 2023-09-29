@@ -2199,6 +2199,12 @@ span.bold {
     -ms-flex-pack: center;
     justify-content: center;
 }
+<<<<<<< HEAD
+=======
+.modal__content {
+    position:absolute;
+}
+>>>>>>> 9baf9a20d146a938b33c65233a056c98f2701e39
 .modal-menu .modal__menu,
 .modal-menu-banket .modal__menu,
 .modal-child .modal__menu,
