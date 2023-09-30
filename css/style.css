@@ -4881,3 +4881,6 @@ input.oper{
 .btn-price{
     padding-top:20px;
 }
+.modal__kurlanchiki{
+    display:flex;
+}
