@@ -17,6 +17,7 @@ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
+    width:1200px;
 }
 pre {
     font-family: monospace, monospace;
@@ -4903,4 +4904,18 @@ input.oper{
 }
 .nav-descr{
     font-weight: bold;
+}
+.title-date{
+    margin-left: 25px;
+}
+.ll,.rl{
+    transform:rotate(180deg);
+}
+.ll{
+    height:330px;
+}
+.navigation__item--border-b{
+    width:450px;
+    border-bottom: 1px solid #393939;
+    padding-bottom: 20px;
 }
