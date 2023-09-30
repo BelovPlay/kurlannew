@@ -113,24 +113,26 @@
 					</div>
 					<div class="pay-ticket">
 						<h3 class="neon title-ticket-kolvo title-ticket-sum">Сумма</h3>
-						<input type="submit" value="2000" class="tickets" id="sum"><br>
+						<input type="submit" value="2000" class="tickets" id="sum">
 					</div>
 					<div class="pay-percent">
 						<h3 class="neon title-ticket-kolvo">Размер скидки</h3>
 						<input type="submit" value="1%" class="tickets" id="percent">
 					</div>
-					<div class="pay-email">
-						<h3 class="neon title-ticket-kolvo">Введите вашу почту</h3>
-						<input type="text" placeholder="Введите ваш Email">
+				</form>
+				<form action="index.php" method="POST" class="form-tickets form-tickets-two">
+					<div class="pay-name">
+						<h3 class="neon title-ticket-kolvo title-ticket-two">Введите ваше имя</h3>
+						<input type="text" class="tickets tickets-two" id="Name" placeholder="Введите ваше имя" name="Name">
 					</div>
-					<!-- <div class="pay-name">
-						<h3 class="neon">Введите ваше имя</h3>
-						<input type="text" placeholder="Введите ваше имя">
-					</div> -->
-					<!-- <div class="pay-phone">
-						<h3 class="neon">Введите ваш телефон</h3>
-						<input type="text" placeholder="Введите ваш телефон">
-					</div> -->
+					<div class="pay-email">
+						<h3 class="neon title-ticket-kolvo title-ticket-two">Введите вашу почту</h3>
+						<input type="email" class="tickets tickets-two" id="Email" placeholder="Введите ваш Email" name="Email">
+					</div>
+					<div class="pay-phone">
+						<h3 class="neon title-ticket-kolvo title-ticket-two">Введите ваш телефон</h3>
+						<input type="tel" class="tickets tickets-two" id="Phone" placeholder="Введите ваш телефон" name="Phone">
+					</div>
 				</form>
 				<input type="submit" class="tickets pay" value="Оплатить" id="buybtn">
 			</div>

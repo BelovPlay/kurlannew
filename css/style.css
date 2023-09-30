@@ -4827,7 +4827,7 @@ legend h3{
 }
 .tickets-test__data form{
     margin-top:0;
-    margin-left: 0px;
+    margin-left:-100px;
 }
 .tickets-test__data form input{
     width: 200px;
@@ -4860,8 +4860,9 @@ input.oper{
     cursor: pointer;
 }
 .pay{
-    margin-top:5px;
-    width:585px;
+    margin-top:20px;
+    width:650px;
+    margin-left:-50px;
 }
 .tickets{
     height: 25px;
@@ -4942,4 +4943,15 @@ input.oper{
     position:absolute;
     left:1100px;
     top:380px;
+}
+form.form-tickets-two{
+    margin-top:50px;
+    margin-left:-50px;
+}
+.tickets-two{
+    margin-right: 25px;
+    width:250px;
+}
+.title-ticket-two{
+    margin-left: 0;
 }
