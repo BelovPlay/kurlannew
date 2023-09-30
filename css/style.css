@@ -4932,32 +4932,12 @@ input.oper{
 .modal-tubing-content{
     width:500px;
 }
-.modal-close-price{
-    margin-left: -750px;
-}
-.close-img-price{
-    margin-left: -750px;
-}
-.modal-close-price:hover{
-    cursor: pointer;
-}
-.modal-close-price{
-    margin-left:0px;
-    margin-right: 0px;
-    margin-top:350px;
-}
-.modal-close-price:hover{
-    cursor: pointer;
-    border:10px solid #fff;
-}
-.modal-close{
-    margin-left:-750px;
-}
-.close-img-price{
-    margin-left:-1500px;
-    height: 30px;
-    border:1px solid #fff;
-}
-.close-img-price:hover{
+.modal-close:hover{
     cursor:pointer;
+} 
+.modal-close-price{
+    cursor:pointer;
+}
+#closemodalprice{
+    margin-left: -750px;
 }

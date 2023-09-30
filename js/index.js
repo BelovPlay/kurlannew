@@ -246,3 +246,7 @@ pricepng.addEventListener('click',function(){
 //     numticket+=res;
 //     alert('Ваш номер билета:'+numticket);
 // });
+let closemodalng=document.getElementById('closemodalng');
+closemodalng.addEventListener('click',function(){
+    modalpng.style.display='none';
+})
