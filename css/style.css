@@ -4906,13 +4906,14 @@ input.oper{
     font-weight: bold;
 }
 .title-date{
-    margin-left: 25px;
+    margin-left:25px;
+    line-height:20px;
 }
 .ll,.rl{
     transform:rotate(180deg);
 }
 .ll{
-    height:330px;
+    height:500px;
 }
 .navigation__item--border-b{
     width:450px;
@@ -4921,4 +4922,10 @@ input.oper{
 }
 .text-bold{
     font-weight: bold;
+}
+.adress{
+    display:inline-block;
+    padding-bottom:20px;
+    width:1030px;
+    border-bottom:1px solid black;
 }
