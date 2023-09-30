@@ -4901,3 +4901,6 @@ input.oper{
 .navigation__item-descr-left{
     margin-left: 25px;
 }
+.nav-descr{
+    font-weight: bold;
+}
