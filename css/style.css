@@ -4598,6 +4598,11 @@ h2.description__text-title .smallinger{
     background-color:#000;
     transition: all 0.3s ease-in;
 }
+.modal__content{
+    margin-left:-600px;
+    margin-top:-300px;
+    width:1250px;
+}
 .modal-question li{
     margin-top: 25px;
     margin-bottom: 10px;
@@ -4883,4 +4888,11 @@ input.oper{
 }
 .modal__kurlanchiki{
     display:flex;
+    flex-direction:row;
+    margin-top:-250px;
+    /* margin-left:-400px; */
+    justify-content:space-around;
+}
+.modal__block{
+    margin-right:25px;
 }
