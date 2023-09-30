@@ -4758,9 +4758,6 @@ h2.description__text-title .smallinger{
 .modal__content{
     position:absolute;
 }
-.modal__content{
-    position:absolute;
-}
 #btnbuys{
     width: 200px;
 }
@@ -4881,12 +4878,6 @@ input.oper{
 .btn-price{
     padding-top:20px;
 }
-.modal__kurlanchiki{
-    display:flex;
-    flex-direction:row;
-    margin-top:-250px;
-    justify-content:space-around;
-}
 .modal__block{
     margin-right:25px;
 }
@@ -4927,7 +4918,17 @@ input.oper{
     position:absolute;
     display:none;
 }
-.modal__faq{
-    margin-left:50px;
+.modal__content{
+    margin-left:200px;
     margin-top:0px;
+}
+.modal__kurlanchiki{
+    display:flex;
+    flex-direction:row;
+    margin-top:0px;
+    margin-left:-250px;
+    justify-content:space-around;
+}
+.modal-tubing-content{
+    width:400px;
 }
