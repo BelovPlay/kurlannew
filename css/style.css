@@ -4938,15 +4938,26 @@ input.oper{
 .close-img-price{
     margin-left: -750px;
 }
-.modal-close-price,.close-img-price{
-    position:absolute;
-    left:1300px;
-    top:200px;
+.modal-close-price:hover{
+    cursor: pointer;
+}
+.modal-close-price{
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top:350px;
+}
+.modal-close-price:hover{
+    cursor: pointer;
+    border:10px solid #fff;
+}
+.modal-close{
+    margin-left:-750px;
+}
+.close-img-price{
+    margin-left:-1500px;
+    height: 30px;
+    border:1px solid #fff;
 }
 .close-img-price:hover{
     cursor:pointer;
-}
-.modal-close-price:hover,.close-img-price:hover{
-    cursor: pointer;
-    border:1px solid black;
 }
