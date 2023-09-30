@@ -4878,3 +4878,6 @@ input.oper{
 #plus,#minus{
     background-color:transparent;
 }
+.btn-price{
+    padding-top:20px;
+}
