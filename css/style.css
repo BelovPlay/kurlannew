@@ -4938,6 +4938,8 @@ input.oper{
 .modal-close-price{
     cursor:pointer;
 }
-#closemodalprice{
-    margin-left: -750px;
+#closemodalng,#closemodalpng{
+    position:absolute;
+    left:1100px;
+    top:380px;
 }

@@ -31,7 +31,7 @@
                 print("Успешно!". '<br>');
             }
             $mysqli->close();
-            // $name='"' .mysqli->cubrid_real_escape_string($nameform).'"';
+            $name='"' .mysqli->cubrid_real_escape_string($nameform).'"';
         }
     ?>
     <form action=""></form>

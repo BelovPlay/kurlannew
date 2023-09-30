@@ -104,11 +104,11 @@
 				<p class="tickets-kolvo-test"></p>
 			</div>
 			<div class="tickets-test__data">
-				<form action="" class="form-tickets">
+				<form action="index.php" method="POST" class="form-tickets">
 					<div>
 						<h3 class="neon title-ticket-kolvo">Количество</h3>
 						<input type="submit" value="-" class="tickets oper" id="minus">
-						<input type="submit" value="1" class="tickets oper" id="kolvo">
+						<input type="submit" value="1" class="tickets oper" id="kolvo" name="kolvo">
 						<input type="submit" value="+" class="tickets oper" id="plus">
 					</div>
 					<div class="pay-ticket">
@@ -117,8 +117,20 @@
 					</div>
 					<div class="pay-percent">
 						<h3 class="neon title-ticket-kolvo">Размер скидки</h3>
-						<input type="submit" value="1%" class="tickets" id="percent"><br>
+						<input type="submit" value="1%" class="tickets" id="percent">
 					</div>
+					<div class="pay-email">
+						<h3 class="neon title-ticket-kolvo">Введите вашу почту</h3>
+						<input type="text" placeholder="Введите ваш Email">
+					</div>
+					<!-- <div class="pay-name">
+						<h3 class="neon">Введите ваше имя</h3>
+						<input type="text" placeholder="Введите ваше имя">
+					</div> -->
+					<!-- <div class="pay-phone">
+						<h3 class="neon">Введите ваш телефон</h3>
+						<input type="text" placeholder="Введите ваш телефон">
+					</div> -->
 				</form>
 				<input type="submit" class="tickets pay" value="Оплатить" id="buybtn">
 			</div>

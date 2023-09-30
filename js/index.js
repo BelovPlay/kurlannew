@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 });
 // Скрипт для расчета стоимости и формы покупки билетов
-// let btn=document.getElementById('btn');
+let btn=document.getElementById('btn');
 let block=document.getElementById('block');
 let content=document.getElementById('content');
 let plus=document.getElementById('plus');
@@ -178,15 +178,15 @@ let skidka=document.getElementById('percent');
 kolvo.addEventListener('click',function(){
     event.preventDefault();
 })
-// btn.addEventListener('click',function(){
-//     event.preventDefault();
-//     block.style.display='block';
-//     content.style.display='block';
-// })
-// btn.addEventListener('dblclick',function(){
-//     block.style.display='none';
-//     content.style.display='none';
-// })
+btn.addEventListener('click',function(){
+    event.preventDefault();
+    block.style.display='block';
+    content.style.display='block';
+})
+btn.addEventListener('dblclick',function(){
+    block.style.display='none';
+    content.style.display='none';
+})
 plus.addEventListener('click',function(){
     event.preventDefault();
     kolvo.value=Number(kolvo.value)+1;
