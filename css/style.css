@@ -4590,7 +4590,7 @@ h2.description__text-title .smallinger{
     margin-bottom: 20px;
     display:inline-block;
     color:#000;
-    width: 500px;
+    width:400px;
     font-weight: bold;
 }
 .more-program:hover{
@@ -4890,9 +4890,11 @@ input.oper{
     display:flex;
     flex-direction:row;
     margin-top:-250px;
-    /* margin-left:-400px; */
     justify-content:space-around;
 }
 .modal__block{
     margin-right:25px;
+}
+.title-ya{
+    margin-bottom: 0;
 }
