@@ -4930,5 +4930,23 @@ input.oper{
     justify-content:space-around;
 }
 .modal-tubing-content{
-    width:400px;
+    width:500px;
+}
+.modal-close-price{
+    margin-left: -750px;
+}
+.close-img-price{
+    margin-left: -750px;
+}
+.modal-close-price,.close-img-price{
+    position:absolute;
+    left:1300px;
+    top:200px;
+}
+.close-img-price:hover{
+    cursor:pointer;
+}
+.modal-close-price:hover,.close-img-price:hover{
+    cursor: pointer;
+    border:1px solid black;
 }
