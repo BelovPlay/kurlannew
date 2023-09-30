@@ -4927,3 +4927,7 @@ input.oper{
     position:absolute;
     display:none;
 }
+.modal__faq{
+    margin-left:50px;
+    margin-top:0px;
+}
