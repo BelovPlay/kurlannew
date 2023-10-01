@@ -1,39 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Запись информации в базу данных</title>
-</head>
-<body>
-    <form action="" method="get">
-        <label>Введите свое имя</label><br>
-        <input type="text" name="name"><br>
-        <label for="">Введите свой возраст</label><br>
-        <input type="text" name="age"><br>
-        <br>
-        <input type="submit" name="formSubmit" value="Отправить">
-    </form>
-    <?php 
-        if(isset($_GET['formSubmit'])){
-            $nameForm=$_GET['name'];
-            $ageForm=$_GET['age'];
-            $mysqli=new mysqli("localhost", "root", "", "bd");
-            if($mysqli->connect_errno){
-                echo "Извините, возникла проблема на сайте";
-                exit;
-            }
-            $name='"' .mysqli->cubrid_real_escape_string($nameform).'"';
-            $age='"' .mysqli->cubrid_real_escape_string($ageform).'"';
-            $query="INSERT INTO users (name,age) VALUES ($name,$age)";
-            $result=$mysqli->query($query);
-            if($result){
-                print("Успешно!". '<br>');
-            }
-            $mysqli->close();
-            $name='"' .mysqli->cubrid_real_escape_string($nameform).'"';
-        }
-    ?>
-    <form action=""></form>
-</body>
-</html>
+<?php 
+// Данные с инпутов
+$id=$_POST['Id'];
+$name=$_POST['Name'];
+$mail=$_POST['Email'];
+$phone=$_POST['Phone'];
+$numticket=$_POST['NumTicket'];
+// Данные для БД
+$servername="localhost";
+$username="root";
+$password="";
+$dbname='clients';
+$conn=new mysqli($servername,$username,$password,$dbname);
+if($conn->connect__error){
+    echo 'Подключение не удалось';
+    die('Connection Failed:'.$conn->connect__error);
+}
+$sql="INSERT INTO users (Name,Email,Phone,NumTicket)
+VALUES ('$name','$mail','$phone','$numticket')";
+if($conn->query($sql)===TRUE){
+    echo "Данные отправлены";
+}else{
+    echo "Error: " . $sql . '<br>' . $conn->$error;
+    echo 'Данные не отправлены';
+}
+$conn->close();
+?>

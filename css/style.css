@@ -4955,3 +4955,40 @@ form.form-tickets-two{
 .title-ticket-two{
     margin-left: 0;
 }
+@media (min-width: 2559px){
+
+}
+@media (max-width: 1441px){
+
+}
+@media (max-width: 1367px){
+
+}
+@media (max-width: 1025px){
+
+}
+@media (max-width: 769px) {
+    
+}
+@media (max-width: 541px){
+
+}
+@media (max-width: 415px) {
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki{
+        display:flex;
+        flex-direction:column;
+    }
+}
+@media (max-width: 376px){
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki{
+        display:flex;
+        flex-direction:column;
+    }
+}
+@media (max-width: 321px){
+
+}
