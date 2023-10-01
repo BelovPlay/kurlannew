@@ -5027,6 +5027,14 @@ form.form-tickets-two{
     .open-modal-buy{
         width: 350px;
     }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
 }
 @media (max-width: 321px){
 
