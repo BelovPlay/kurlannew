@@ -5018,6 +5018,15 @@ form.form-tickets-two{
         margin:auto;
         text-align: justify;
     }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+    }
 }
 @media (max-width: 321px){
 
