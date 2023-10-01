@@ -5026,6 +5026,9 @@ form.form-tickets-two{
     }
     .open-modal-buy{
         width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
     }
     h2.black{
         width:350px;
