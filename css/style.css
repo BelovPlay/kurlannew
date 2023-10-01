@@ -5052,6 +5052,10 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 376px){
+    .ll{
+        margin: 0px;
+        padding: 0px;
+    }
     .description{
         display:flex;
         flex-direction:column;
@@ -5206,4 +5210,7 @@ form.form-tickets-two{
         width:350px;
         text-align: center;
     }
+}
+.map__title-mb{
+    color:#fff;
 }
