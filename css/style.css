@@ -5050,6 +5050,11 @@ form.form-tickets-two{
         width:350px;
         text-align: center;
     }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 376px){
     .ll{
@@ -5132,6 +5137,11 @@ form.form-tickets-two{
         width:350px;
         text-align: center;
     }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 321px){
     .description{
@@ -5209,6 +5219,11 @@ form.form-tickets-two{
         font-size:14px;
         width:350px;
         text-align: center;
+    }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
     }
 }
 .map__title-mb{
