@@ -5007,6 +5007,17 @@ form.form-tickets-two{
         padding-top:20px;
         height:60px;
     }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
 }
 @media (max-width: 321px){
 
