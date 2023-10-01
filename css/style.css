@@ -4974,6 +4974,9 @@ form.form-tickets-two{
 
 }
 @media (max-width: 415px) {
+    .bron{
+        height:50px;
+    }
     .description{
         display:flex;
         flex-direction:column;
@@ -5142,8 +5145,14 @@ form.form-tickets-two{
         margin:0px auto;
         margin-bottom: 20px;
     }
+    .bron{
+        height:50px;
+    }
 }
 @media (max-width: 321px){
+    .bron{
+        height:50px;
+    }
     .description{
         display:flex;
         flex-direction:column;
