@@ -4984,7 +4984,7 @@ form.form-tickets-two{
         display:flex;
         flex-direction:column;
     }
-    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki{
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
         display:flex;
         flex-direction:column;
         text-align: center;
@@ -5034,6 +5034,19 @@ form.form-tickets-two{
     .btn-price{
         display:block;
         padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
     }
 }
 @media (max-width: 321px){
