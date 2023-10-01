@@ -4987,6 +4987,25 @@ form.form-tickets-two{
     #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki{
         display:flex;
         flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
     }
 }
 @media (max-width: 321px){
