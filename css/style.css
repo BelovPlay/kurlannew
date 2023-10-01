@@ -5130,5 +5130,80 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
-
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
+    }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
+    }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .sales__secondList li:nth-child(2) span{
+        font-size:14px;
+        width:350px;
+        text-align: center;
+    }
 }
