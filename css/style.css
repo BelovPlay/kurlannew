@@ -5233,6 +5233,29 @@ form.form-tickets-two{
         margin:auto;
         margin-bottom: 20px;
     }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
 }
 @media (max-width: 321px){
     .bron{
