@@ -3519,7 +3519,7 @@ span.bold {
         margin-bottom: 20px;
     }
     .description__text-paragraph {
-        text-align: center;
+        text-align: left;
     }
     .description__text-paragraph div {
         text-align: start;
@@ -4962,14 +4962,270 @@ form.form-tickets-two{
 
 }
 @media (max-width: 1367px){
-
 }
 @media (max-width: 1025px){
+    .bron{
+        height:50px;
+    }
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
+    }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
+    }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .sales__secondList li:nth-child(2) span{
+        font-size:14px;
+        width:350px;
+        text-align: center;
+    }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
     .viber{
         display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+        /* z-index:3333; */
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
     }
 }
 @media (max-width: 769px) {
+    .navigation{
+        display:none;
+    }
+    .bron{
+        height:50px;
+    }
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
+    }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
+    }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .sales__secondList li:nth-child(2) span{
+        font-size:14px;
+        width:350px;
+        text-align: center;
+    }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
     .viber{
         display:none;
     }
@@ -4979,9 +5235,172 @@ form.form-tickets-two{
     }
     .navigation__item--border-r{
         border:none;
+    }
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+        /* z-index:3333; */
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
     }
 }
 @media (max-width: 541px){
+    .bron{
+        height:50px;
+    }
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
+    }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
+    }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .sales__secondList li:nth-child(2) span{
+        font-size:14px;
+        width:350px;
+        text-align: center;
+    }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
     .viber{
         display:none;
     }
@@ -4991,6 +5410,85 @@ form.form-tickets-two{
     }
     .navigation__item--border-r{
         border:none;
+    }
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+        /* z-index:3333; */
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
     }
 }
 @media (max-width: 415px) {
@@ -5088,11 +5586,89 @@ form.form-tickets-two{
     .navigation__item--border-r{
         border:none;
     }
-}
-@media (max-width: 376px){
-    .ll{
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
         margin: 0px;
         padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+        /* z-index:3333; */
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
+    }
+}
+@media (max-width: 376px){
+    .bron{
+        height:50px;
     }
     .description{
         display:flex;
@@ -5174,9 +5750,6 @@ form.form-tickets-two{
         text-align: center;
         margin:0px auto;
         margin-bottom: 20px;
-    }
-    .bron{
-        height:50px;
     }
     .viber{
         display:none;
@@ -5262,12 +5835,15 @@ form.form-tickets-two{
     }
     #closemodalw{
         position:absolute;
-        /* margin-left:-750px; */
         left:440px;
     }
     .modal-question{
         position: relative;
     }
+    .{
+
+    }
+}
 @media (max-width: 321px){
     .bron{
         height:50px;
@@ -5355,6 +5931,92 @@ form.form-tickets-two{
     }
     .viber{
         display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+        /* z-index:3333; */
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
     }
 }
 .map__title-mb{
