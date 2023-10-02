@@ -5317,6 +5317,71 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 541px){
+    .overlay{
+        display:none;
+    }
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .title-priceng{
+        text-align: center;
+    }
+    .btn-priceng-dop{
+        width:250px;
+        margin:auto;
+        margin-top: 25px;
+        margin-left:50px;
+        padding-top: 0px;
+    }
+    .modal-priceng,.modal-tubing-content{
+        width:100%;
+        margin:auto;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        background-color:#000000;
+        margin:auto;
+        text-align: center;
+    }
+    .modal-priceng{
+        display:none;
+    }
+    .title-priceng,.list-priceng{
+        font-size: 12px;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        position:absolute;
+        left:50px;
+        top:200px;
+    }
+    .list-priceng{
+        flex-direction:column;
+        list-style-type:none;
+        margin-top: 75px;
+        left:25px;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size:16px;
+    }
+    .title-priceng{
+        font-size:20px;
+        text-align: center;
+    }
     .bron{
         height:50px;
     }
@@ -5440,7 +5505,6 @@ form.form-tickets-two{
     }
     .modal-question{
         padding-right:15px;
-        /* z-index:3333; */
     }
     .navigation__item--border-b{
         display:flex;
@@ -5489,9 +5553,85 @@ form.form-tickets-two{
     }
     .modal-question{
         position: relative;
+    }
+    .zachto{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigation__btn{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 415px) {
+    .overlay{
+        display:none;
+    }
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .title-priceng{
+        text-align: center;
+    }
+    .btn-priceng-dop{
+        width:250px;
+        margin:auto;
+        margin-top: 25px;
+        margin-left:50px;
+        padding-top: 0px;
+    }
+    .modal-priceng,.modal-tubing-content{
+        width:100%;
+        margin:auto;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        background-color:#000000;
+        margin:auto;
+        text-align: center;
+    }
+    .modal-priceng{
+        display:none;
+    }
+    .title-priceng,.list-priceng{
+        font-size: 12px;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        position:absolute;
+        left:50px;
+        top:200px;
+    }
+    .list-priceng{
+        flex-direction:column;
+        list-style-type:none;
+        margin-top: 75px;
+        left:25px;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size:16px;
+    }
+    .title-priceng{
+        font-size:20px;
+        text-align: center;
+    }
     .bron{
         height:50px;
     }
@@ -5615,7 +5755,6 @@ form.form-tickets-two{
     }
     .modal-question{
         padding-right:15px;
-        /* z-index:3333; */
     }
     .navigation__item--border-b{
         display:flex;
@@ -5664,6 +5803,17 @@ form.form-tickets-two{
     }
     .modal-question{
         position: relative;
+    }
+    .zachto{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigation__btn{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 376px){
@@ -5917,6 +6067,71 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
+    .overlay{
+        display:none;
+    }
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .title-priceng{
+        text-align: center;
+    }
+    .btn-priceng-dop{
+        width:250px;
+        margin:auto;
+        margin-top: 25px;
+        margin-left:50px;
+        padding-top: 0px;
+    }
+    .modal-priceng,.modal-tubing-content{
+        width:100%;
+        margin:auto;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        background-color:#000000;
+        margin:auto;
+        text-align: center;
+    }
+    .modal-priceng{
+        display:none;
+    }
+    .title-priceng,.list-priceng{
+        font-size: 12px;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        position:absolute;
+        left:50px;
+        top:200px;
+    }
+    .list-priceng{
+        flex-direction:column;
+        list-style-type:none;
+        margin-top: 75px;
+        left:25px;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size:16px;
+    }
+    .title-priceng{
+        font-size:20px;
+        text-align: center;
+    }
     .bron{
         height:50px;
     }
@@ -6040,7 +6255,6 @@ form.form-tickets-two{
     }
     .modal-question{
         padding-right:15px;
-        /* z-index:3333; */
     }
     .navigation__item--border-b{
         display:flex;
@@ -6089,6 +6303,17 @@ form.form-tickets-two{
     }
     .modal-question{
         position: relative;
+    }
+    .zachto{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigation__btn{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 .map__title-mb{
