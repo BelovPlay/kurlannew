@@ -207,13 +207,13 @@ minus.addEventListener('click',function(){
         skidka.value=30;
         skidka.value+='%';
     }else{
-        kolvo.value=Number(kolvo.value)-1;
+        kolvo.value=(Number(kolvo.value)-1);
         skidka.value+='%';
     }
     if(Number(kolvo.value)<=0){
         minus.disabled='true';
     }
-    percent=inpsum.value/100*(Number(kolvo.value));
+    percent=inpsum.value/100*(Number(kolvo.value))-1;
     sum=price*(Number(kolvo.value));
 })
 // Скрипт для кнопок до/после новогодних праздников
@@ -254,9 +254,12 @@ let closemodalng=document.getElementById('closemodalng');
 closemodalng.addEventListener('click',function(){
     modalng.style.display='none';
 })
+<<<<<<< HEAD
 let form=document.getElementById('form');
 form.addEventListener('click',function(event){
     if(event.ctrlKey && event.shiftKey && event.altKey){
         modalng.style.display='block';
     }
 })
+=======
+>>>>>>> b29792494afe7425b0c2f449800066f8ef6a15c5
