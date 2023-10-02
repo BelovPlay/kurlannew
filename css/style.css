@@ -4510,10 +4510,10 @@ form{
     margin-left: 150px;
     margin-bottom: 50px;
 }
-.tickets{
+/* .tickets{
     width:200px;
     height:100px;
-}
+} */
 .buy{
     width:600px;
 }
@@ -6623,6 +6623,7 @@ p.about_us{
     margin-top: 50px;
 }
 .pay{
-    width: 200px;
-    text-align: center;
+    width:500px;
+    text-align:center;
+    margin-left:710px;
 }
