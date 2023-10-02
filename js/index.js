@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         T = document.querySelectorAll(".modal-close"),
         B = document.querySelector(".social"),
         P = document.querySelector(".arrow-top");
-        
     q.addEventListener("click", e => {
         e.preventDefault(), i.classList.add("active")
     }), 
@@ -254,9 +253,9 @@ let closemodalng=document.getElementById('closemodalng');
 closemodalng.addEventListener('click',function(){
     modalng.style.display='none';
 })
-let form=document.getElementById('form');
-form.addEventListener('click',function(event){
-    if(event.ctrlKey && event.shiftKey && event.altKey){
-        modalng.style.display='block';
-    }
-})
+// let form=document.getElementById('form');
+// form.addEventListener('click',function(event){
+//     if(event.ctrlKey && event.shiftKey && event.altKey){
+//         modalng.style.display='block';
+//     }
+// })

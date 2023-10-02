@@ -5189,8 +5189,7 @@ form.form-tickets-two{
         border:none;
     }
     button.modal-close{
-        position:absolute;
-        top:50px;
+        border:1px solid black;
     }
     .modal-faq{
         margin: 0px;
@@ -5200,7 +5199,6 @@ form.form-tickets-two{
         font-size:14px;
         text-align: justify;
         padding-right:5px;
-        z-index:3333;
     }
     .modal__faq{
         width:400px;
@@ -5219,7 +5217,7 @@ form.form-tickets-two{
     }
     .modal-question{
         padding-right:15px;
-        z-index:3333;
+        /* z-index:3333; */
     }
     .navigation__item--border-b{
         display:flex;
@@ -5258,6 +5256,9 @@ form.form-tickets-two{
     }
     .more-program{
         width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
     }
 }
 @media (max-width: 321px){
