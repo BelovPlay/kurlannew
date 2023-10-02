@@ -5260,7 +5260,14 @@ form.form-tickets-two{
     .sales__inners-title{
         margin-bottom:50px;
     }
-}
+    #closemodalw{
+        position:absolute;
+        /* margin-left:-750px; */
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
+    }
 @media (max-width: 321px){
     .bron{
         height:50px;
