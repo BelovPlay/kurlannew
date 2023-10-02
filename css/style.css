@@ -6623,7 +6623,22 @@ p.about_us{
     margin-top: 50px;
 }
 .pay{
-    width:500px;
+    width:630px;
     text-align:center;
-    margin-left:710px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:750px;
+}
+form h3.neon{
+    font-size:20px;
+}
+.raschet{
+    display:flex;
+    justify-content:space-evenly;
+}
+#skidka-title,#percent,#kolvo{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
