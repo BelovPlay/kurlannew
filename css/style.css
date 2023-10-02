@@ -5228,6 +5228,11 @@ form.form-tickets-two{
         align-items: center;
         width: 300px;
     }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 321px){
     .bron{
@@ -5332,4 +5337,7 @@ form.form-tickets-two{
 .bolding{
     font-weight: bold;
     color:#000;
+}
+.about__text{
+    text-align:center;
 }
