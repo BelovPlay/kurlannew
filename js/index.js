@@ -207,13 +207,13 @@ minus.addEventListener('click',function(){
         skidka.value=30;
         skidka.value+='%';
     }else{
-        kolvo.value=Number(kolvo.value)-1;
+        kolvo.value=(Number(kolvo.value))-1);
         skidka.value+='%';
     }
     if(Number(kolvo.value)<=0){
         minus.disabled='true';
     }
-    percent=inpsum.value/100*(Number(kolvo.value));
+    percent=inpsum.value/100*(Number(kolvo.value))-1;
     sum=price*(Number(kolvo.value));
 })
 // Скрипт для кнопок до/после новогодних праздников
