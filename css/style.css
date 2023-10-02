@@ -2240,7 +2240,7 @@ span.bold {
     border: none;
     background: 0 0;
     position: absolute;
-    top: 20px;
+    top:20px;
     right: 20px;
     width: 30px;
 }
@@ -4965,13 +4965,33 @@ form.form-tickets-two{
 
 }
 @media (max-width: 1025px){
-
+    .viber{
+        display:none;
+    }
 }
 @media (max-width: 769px) {
-    
+    .viber{
+        display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
 }
 @media (max-width: 541px){
-
+    .viber{
+        display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
 }
 @media (max-width: 415px) {
     .bron{
@@ -5057,6 +5077,16 @@ form.form-tickets-two{
         text-align: center;
         margin:0px auto;
         margin-bottom: 20px;
+    }
+    .viber{
+        display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
     }
 }
 @media (max-width: 376px){
@@ -5148,6 +5178,53 @@ form.form-tickets-two{
     .bron{
         height:50px;
     }
+    .viber{
+        display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
+    button.modal-close{
+        position:absolute;
+        top:50px;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:20px;
+        z-index:3333;
+    }
+    .modal__faq{
+        width:100%;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:10px;
+        z-index:3333;
+    }
+    button.close-modal{
+        position:absolute;
+        left:100px;
+        z-index:1111;
+    }
+    .modal-question{
+        padding-right:20px;
+        z-index:3333;
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
 }
 @media (max-width: 321px){
     .bron{
@@ -5234,8 +5311,10 @@ form.form-tickets-two{
         margin:0px auto;
         margin-bottom: 20px;
     }
+    .viber{
+        display:none;
+    }
 }
 .map__title-mb{
     color:#fff;
 }
-.{}
