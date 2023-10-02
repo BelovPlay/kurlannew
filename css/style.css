@@ -4820,21 +4820,9 @@ h2.description__text-title .smallinger{
 legend h3{
     color:#fff;
 }
-.ticket-test{
-    display:flex;
-    align-items:center;
-    margin-left:500px;
-}
-.tickets-test__data form{
-    margin-top:0;
-    margin-left:-100px;
-}
-.tickets-test__data form input{
-    width: 200px;
-} 
 .title-ticket-kolvo{
     margin-bottom:25px;
-    margin-left:25px;
+    margin-left:50px;
 }
 .tickets-cost{
     display:flex;
@@ -5139,6 +5127,254 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 769px) {
+    .overlay{
+        display:none;
+    }
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .title-priceng{
+        text-align: center;
+    }
+    .btn-priceng-dop{
+        width:250px;
+        margin:auto;
+        margin-top: 25px;
+        margin-left:50px;
+        padding-top: 0px;
+    }
+    .modal-priceng,.modal-tubing-content{
+        width:100%;
+        margin:auto;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        background-color:#000000;
+        margin:auto;
+        text-align: center;
+    }
+    .modal-priceng{
+        display:none;
+    }
+    .title-priceng,.list-priceng{
+        font-size: 12px;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        position:absolute;
+        left:50px;
+        top:200px;
+    }
+    .list-priceng{
+        flex-direction:column;
+        list-style-type:none;
+        margin-top: 75px;
+        left:25px;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size:16px;
+    }
+    .title-priceng{
+        font-size:20px;
+        text-align: center;
+    }
+    .bron{
+        height:50px;
+    }
+    .description{
+        display:flex;
+        flex-direction:column;
+    }
+    #gorki,#oleni,#snegohody,#cafe,#corporative,#besedki,#kurlanchiki,#animators{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer__bottom{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+    }
+    a.btn__faq span{
+        padding-top: 0px;
+        margin-top:500px;
+    }
+    .footer__list-link{
+        font-size:20px;
+    }
+    a.open-modal-faq{
+        display:inline-block;
+        padding-top:20px;
+        height:60px;
+    }
+    .map__title-mb{
+        color:white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-navig{
+        font-size: 14px;
+        width:350px;
+        margin:auto;
+        text-align: justify;
+    }
+    .btn-buy-ticket,.menu__btn-open{
+        display:none;
+    }
+    h2.description__text-title{
+        text-align: center;
+    }
+    .open-modal-buy{
+        width: 350px;
+        display:inline-block;
+        margin-bottom: 0px;
+        padding-bottom:35px;
+    }
+    h2.black{
+        width:350px;
+        font-size:32px;
+    }
+    .btn-price{
+        display:block;
+        padding-bottom:30px;
+    }
+    h2.neon{
+        width:350px;
+    }
+    .zachto{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .title-third{
+        text-align: center;
+        margin-left: 0px;
+        width:350px;
+    }
+    .sales__secondList li:nth-child(2) span{
+        font-size:14px;
+        width:350px;
+        text-align: center;
+    }
+    .about__texts-title{
+        text-align: center;
+        margin:0px auto;
+        margin-bottom: 20px;
+    }
+    .viber{
+        display:none;
+    }
+    .navigation__items{
+        display:flex;
+        flex-direction:column;
+    }
+    .navigation__item--border-r{
+        border:none;
+    }
+    button.modal-close{
+        border:1px solid black;
+    }
+    .modal-faq{
+        margin: 0px;
+        padding: 0px;
+        text-align:left;
+        width:375px;
+        font-size:14px;
+        text-align: justify;
+        padding-right:5px;
+    }
+    .modal__faq{
+        width:400px;
+        margin-left:25px;
+        margin-right:0px;
+        padding-right:0px;
+        padding-right:10px;
+        position:relative;
+    }
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
+        position:absolute;
+        margin:auto;
+        margin-left: -120px;
+    }
+    .modal-question{
+        padding-right:15px;
+    }
+    .navigation__item--border-b{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+    }
+    p.about_us{
+        width:250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .nav-navig,.navigation__item-descr,.navigation__item--border-b{
+        width:320px;
+        font-size: 14px;
+    }
+    .ll{
+        display:none;
+    }
+    .navigation__item--border-b,.line{
+        border:none;
+    }
+    .bold{
+        width:330px;
+    }
+    .title-date{
+        width: 350px;
+        text-align: center;
+    }
+    .navigation__item--border-b{
+        margin-bottom: 25px;
+    }
+    .navigation__items--second{
+        margin-top: 0px;
+    }
+    .more-program{
+        width:300px;
+    }
+    .sales__inners-title{
+        margin-bottom:50px;
+    }
+    #closemodalw{
+        position:absolute;
+        left:440px;
+    }
+    .modal-question{
+        position: relative;
+    }
+    .zachto{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigation__btn{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     .navigation{
         display:none;
     }
@@ -6319,14 +6555,6 @@ form.form-tickets-two{
 .map__title-mb{
     color:#fff;
 }
-.tickets-test__data{
-    display:flex;
-    justify-content:space-around;
-}
-.form-tickets{
-    display:flex;
-    flex-direction:column;
-}
 .bolding{
     font-weight: bold;
     color:#000;
@@ -6335,6 +6563,66 @@ p.about_us{
     text-align:center;
     margin-bottom: 20px;
 }
-.{
-    
+.tickets{
+    height: 50px;
+    outline:none;
+    border:none;
+}
+.form-tickets-first{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:auto;
+    flex-direction:column;
+}
+.tickets-test__data{
+    width:600px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:auto;
+}
+#kolvo,#sum{
+    width:200px;
+    height:50px;
+    text-align: center;
+    margin-right:15px;
+}
+.title-ticket-sum,.title-ticket-kolvo,.title-ticket-two{
+    margin-top:50px;
+}
+.title-ticket-kolvo{
+    margin-left:25px;
+}
+.title-ticket-kolvo{
+    margin-left:75px;
+}
+#sum-title,#skidka-title{
+    text-align:center;
+    margin-bottom:25px;
+}
+#sum-title{
+    margin-left:-25px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.pay-ticket{
+    margin-bottom: 25px;
+}
+#sum,#percent{
+    margin-left:-30px;
+}
+.form-tickets-two,.form-ticket-first{
+    display:flex;
+    flex-direction:column;
+    margin-top:750px;
+    justify-content:space-around;
+}
+.tickets-two{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.pay{
+    width: 200px;
+    text-align: center;
 }
