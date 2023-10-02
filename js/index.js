@@ -207,7 +207,7 @@ minus.addEventListener('click',function(){
         skidka.value=30;
         skidka.value+='%';
     }else{
-        kolvo.value=(Number(kolvo.value))-1);
+        kolvo.value=(Number(kolvo.value)-1);
         skidka.value+='%';
     }
     if(Number(kolvo.value)<=0){
