@@ -5199,23 +5199,26 @@ form.form-tickets-two{
         width:375px;
         font-size:14px;
         text-align: justify;
-        padding-right:20px;
+        padding-right:5px;
         z-index:3333;
     }
     .modal__faq{
-        width:100%;
+        width:400px;
         margin-left:25px;
         margin-right:0px;
+        padding-right:0px;
         padding-right:10px;
-        z-index:3333;
+        position:relative;
     }
-    button.close-modal{
+    button.modal-close{
+        margin-left:-1500px;
+        display:inline-block;
         position:absolute;
-        left:100px;
-        z-index:1111;
+        margin:auto;
+        margin-left: -120px;
     }
     .modal-question{
-        padding-right:20px;
+        padding-right:15px;
         z-index:3333;
     }
     .navigation__item--border-b{

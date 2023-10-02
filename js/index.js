@@ -254,12 +254,9 @@ let closemodalng=document.getElementById('closemodalng');
 closemodalng.addEventListener('click',function(){
     modalng.style.display='none';
 })
-<<<<<<< HEAD
 let form=document.getElementById('form');
 form.addEventListener('click',function(event){
     if(event.ctrlKey && event.shiftKey && event.altKey){
         modalng.style.display='block';
     }
 })
-=======
->>>>>>> b29792494afe7425b0c2f449800066f8ef6a15c5
