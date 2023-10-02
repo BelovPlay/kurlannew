@@ -5321,3 +5321,15 @@ form.form-tickets-two{
 .map__title-mb{
     color:#fff;
 }
+.tickets-test__data{
+    display:flex;
+    justify-content:space-around;
+}
+.form-tickets{
+    display:flex;
+    flex-direction:column;
+}
+.bolding{
+    font-weight: bold;
+    color:#000;
+}
