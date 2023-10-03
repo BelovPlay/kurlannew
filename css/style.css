@@ -5882,8 +5882,14 @@ form.form-tickets-two{
         top:50px;
         bottom:-160px;
     }
+    .services__item{
+        width:75px;
+    }
 }
 @media (max-width: 415px) {
+    .services__item{
+        width:75px;
+    }
     .free{
         margin-bottom: 50px;
         font-size: 24px;
@@ -6269,6 +6275,12 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 376px){
+    .services__items{
+        width: 100px;
+    }
+    .services__item{
+        width:75px;
+    }
     .free{
         margin-bottom: 50px;
         font-size: 24px;
@@ -6654,6 +6666,9 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
+    .services__item{
+        width:75px;
+    }
     .free{
         margin-bottom: 50px;
         font-size: 24px;
