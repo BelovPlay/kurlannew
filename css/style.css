@@ -5499,6 +5499,27 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 541px){
+    .free{
+        margin-bottom: 50px;
+        font-size: 24px;
+        display:inline-block;
+        width: 300px;
+    }
+    .five-day{
+        width: 350px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .sales__secondList,.sales__inner{
+        display:flex;
+        flex-direction:column;
+    }
+    .sales__secondList{
+        font-size: 12px;
+    }
+    .sales__threeList{
+        margin-bottom: 50px;
+    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
@@ -5508,10 +5529,6 @@ form.form-tickets-two{
     }
     .overlay{
         display:none;
-    }
-    span.sales__list--color{
-        font-size: 16px;
-        display:block;
     }
     .overlay {
         width: 100%;
@@ -5758,6 +5775,45 @@ form.form-tickets-two{
         justify-content: center;
         margin-bottom: 20px;
     }
+    .title-sec{
+        text-align:start;
+    }
+    .description__text-title{
+        text-align:start;
+        text-align-last: left;
+        margin-left: 0px;
+    }
+    .title-third{
+        text-align-last: left;
+    }
+    .description__text-title{
+        text-align-last:left;
+    }
+    .sales__secondList-li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .sales__secondList{
+        display:flex;
+        align-items:start;
+        justify-content:start;
+        text-align:start;
+    }
+    .free,.sales__secondList-li{
+        width:300px;
+        text-align:left;
+    }
+    .sales__secondList-li>span.sales__list--color{
+        text-align:left;
+        width: 300px;
+    }
+    span.skidka-b{
+        display:inline-block;
+        margin-bottom: 50px;
+        line-height:2;
+        font-size:16px;
+        text-align-last: left;
+    }
     .services__inner,.services__items-row,.services__items{
         display:flex;
         width:300px;
@@ -5796,8 +5852,8 @@ form.form-tickets-two{
         margin-right:0px;
     }
     .services__item img{
-        height:75px;
-        margin-left: 25px;
+        height:50px;
+        margin-left:0px;
     }
     li.services__item{
         width:350px;
@@ -5812,11 +5868,43 @@ form.form-tickets-two{
         margin-bottom: 50px;
     }
     .services__items{
-        width:200px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:350px;
         margin:auto;
+    }
+    h3.services__item-title{
+        font-size:8px;
+        position:absolute;
+        left:0px;
+        top:50px;
+        bottom:-160px;
     }
 }
 @media (max-width: 415px) {
+    .free{
+        margin-bottom: 50px;
+        font-size: 24px;
+        display:inline-block;
+        width: 300px;
+    }
+    .five-day{
+        width: 350px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .sales__secondList,.sales__inner{
+        display:flex;
+        flex-direction:column;
+    }
+    .sales__secondList{
+        font-size: 12px;
+    }
+    .sales__threeList{
+        margin-bottom: 50px;
+    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
@@ -5826,10 +5914,6 @@ form.form-tickets-two{
     }
     .overlay{
         display:none;
-    }
-    span.sales__list--color{
-        font-size: 16px;
-        display:block;
     }
     .overlay {
         width: 100%;
@@ -6076,12 +6160,44 @@ form.form-tickets-two{
         justify-content: center;
         margin-bottom: 20px;
     }
-    .services__inner{
-        display:flex;
-        flex-direction:block;
+    .title-sec{
+        text-align:start;
     }
-    #services,.services__inner,.services__items-row{
-        display:block;
+    .description__text-title{
+        text-align:start;
+        text-align-last: left;
+        margin-left: 0px;
+    }
+    .title-third{
+        text-align-last: left;
+    }
+    .description__text-title{
+        text-align-last:left;
+    }
+    .sales__secondList-li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .sales__secondList{
+        display:flex;
+        align-items:start;
+        justify-content:start;
+        text-align:start;
+    }
+    .free,.sales__secondList-li{
+        width:300px;
+        text-align:left;
+    }
+    .sales__secondList-li>span.sales__list--color{
+        text-align:left;
+        width: 300px;
+    }
+    span.skidka-b{
+        display:inline-block;
+        margin-bottom: 50px;
+        line-height:2;
+        font-size:16px;
+        text-align-last: left;
     }
     .services__inner,.services__items-row,.services__items{
         display:flex;
@@ -6121,8 +6237,8 @@ form.form-tickets-two{
         margin-right:0px;
     }
     .services__item img{
-        height:75px;
-        margin-left: 25px;
+        height:50px;
+        margin-left:0px;
     }
     li.services__item{
         width:350px;
@@ -6137,8 +6253,19 @@ form.form-tickets-two{
         margin-bottom: 50px;
     }
     .services__items{
-        width:200px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:350px;
         margin:auto;
+    }
+    h3.services__item-title{
+        font-size:8px;
+        position:absolute;
+        left:0px;
+        top:50px;
+        bottom:-160px;
     }
 }
 @media (max-width: 376px){
@@ -6527,62 +6654,26 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
-    .services__inner,.services__items-row,.services__items{
-        display:flex;
-        width:300px;
-        margin-left:-20px;
-        margin-bottom: 0px;
-        align-items: center;
+    .free{
+        margin-bottom: 50px;
+        font-size: 24px;
+        display:inline-block;
+        width: 300px;
     }
-    .services__items-row{
-        margin-top:50px;
-        margin-bottom:0px;
-        width:250px;
+    .five-day{
+        width: 350px;
+        font-size: 12px;
+        text-align: center;
     }
-    .services__item-title{
-        /* display:none; */
-    }
-    img.services__item-img{
-        height:50px;
-    }
-    .services__items{
+    .sales__secondList,.sales__inner{
         display:flex;
         flex-direction:column;
-        width: 350px;
     }
-    .services__inner{
-        width:300px;
-        margin:0px auto;
+    .sales__secondList{
+        font-size: 12px;
     }
-    .services__items-row{
-        display:flex;
-        justify-content:space-between;
-        align-items: center;
-    }
-    .services__item{
-        margin: 0px;
-        padding: 0px;
-        margin-right:0px;
-    }
-    .services__item img{
-        height:75px;
-        margin-left: 25px;
-    }
-    li.services__item{
-        width:350px;
-        display:flex;
-    }
-    .services__items-row{
-        margin-top:0px;
-        margin-left:-150px;
-        margin-top:25px;
-    }
-    .title{
+    .sales__threeList{
         margin-bottom: 50px;
-    }
-    .services__items{
-        width:200px;
-        margin:auto;
     }
     .modal__kurlanchiki{
         width:350px;
@@ -6593,10 +6684,6 @@ form.form-tickets-two{
     }
     .overlay{
         display:none;
-    }
-    span.sales__list--color{
-        font-size: 16px;
-        display:block;
     }
     .overlay {
         width: 100%;
@@ -6842,6 +6929,113 @@ form.form-tickets-two{
         display:flex;
         justify-content: center;
         margin-bottom: 20px;
+    }
+    .title-sec{
+        text-align:start;
+    }
+    .description__text-title{
+        text-align:start;
+        text-align-last: left;
+        margin-left: 0px;
+    }
+    .title-third{
+        text-align-last: left;
+    }
+    .description__text-title{
+        text-align-last:left;
+    }
+    .sales__secondList-li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .sales__secondList{
+        display:flex;
+        align-items:start;
+        justify-content:start;
+        text-align:start;
+    }
+    .free,.sales__secondList-li{
+        width:300px;
+        text-align:left;
+    }
+    .sales__secondList-li>span.sales__list--color{
+        text-align:left;
+        width: 300px;
+    }
+    span.skidka-b{
+        display:inline-block;
+        margin-bottom: 50px;
+        line-height:2;
+        font-size:16px;
+        text-align-last: left;
+    }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:50px;
+        margin-left:0px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:350px;
+        margin:auto;
+    }
+    h3.services__item-title{
+        font-size:8px;
+        position:absolute;
+        left:0px;
+        top:50px;
+        bottom:-160px;
     }
 }
 .map__title-mb{
