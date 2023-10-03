@@ -6495,12 +6495,16 @@ form.form-tickets-two{
         margin-right:0px;
     }
     .services__item img{
-        height:75px;
-        margin-left: 25px;
+        height:50px;
+        margin-left:0px;
     }
     li.services__item{
-        width:350px;
+        width:75px;
+        height:50px;
         display:flex;
+    }
+    a.services__item{
+        display:inline-block;
     }
     .services__items-row{
         margin-top:0px;
@@ -6511,8 +6515,15 @@ form.form-tickets-two{
         margin-bottom: 50px;
     }
     .services__items{
-        width:200px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:350px;
         margin:auto;
+    }
+    .services__item-title{
+        display:none;
     }
 }
 @media (max-width: 321px){
