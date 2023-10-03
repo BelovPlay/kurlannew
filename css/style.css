@@ -6053,6 +6053,13 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 376px){
+    .modal__kurlanchiki{
+        width:350px;
+        margin:0px auto;
+        text-align: center;
+        height:300px;
+        font-size:12px;
+    }
     .overlay{
         display:none;
     }
@@ -6641,4 +6648,7 @@ form h3.neon{
 #skidka-title,#percent,#kolvo{
     margin-bottom: 0px;
     margin-top: 0px;
+}
+.modal__content{
+    text-align:left;
 }
