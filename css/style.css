@@ -3980,6 +3980,10 @@ span.bold {
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
     }
+    .services__item-title{
+        margin-top:20px;
+        margin-left:50px;
+    }
 }
 @media (max-width: 321px) {
     .services__item-back,.flip,.services__item-back__list{
