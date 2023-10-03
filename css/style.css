@@ -6340,6 +6340,12 @@ form.form-tickets-two{
         justify-content: center;
         margin-bottom: 20px;
     }
+    .description__text-title{
+        text-align-last:left;
+    }
+    .{
+        
+    }
 }
 @media (max-width: 321px){
     .modal__kurlanchiki{
