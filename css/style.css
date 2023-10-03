@@ -6362,13 +6362,12 @@ form.form-tickets-two{
         text-align:start;
     }
     .free,.sales__secondList-li{
-        width:350px;
+        width:300px;
         text-align:left;
     }
     .sales__secondList-li>span.sales__list--color{
         text-align:left;
         width: 300px;
-        margin-left: -75px;
     }
     span.skidka-b{
         display:inline-block;
@@ -6731,4 +6730,7 @@ form h3.neon{
 }
 .modal__content{
     text-align:left;
+}
+.{
+
 }
