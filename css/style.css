@@ -6357,22 +6357,25 @@ form.form-tickets-two{
     }
     .sales__secondList{
         display:flex;
-        align-items:center;
-        justify-content:center;
+        align-items:start;
+        justify-content:start;
         text-align:start;
     }
     .free,.sales__secondList-li{
-        width:220px;
-        text-align:center;
+        width:350px;
+        text-align:left;
     }
     .sales__secondList-li>span.sales__list--color{
-        text-align: center;
+        text-align:left;
+        width: 300px;
+        margin-left: -75px;
     }
     span.skidka-b{
         display:inline-block;
         margin-bottom: 50px;
         line-height:2;
         font-size:16px;
+        text-align-last: left;
     }
 }
 @media (max-width: 321px){
