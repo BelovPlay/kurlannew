@@ -6408,7 +6408,7 @@ form.form-tickets-two{
         align-items: center;
     }
     .services__item{
-        width:60px;
+        /* width:75px; */
         margin: 0px;
         padding: 0px;
         margin-right:25px;
@@ -6685,6 +6685,9 @@ form.form-tickets-two{
         display:flex;
         justify-content: center;
         margin-bottom: 20px;
+    }
+    .{
+        
     }
 }
 .map__title-mb{
