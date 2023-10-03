@@ -6258,14 +6258,18 @@ form.form-tickets-two{
         align-items: center;
     }
     .services__item{
-        /* width:75px; */
         margin: 0px;
         padding: 0px;
-        margin-right:25px;
+        margin-right:0px;
     }
     .services__item img{
         height:75px;
         margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+        
     }
     .services__items-row{
         margin-top:0px;
@@ -6274,6 +6278,10 @@ form.form-tickets-two{
     }
     .title{
         margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
     }
 }
 @media (max-width: 321px){
