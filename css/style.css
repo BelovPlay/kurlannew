@@ -6348,6 +6348,9 @@ form.form-tickets-two{
         text-align-last: left;
         margin-left: 0px;
     }
+    .title-third{
+        text-align-last: left;
+    }
 }
 @media (max-width: 321px){
     .modal__kurlanchiki{
