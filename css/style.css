@@ -5122,6 +5122,63 @@ form.form-tickets-two{
     .modal-question{
         position: relative;
     }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
+    }
 }
 @media (max-width: 769px) {
     .modal__kurlanchiki{
@@ -5383,6 +5440,63 @@ form.form-tickets-two{
         justify-content: center;
         margin-bottom: 20px;
     }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
+    }
 }
 @media (max-width: 541px){
     .modal__kurlanchiki{
@@ -5643,6 +5757,63 @@ form.form-tickets-two{
         display:flex;
         justify-content: center;
         margin-bottom: 20px;
+    }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
     }
 }
 @media (max-width: 415px) {
@@ -5911,6 +6082,63 @@ form.form-tickets-two{
     }
     #services,.services__inner,.services__items-row{
         display:block;
+    }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
     }
 }
 @media (max-width: 376px){
@@ -6288,6 +6516,63 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        /* display:none; */
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        margin: 0px;
+        padding: 0px;
+        margin-right:0px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    li.services__item{
+        width:350px;
+        display:flex;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    .services__items{
+        width:200px;
+        margin:auto;
+    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
@@ -6641,10 +6926,4 @@ form h3.neon{
 .modal__content{
     text-align:left;
     text-align: center;
-}
-.test{
-    text-align: center;
-    font-size: 24px;
-    display: block;
-    color:red;
 }
