@@ -5880,7 +5880,7 @@ form.form-tickets-two{
         position:absolute;
         left:0px;
         top:50px;
-        bottom:-160px;
+        bottom:-100px;
     }
     .services__item{
         width:75px;
@@ -6271,7 +6271,7 @@ form.form-tickets-two{
         position:absolute;
         left:0px;
         top:50px;
-        bottom:-160px;
+        bottom:-100px;
     }
 }
 @media (max-width: 376px){
@@ -7050,7 +7050,7 @@ form.form-tickets-two{
         position:absolute;
         left:0px;
         top:50px;
-        bottom:-160px;
+        bottom:-100px;
     }
 }
 .map__title-mb{
