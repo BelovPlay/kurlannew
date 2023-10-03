@@ -3965,6 +3965,12 @@ span.bold {
     .sales__secondList li:nth-child(2) {
         font-size: 26px;
     }
+    .flip,.services__item-back{
+        display:none;
+    }
+    .services__item-back,.flip,.services__item-back__list{
+        visibility:hidden;
+    }
 }
 @media (max-width: 321px) {
     .menu__btn-open {
@@ -6670,6 +6676,13 @@ form.form-tickets-two{
     }
     #oleni-li,#gorki-li,#snegohody-li,#quadro-li,#haski-li,#animators-li,#tir-li,#banan-li,#cafe-li,#kurlanchiki-li,#shatry-li,#besedki-li,#rozigrishy-li,#sales-li,#corporative-li,#transfer-li,#grafik-li,#contacts-li,#rules-li,#otziv-li{
         height:75px;
+    }
+    li.services__item{
+        display:flex;
+        flex-direction:column;
+    }
+    .services__item-back,.flip{
+        display:none;
     }
 }
 @media (max-width: 321px){
