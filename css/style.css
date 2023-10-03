@@ -2641,7 +2641,7 @@ span.bold {
         right: -13px;
     }
     .services__item:hover .services__item-back.flip {
-        display: none;
+        /* display: none; */
     }
     .navigation__items {
         -ms-grid-columns: 50vw 45vw;
@@ -6064,7 +6064,6 @@ form.form-tickets-two{
         margin-bottom: 50px;
         font-size: 24px;
         display:inline-block;
-        margin-bottom: 50px;
         width: 300px;
     }
     .five-day{
@@ -6375,6 +6374,56 @@ form.form-tickets-two{
         line-height:2;
         font-size:16px;
         text-align-last: left;
+    }
+    .services__inner,.services__items-row,.services__items{
+        display:flex;
+        width:300px;
+        margin-left:-20px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    .services__items-row{
+        margin-top:50px;
+        margin-bottom:0px;
+        width:250px;
+    }
+    .services__item-title{
+        display:none;
+    }
+    img.services__item-img{
+        height:50px;
+    }
+    .services__items{
+        display:flex;
+        flex-direction:column;
+        width: 350px;
+    }
+    .services__inner{
+        width:300px;
+        margin:0px auto;
+    }
+    .services__items-row{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .services__item{
+        width:60px;
+        margin: 0px;
+        padding: 0px;
+        margin-right:25px;
+    }
+    .services__item img{
+        height:75px;
+        margin-left: 25px;
+    }
+    .services__items-row{
+        margin-top:0px;
+        margin-left:-150px;
+        margin-top:25px;
+    }
+    .title{
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 321px){
