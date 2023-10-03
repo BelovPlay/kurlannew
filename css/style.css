@@ -6499,12 +6499,8 @@ form.form-tickets-two{
         margin-left:0px;
     }
     li.services__item{
-        width:75px;
-        height:50px;
+        width:350px;
         display:flex;
-    }
-    a.services__item{
-        display:inline-block;
     }
     .services__items-row{
         margin-top:0px;
@@ -6522,8 +6518,12 @@ form.form-tickets-two{
         width:350px;
         margin:auto;
     }
-    .services__item-title{
-        display:none;
+    h3.services__item-title{
+        font-size:8px;
+        position:absolute;
+        left:0px;
+        top:50px;
+        bottom:-120px;
     }
 }
 @media (max-width: 321px){
