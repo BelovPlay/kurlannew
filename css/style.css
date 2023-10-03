@@ -3984,6 +3984,10 @@ span.bold {
         margin-top:20px;
         margin-left:50px;
     }
+    .dog{
+        margin-top:40px;
+        margin-left:-20px;
+    }
 }
 @media (max-width: 321px) {
     .services__item-back,.flip,.services__item-back__list{
