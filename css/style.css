@@ -6351,6 +6351,19 @@ form.form-tickets-two{
     .description__text-title{
         text-align-last:left;
     }
+    .sales__secondList-li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .sales__secondList{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:start;
+    }
+    .free,.sales__secondList-li{
+        width:200px;
+    }
 }
 @media (max-width: 321px){
     .modal__kurlanchiki{
