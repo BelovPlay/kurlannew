@@ -6662,7 +6662,7 @@ form.form-tickets-two{
         position:absolute;
         left:0px;
         top:50px;
-        bottom:-160px;
+        bottom:-100px;
     }
 }
 @media (max-width: 321px){
