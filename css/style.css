@@ -6642,3 +6642,9 @@ form h3.neon{
     text-align:left;
     text-align: center;
 }
+.test{
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    color:red;
+}
