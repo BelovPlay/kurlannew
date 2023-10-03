@@ -6664,6 +6664,13 @@ form.form-tickets-two{
         top:50px;
         bottom:-100px;
     }
+    li.services__item{
+        height:75px;
+        width:75px;
+    }
+    #oleni-li,#gorki-li,#snegohody-li,#quadro-li,#haski-li,#animators-li,#tir-li,#banan-li,#cafe-li,#kurlanchiki-li,#shatry-li,#besedki-li,#rozigrishy-li,#sales-li,#corporative-li,#transfer-li,#grafik-li,#contacts-li,#rules-li,#otziv-li{
+        height:75px;
+    }
 }
 @media (max-width: 321px){
     .services__item{
