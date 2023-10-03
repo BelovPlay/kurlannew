@@ -5525,6 +5525,9 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 541px){
+    .smallinger{
+        font-size: 36px;
+    }
     .free{
         margin-bottom: 50px;
         font-size: 24px;
@@ -5913,6 +5916,9 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 415px) {
+    .smallinger{
+        font-size: 36px;
+    }
     .services__item{
         width:75px;
     }
@@ -6301,6 +6307,11 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 376px){
+    span.smallinger{
+        display:inline-block;
+        font-weight: bold;
+        font-size:640px;
+    }
     .services__items{
         width: 100px;
     }
@@ -7186,4 +7197,9 @@ form h3.neon{
 .modal__content{
     text-align:left;
     text-align: center;
+}
+@media (max-width: 376px){
+    span.smallinger{
+        font-weight: bold;
+    }
 }
