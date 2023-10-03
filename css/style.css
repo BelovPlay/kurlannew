@@ -5803,6 +5803,13 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 415px) {
+    .modal__kurlanchiki{
+        width:350px;
+        margin:0px auto;
+        text-align: center;
+        height:300px;
+        font-size:12px;
+    }
     .overlay{
         display:none;
     }
@@ -6053,6 +6060,31 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 376px){
+    .free{
+        margin-bottom: 50px;
+        font-size: 24px;
+        display:inline-block;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .five-day{
+        width: 350px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .sales__secondList,.sales__inner{
+        display:flex;
+        flex-direction:column;
+    }
+    .sales__secondList{
+        font-size: 12px;
+    }
+    .sales__threeList{
+        margin-bottom: 50px;
+    }
+    .map-mb__inner{
+        margin-top: 50px;
+    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
@@ -6310,8 +6342,19 @@ form.form-tickets-two{
     }
 }
 @media (max-width: 321px){
+    .modal__kurlanchiki{
+        width:350px;
+        margin:0px auto;
+        text-align: center;
+        height:300px;
+        font-size:12px;
+    }
     .overlay{
         display:none;
+    }
+    span.sales__list--color{
+        font-size: 16px;
+        display:block;
     }
     .overlay {
         width: 100%;
