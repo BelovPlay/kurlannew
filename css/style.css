@@ -6340,11 +6340,13 @@ form.form-tickets-two{
         justify-content: center;
         margin-bottom: 20px;
     }
-    .description__text-title{
-        text-align-last:left;
+    .title-sec{
+        text-align:start;
     }
-    .{
-        
+    .description__text-title{
+        text-align:start;
+        text-align-last: left;
+        margin-left: 0px;
     }
 }
 @media (max-width: 321px){
