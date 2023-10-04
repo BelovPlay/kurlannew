@@ -3766,6 +3766,9 @@ span.bold {
     }
 }
 @media (max-width: 376px) {
+    .title-up,.span.smallinger{
+        font-size:10px;
+    }
     .adress{
         margin:0px auto;
     }
