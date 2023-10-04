@@ -7218,4 +7218,9 @@ form h3.neon{
     span.smallinger{
         font-size:40px;    
     }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
 }
