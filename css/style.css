@@ -5922,6 +5922,11 @@ form.form-tickets-two{
     .services__item{
         width:75px;
     }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
 }
 @media (max-width: 415px) {
     .smallinger{
@@ -6312,6 +6317,11 @@ form.form-tickets-two{
         left:0px;
         top:50px;
         bottom:-100px;
+    }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
     }
 }
 @media (max-width: 376px){
@@ -6723,6 +6733,11 @@ form.form-tickets-two{
     .services__item-back,.flip{
         display:none;
     }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
 }
 @media (max-width: 321px){
     .services__item{
@@ -7111,6 +7126,11 @@ form.form-tickets-two{
         top:50px;
         bottom:-100px;
     }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
 }
 .map__title-mb{
     color:#fff;
@@ -7206,16 +7226,12 @@ form h3.neon{
     text-align:left;
     text-align: center;
 }
-@media (max-width: 376px){
-    span.smallinger{
-        font-weight: bold;
-    }
-}
 .modal-tubing-content{
     text-align:left;
 }
 @media(max-width:376px){
     span.smallinger{
+        font-weight: bold;
         font-size:40px;    
     }
     #closemodalng,#closemodalpng{
