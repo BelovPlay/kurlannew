@@ -3766,6 +3766,11 @@ span.bold {
     }
 }
 @media (max-width: 376px) {
+    .adress{
+        margin-left:150px; 
+        text-align:center;
+        margin:0px auto;
+    }
     .menu__btn-open {
         margin-left: -80px;
     }
