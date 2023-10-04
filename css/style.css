@@ -3993,6 +3993,9 @@ span.bold {
         margin-top:40px;
         margin-left:-20px;
     }
+    .modal__content, .modal-tubing-content{
+        text-align:left;
+    }  
 }
 @media (max-width: 321px) {
     .services__item-back,.flip,.services__item-back__list{
