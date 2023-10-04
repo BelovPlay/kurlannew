@@ -3766,6 +3766,12 @@ span.bold {
     }
 }
 @media (max-width: 376px) {
+    .title-up,.span.smallinger{
+        font-size:10px;
+    }
+    .adress{
+        margin:0px auto;
+    }
     .menu__btn-open {
         margin-left: -80px;
     }
@@ -3988,6 +3994,9 @@ span.bold {
         margin-top:40px;
         margin-left:-20px;
     }
+    .modal__content, .modal-tubing-content{
+        text-align:left;
+    }  
 }
 @media (max-width: 321px) {
     .services__item-back,.flip,.services__item-back__list{
@@ -4647,12 +4656,11 @@ h2.description__text-title .smallinger{
 }
 .nav-descr{
     text-align: center;
-    margin-top: 60px;
     display:block;
     margin-bottom: 0;
 }
 .nav-descr-block{
-    margin-top:300px;
+    margin-top:0px;
 }
 .title-rasst{
     padding-left: 25px;
@@ -4923,7 +4931,7 @@ input.oper{
 .adress{
     display:inline-block;
     padding-bottom:20px;
-    width:1030px;
+    width:300px;
     border-bottom:1px solid black;
 }
 .modal-tubing-sec{
@@ -7201,5 +7209,13 @@ form h3.neon{
 @media (max-width: 376px){
     span.smallinger{
         font-weight: bold;
+    }
+}
+.modal-tubing-content{
+    text-align:left;
+}
+@media(max-width:376px){
+    span.smallinger{
+        font-size:40px;    
     }
 }
