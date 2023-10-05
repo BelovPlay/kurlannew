@@ -174,6 +174,7 @@ let inpsum=document.getElementById('sum');
 let price=2000;
 let numticket=680;
 let skidka=document.getElementById('percent');
+let prsch;
 kolvo.addEventListener('click',function(){
     event.preventDefault();
 })
@@ -202,22 +203,20 @@ plus.addEventListener('click',function(){
 })
 minus.addEventListener('click',function(){
     event.preventDefault();
-    kolvo.value=Number(kolvo.value)-1;
-    skidka.value=(Number(kolvo.value));
     if(Number(kolvo.value)>30){
         skidka.value=30;
         skidka.value+='%';
     }else{
+        kolvo.value=Number(kolvo.value)-1;
+        skidka.value=(Number(kolvo.value));
         skidka.value+='%';
-        percent=(Number(inpsum.value))/100*(Number(kolvo.value));
+        percent=Number(inpsum.value/100*(Number(kolvo.value)));
         alert(percent);
-        // inpsum.value=percent;
     }
-    if(Number(kolvo.value)<=0){
-        minus.disabled='true';
+    if(Number(kolvo.value)<=1){
+        kolvo.value=1;
     }
-    // percent=inpsum.value/100*(Number(kolvo.value));
-    // sum=price*(Number(kolvo.value));
+    inpsum.value=(Number(inpsum.value-percent))+' рублей'; 
 })
 // Скрипт для кнопок до/после новогодних праздников
 let btnng=document.getElementById('btn-modal-priceng');

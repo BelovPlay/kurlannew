@@ -16,7 +16,7 @@ if($conn->connect__error){
     die('Connection Failed:'.$conn->connect__error);
 }
 $sql="INSERT INTO users (Name,Email,Phone,NumTicket)
-VALUES ('$name','$mail','$phone','$numticket')";
+VALUES ('$name','$mail','$phone','$numticket')"
 if($conn->query($sql)===TRUE){
     echo "Данные отправлены";
 }else{
