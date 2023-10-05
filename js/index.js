@@ -202,18 +202,22 @@ plus.addEventListener('click',function(){
 })
 minus.addEventListener('click',function(){
     event.preventDefault();
+    kolvo.value=Number(kolvo.value)-1;
+    skidka.value=(Number(kolvo.value));
     if(Number(kolvo.value)>30){
         skidka.value=30;
         skidka.value+='%';
     }else{
-        kolvo.value=(Number(kolvo.value)-1);
         skidka.value+='%';
+        percent=(Number(inpsum.value))/100*(Number(kolvo.value));
+        alert(percent);
+        // inpsum.value=percent;
     }
     if(Number(kolvo.value)<=0){
         minus.disabled='true';
     }
-    percent=inpsum.value/100*(Number(kolvo.value))-1;
-    sum=price*(Number(kolvo.value));
+    // percent=inpsum.value/100*(Number(kolvo.value));
+    // sum=price*(Number(kolvo.value));
 })
 // Скрипт для кнопок до/после новогодних праздников
 let btnng=document.getElementById('btn-modal-priceng');
