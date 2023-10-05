@@ -198,6 +198,7 @@ plus.addEventListener('click',function(){
     }else{
         skidka.value=30;
         skidka.value+='%';
+        percent=inpsum.value/100*(Number(kolvo.value));
     }
     inpsum.value=(Number(inpsum.value-percent))+' рублей';
 })
@@ -209,6 +210,7 @@ minus.addEventListener('click',function(){
     console.log(kolvo.value);
     if(Number(kolvo.value<31)){
         percent=inpsum.value/100*(Number(kolvo.value));
+        skidka.value=30;
         skidka.value+='%';
     }else{
         skidka.value=30;
