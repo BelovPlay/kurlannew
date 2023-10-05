@@ -174,7 +174,7 @@ let inpsum=document.getElementById('sum');
 let price=2000;
 let numticket=680;
 let skidka=document.getElementById('percent');
-let prsch;
+let prsch,tmp,tmps;
 kolvo.addEventListener('click',function(){
     event.preventDefault();
 })
@@ -203,20 +203,46 @@ plus.addEventListener('click',function(){
 })
 minus.addEventListener('click',function(){
     event.preventDefault();
-    if(Number(kolvo.value)>30){
-        skidka.value=30;
+    kolvo.value=Number(kolvo.value)-1;
+    inpsum.value=price*(Number(kolvo.value))*1;
+    skidka.value=(Number(kolvo.value))-1;
+    console.log(kolvo.value);
+    if(Number(kolvo.value<31)){
+        percent=inpsum.value/100*(Number(kolvo.value));
         skidka.value+='%';
     }else{
-        kolvo.value=Number(kolvo.value)-1;
-        skidka.value=(Number(kolvo.value));
+        skidka.value=30;
         skidka.value+='%';
-        percent=Number(inpsum.value/100*(Number(kolvo.value)));
-        alert(percent);
     }
-    if(Number(kolvo.value)<=1){
+    if(kolvo.value<1){
         kolvo.value=1;
+        skidka.value=kolvo.value;
+        skidka.value+='%';
     }
-    inpsum.value=(Number(inpsum.value-percent))+' рублей'; 
+    inpsum.value=(Number(inpsum.value-percent))+' рублей';
+    // kolvo.value=Number(kolvo.value)-1;
+    // skidka.value=Number(kolvo.value);
+    // skidka.value+='%';
+    // percent=inpsum.value;
+    // console.log(percent);
+    // inpsum.value=price*(Number(kolvo.value));
+    // if(kolvo.value<1){
+    //     kolvo.value=1;
+    // }
+    // if(Number(kolvo.value)>30){
+    //     skidka.value=30;
+    //     skidka.value+='%';
+    // }else{
+    //     kolvo.value=Number(kolvo.value)-1;
+    //     skidka.value=(Number(kolvo.value));
+    //     skidka.value+='%';
+    //     percent=Number(inpsum.value/100*(Number(kolvo.value)));
+    //     alert(percent);
+    // }
+    // if(Number(kolvo.value)<=1){
+    //     kolvo.value=1;
+    // }
+    // inpsum.value=(Number(inpsum.value-percent))+' рублей';
 })
 // Скрипт для кнопок до/после новогодних праздников
 let btnng=document.getElementById('btn-modal-priceng');
