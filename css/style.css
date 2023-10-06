@@ -7271,3 +7271,7 @@ form h3.neon{
 #Name,#Email,#Phone{
     margin-bottom:20px;
 }
+#PhoneTitle,#EmailTitle,#NameTitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
