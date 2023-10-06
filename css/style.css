@@ -7184,11 +7184,11 @@ p.about_us{
     text-align:center;
     margin-bottom:25px;
 }
-#sum-title{
+/* #sum-title{
     margin-left:-25px;
     margin-top:25px;
     margin-bottom:25px;
-}
+} */
 .pay-ticket{
     margin-bottom: 25px;
 }
@@ -7259,7 +7259,7 @@ form h3.neon{
     width: 200px;
     border-radius:25px;
 }
-#percent,#Name,#Email,#Phone{
+#percent,#Name,#Email,#Phone,#buybtn{
     height: 50px;
 }
 #plus:hover,#minus:hover{
@@ -7274,4 +7274,14 @@ form h3.neon{
 #PhoneTitle,#EmailTitle,#NameTitle{
     text-align: center;
     margin-bottom: 20px;
+}
+#buybtn{
+    width:200px;
+    border-radius:25px;
+    margin:0px auto;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
 }

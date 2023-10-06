@@ -220,7 +220,7 @@ minus.addEventListener('click',function(){
         kolvo.value=1;
         skidka.value=kolvo.value;
         skidka.value+='%';
-        inpsum.value=2000;
+        inpsum.value=1980;
     }
     inpsum.value=(Number(inpsum.value-percent))+' рублей';
     // kolvo.value=Number(kolvo.value)-1;
