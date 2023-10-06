@@ -7255,7 +7255,6 @@ form h3.neon{
     margin-left:-35px;
 }
 .form-tickets-first div h3.neon, .form-tickets-first input{
-    text-align: center;
     margin-bottom: 20px;
     outline:none;
     border:none;
@@ -7265,4 +7264,7 @@ form h3.neon{
 }
 .rasch{
     margin-left:-25px;
+}
+#kolvo,#sum,#percent,#Name,#Email,#Phone{
+    border-radius:25px;
 }
