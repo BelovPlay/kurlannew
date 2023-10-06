@@ -7169,7 +7169,6 @@ p.about_us{
     width:150px;
     height:50px;
     text-align: center;
-    margin-right:15px;
 }
 .title-ticket-sum,.title-ticket-kolvo,.title-ticket-two{
     margin-top:50px;
@@ -7179,18 +7178,6 @@ p.about_us{
 }
 .title-ticket-kolvo{
     margin-left:75px;
-}
-#sum-title,#skidka-title{
-    text-align:center;
-    margin-bottom:25px;
-}
-/* #sum-title{
-    margin-left:-25px;
-    margin-top:25px;
-    margin-bottom:25px;
-} */
-.pay-ticket{
-    margin-bottom: 25px;
 }
 #sum,#percent{
     margin-left:-30px;
@@ -7221,10 +7208,6 @@ form h3.neon{
     display:flex;
     justify-content:space-evenly;
 }
-#skidka-title,#percent,#kolvo{
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
 .modal__content{
     text-align:left;
     text-align: center;
@@ -7244,16 +7227,13 @@ form h3.neon{
     }
 }
 .form-rasch{
-    display:flex;
-    align-items:center;
-    justify-content:space-around;
-}
-#kolvo,#percent{
-    width:150px;
-    margin-right:0px;
+    /* display:flex; */
+    /* align-items:center; */
+    /* justify-content:space-around; */
 }
 #kolvo{
-    margin: 20px;
+    margin-left:20px;
+    margin-right: 20px;
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
@@ -7265,16 +7245,6 @@ form h3.neon{
 #plus:hover,#minus:hover{
     cursor:pointer;
 }
-#percent{
-    margin-left:-10px;
-}
-#Name,#Email,#Phone{
-    margin-bottom:20px;
-    margin-top:10px;
-}
-#PhoneTitle,#EmailTitle,#NameTitle{
-    text-align:center;
-}
 #buybtn{
     width:510px;
     border-radius:25px;
@@ -7285,15 +7255,6 @@ form h3.neon{
     justify-content: center;
     margin-top:25px;
     height: 75px;
-}
-#skidka-title{
-    margin-bottom:25px;
-}
-#PhoneTitle,#EmailTitle,#NameTitle,#sum-title,#skidka-title{
-    text-align:left;
-    margin-bottom:13px;
-    margin-top:15px;
-    margin-left:10px;
 }
 #Phone::placeholder,#Email::placeholder,#Name::placeholder{
     color:#58cbcf;
