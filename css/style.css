@@ -7255,11 +7255,11 @@ form h3.neon{
 #kolvo,#Name,#Email,#{
     margin: 20px;
 }
-#sum,#kolvo,#percent{
+#sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
     border-radius:25px;
 }
-#percent{
+#percent,#Name,#Email,#Phone{
     height: 50px;
 }
 #plus:hover,#minus:hover{
@@ -7267,4 +7267,7 @@ form h3.neon{
 }
 #percent{
     margin-left:-10px;
+}
+#Name,#Email,#Phone{
+    margin-bottom: 20px;
 }
