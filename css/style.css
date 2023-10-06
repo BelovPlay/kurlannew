@@ -7232,8 +7232,8 @@ form h3.neon{
     /* justify-content:space-around; */
 }
 #kolvo{
-    margin-left:20px;
-    margin-right: 20px;
+    /* margin-left:20px; */
+    /* margin-right: 20px; */
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
@@ -7259,4 +7259,8 @@ form h3.neon{
 #Phone::placeholder,#Email::placeholder,#Name::placeholder{
     color:#58cbcf;
     text-align: center;
+}
+.form-tickets-first div .title-block{
+    display:block;
+    margin-left:-35px;
 }
