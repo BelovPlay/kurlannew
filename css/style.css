@@ -7252,8 +7252,15 @@ form h3.neon{
     width:150px;
     margin-right:0px;
 }
-#kolvo{
+#kolvo,#Name,#Email,#{
     margin: 20px;
+}
+#sum,#kolvo,#percent{
+    width: 200px;
+    border-radius:25px;
+}
+#percent{
+    height: 50px;
 }
 #plus:hover,#minus:hover{
     cursor:pointer;
