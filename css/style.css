@@ -7277,7 +7277,8 @@ form h3.neon{
     /* margin-bottom:25px; */
 }
 #buybtn{
-    width:520px;
+    width:500px;
+    margin-left: 20px;
     border-radius:25px;
     margin:0px auto;
     display:flex;
@@ -7292,5 +7293,6 @@ form h3.neon{
 }
 #PhoneTitle,#EmailTitle,#NameTitle{
     text-align:center;
-    margin-bottom:10px;
+    margin-bottom:13px;
+    margin-top:15px;
 }
