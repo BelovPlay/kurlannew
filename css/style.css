@@ -7252,7 +7252,7 @@ form h3.neon{
     width:150px;
     margin-right:0px;
 }
-#kolvo,#Name,#Email,#{
+#kolvo{
     margin: 20px;
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
@@ -7269,5 +7269,5 @@ form h3.neon{
     margin-left:-10px;
 }
 #Name,#Email,#Phone{
-    margin-bottom: 20px;
+    margin-bottom:20px;
 }
