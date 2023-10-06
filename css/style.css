@@ -7276,8 +7276,7 @@ form h3.neon{
     text-align:center;
 }
 #buybtn{
-    width:500px;
-    margin-left: 20px;
+    width:510px;
     border-radius:25px;
     margin:0px auto;
     display:flex;
@@ -7290,11 +7289,13 @@ form h3.neon{
 #skidka-title{
     margin-bottom:25px;
 }
-#PhoneTitle,#EmailTitle,#NameTitle{
-    text-align:center;
+#PhoneTitle,#EmailTitle,#NameTitle,#sum-title{
+    text-align:left;
     margin-bottom:13px;
     margin-top:15px;
+    margin-left:10px;
 }
 #Phone::placeholder,#Email::placeholder,#Name::placeholder{
     color:#58cbcf;
+    text-align: center;
 }
