@@ -4966,10 +4966,6 @@ input.oper{
     left:1100px;
     top:380px;
 }
-form.form-tickets-two{
-    margin-top:50px;
-    margin-left:-50px;
-}
 .tickets-two{
     margin-right: 25px;
     width:250px;
@@ -7182,12 +7178,6 @@ p.about_us{
 #sum,#percent{
     margin-left:-30px;
 }
-.form-tickets-two,.form-ticket-first{
-    display:flex;
-    flex-direction:column;
-    margin-top:750px;
-    justify-content:space-around;
-}
 .tickets-two{
     margin-bottom: 50px;
     margin-top: 50px;
@@ -7263,4 +7253,11 @@ form h3.neon{
 .form-tickets-first div .title-block{
     display:block;
     margin-left:-35px;
+}
+.form-tickets-first div h3.neon, .form-tickets-first input{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-tickets-two{
+    margin-top:0px;
 }
