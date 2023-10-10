@@ -7206,6 +7206,10 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    .modal__block{
+        text-align-last: left;
+        /* width:160px; */
+    }
     span.smallinger{
         font-weight: bold;
         font-size:40px;    
@@ -7218,7 +7222,12 @@ form h3.neon{
     .modal__block h3{
         display:none;
     }
-    
+    .dop__title{
+        margin-top:30px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
