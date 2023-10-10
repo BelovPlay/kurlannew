@@ -4558,7 +4558,7 @@ iframe.video__footer{
 }
 .services__items-row{
     display:flex;
-    justify-content:space-around;
+    justify-content:flex-start;
 }
 .services__item{
     margin-left:50px;
@@ -5262,9 +5262,6 @@ input.oper{
         margin-top:50px;
         margin-bottom:0px;
         width:250px;
-    }
-    .services__item-title{
-        /* display:none; */
     }
     img.services__item-img{
         height:50px;
@@ -7325,6 +7322,10 @@ form h3.neon{
     }
     .modal__block li{
         font-size:10px;
+    }
+    .services .services__items-row{
+        text-align:left;
+        margin-left:-165px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
