@@ -7215,15 +7215,10 @@ form h3.neon{
         left:470px;
         top:180px;
     }
-}
-.form-rasch{
-    /* display:flex; */
-    /* align-items:center; */
-    /* justify-content:space-around; */
-}
-#kolvo{
-    /* margin-left:20px; */
-    /* margin-right: 20px; */
+    .modal__block h3{
+        display:none;
+    }
+    
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
