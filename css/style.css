@@ -3367,6 +3367,18 @@ span.bold {
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
     }
+    .modal__block h3{
+        display:none;
+    }
+    .dop__title{
+        margin-top:20px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
+    }
 }
 @media (max-width: 415px) {
     .title {
@@ -3763,6 +3775,18 @@ span.bold {
     }
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
+    }
+    .modal__block h3{
+        display:none;
+    }
+    .dop__title{
+        margin-top:20px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
     }
 }
 @media (max-width: 376px) {
