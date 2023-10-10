@@ -6044,6 +6044,16 @@ input.oper{
     }
 }
 @media (max-width: 415px) {
+    .adress{
+        width:450px;
+    }
+    .description__text-paragraph{
+        width:375px;
+    }
+    .navigation__btn,.open-modal-krl,.btn-price{
+        width:350px;
+        margin-left:25px;
+    }
     .smallinger{
         font-size: 36px;
     }
