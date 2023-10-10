@@ -7222,10 +7222,13 @@ form h3.neon{
         display:none;
     }
     .dop__title{
-        margin-top:-15px;
+        margin-top:20px;
     }
     .modal__block h2{
         margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
