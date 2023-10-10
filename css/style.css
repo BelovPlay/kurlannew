@@ -6830,10 +6830,6 @@ input.oper{
         left:470px;
         top:180px;
     }
-    .adress{
-        width:450px;
-        margin-left:-60px;
-    }
 }
 @media (max-width: 321px){
     .services__item{
@@ -7330,6 +7326,10 @@ form h3.neon{
     .services .services__items-row{
         text-align:left;
         margin-left:-165px;
+    }
+    .adress{
+        width:450px;
+        margin-left:-60px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
