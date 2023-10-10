@@ -5030,7 +5030,7 @@ input.oper{
 .adress{
     display:inline-block;
     padding-bottom:20px;
-    width:300px;
+    width:1025px;
     border-bottom:1px solid black;
 }
 .modal-tubing-sec{
@@ -6829,6 +6829,10 @@ input.oper{
         position:absolute;
         left:470px;
         top:180px;
+    }
+    .adress{
+        width:450px;
+        margin-left:-60px;
     }
 }
 @media (max-width: 321px){
