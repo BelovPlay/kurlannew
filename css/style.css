@@ -7373,3 +7373,6 @@ form h3.neon{
 .test{
     text-align: center;
 }
+.modal-question {
+    text-align:left;
+}
