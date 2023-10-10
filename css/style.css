@@ -7274,3 +7274,6 @@ form h3.neon{
 #kolvo,#sum,#percent,#Name,#Email,#Phone{
     border-radius:25px;
 }
+.test{
+    text-align: center;
+}
