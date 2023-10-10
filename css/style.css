@@ -5096,6 +5096,9 @@ input.oper{
 
 }
 @media (max-width: 1367px){
+    .description__text-paragraph{
+        width: 600px;
+    }
 }
 @media (max-width: 1025px){
     .bron{
