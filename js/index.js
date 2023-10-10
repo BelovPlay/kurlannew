@@ -210,7 +210,7 @@ minus.addEventListener('click',function(){
     console.log(kolvo.value);
     if(Number(kolvo.value<31)){
         percent=inpsum.value/100*(Number(kolvo.value));
-        skidka.value=30;
+        skidka.value=(Number(kolvo.value));
         skidka.value+='%';
     }else{
         skidka.value=30;
