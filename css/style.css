@@ -2969,6 +2969,30 @@ span.bold {
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
     }
+    .modal__block{
+        text-align-last: left;
+    }
+    span.smallinger{
+        font-weight: bold;
+        font-size:40px;    
+    }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
+    .modal__block h3{
+        display:none;
+    }
+    .dop__title{
+        margin-top:20px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
+    }
 }
 @media (max-width: 541px) {
     .menu__btn-open {
@@ -3379,6 +3403,30 @@ span.bold {
     .modal__block li{
         font-size:10px;
     }
+    .modal__block{
+        text-align-last: left;
+    }
+    span.smallinger{
+        font-weight: bold;
+        font-size:40px;    
+    }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
+    }
+    .modal__block h3{
+        display:none;
+    }
+    .dop__title{
+        margin-top:20px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
+    }
 }
 @media (max-width: 415px) {
     .title {
@@ -3775,6 +3823,30 @@ span.bold {
     }
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
+    }
+    .modal__block h3{
+        display:none;
+    }
+    .dop__title{
+        margin-top:20px;
+    }
+    .modal__block h2{
+        margin-bottom:10px;
+    }
+    .modal__block li{
+        font-size:10px;
+    }
+    .modal__block{
+        text-align-last: left;
+    }
+    span.smallinger{
+        font-weight: bold;
+        font-size:40px;    
+    }
+    #closemodalng,#closemodalpng{
+        position:absolute;
+        left:470px;
+        top:180px;
     }
     .modal__block h3{
         display:none;
