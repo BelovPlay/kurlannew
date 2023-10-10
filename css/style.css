@@ -7208,7 +7208,6 @@ form h3.neon{
 @media(max-width:376px){
     .modal__block{
         text-align-last: left;
-        /* width:160px; */
     }
     span.smallinger{
         font-weight: bold;
@@ -7223,7 +7222,7 @@ form h3.neon{
         display:none;
     }
     .dop__title{
-        margin-top:30px;
+        margin-top:-15px;
     }
     .modal__block h2{
         margin-bottom:10px;
