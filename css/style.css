@@ -3428,8 +3428,11 @@ span.bold {
         font-size:10px;
     }
     .adress{
-        width:450px;
+        width:150px;
         margin-left:-60px;
+    }
+    .navigation__btn.map-btn-nav{
+        width:150px;
     }
 }
 @media (max-width: 415px) {
@@ -3867,6 +3870,11 @@ span.bold {
     .adress{
         width:450px;
         margin-left:-60px;
+    }
+    .more-program.smallinger{
+        height:50px;
+        font-size:16px;
+        padding-top:15px;
     }
 }
 @media (max-width: 376px) {
