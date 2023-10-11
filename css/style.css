@@ -7397,6 +7397,20 @@ form h3.neon{
     .date-group-mb,.yarche-descr-mb{
         color:#000;
     }
+    .navigation__item-descr ul li{
+        margin-top:-30px;
+    }
+    span.sales__list--color{
+        line-height:20px;
+        display:inline-block;
+    }
+    .navigation__btn,.map-btn-nav{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .more-program,.smallinger{
+        margin-bottom:20px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
