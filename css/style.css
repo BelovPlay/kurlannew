@@ -7377,6 +7377,9 @@ form h3.neon{
     .navigation__btn.map-btn-nav{
         width:150px;
     }
+    .navigation__item-descr-left,.navigation__item-title,.title-date{
+        margin-left: 0px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
@@ -7435,4 +7438,4 @@ form h3.neon{
     left:570px;
     top:-25px;
 }
-navigation__btn open-modal-krl btn-price
+navigation__item-descr
