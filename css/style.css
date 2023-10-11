@@ -7380,6 +7380,10 @@ form h3.neon{
     .navigation__item-descr-left,.navigation__item-title,.title-date{
         margin-left: 0px;
     }
+    .navigation__item-descr-brdrbtm{
+        border-bottom:1px solid #000;
+        padding-bottom:20px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
