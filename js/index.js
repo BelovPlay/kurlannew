@@ -292,3 +292,8 @@ closemodalng.addEventListener('click',function(){
 //         modalng.style.display='block';
 //     }
 // })
+let modalcalc=document.getElementById('TicketsTestData');
+let closemodalcalc=document.getElementById('closeCalcModal');
+closemodalcalc.addEventListener('click',function(){
+    modalcalc.style.display='none';
+})
