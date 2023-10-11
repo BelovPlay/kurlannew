@@ -7524,6 +7524,26 @@ form h3.neon{
         margin-left: 10px;
         margin-right: 10px;
     }
+    .tickets-test__data{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left:-100px;
+        top:-100px;
+    }
+    #kolvo,#percent,#sum,#Name,#Phone,#Email{
+        height:25px;
+    }
+    input#percent,input#sum,input#Phone,input#Email,input#Name{
+        height:25px;
+        width:200px;
+        
+    }
+    #ticketTest{
+        position:relative;
+    }
     .header__logo-pc,.header__phone-pc{
         display:none;
     }
@@ -7544,6 +7564,12 @@ form h3.neon{
         font-size:10px;
         color:#fff;
         width:75px;
+    }
+    #closeModalFormF,#closeModalFormS{
+        margin-left:200px;
+    }
+    .form-tickets-first{
+        margin-left:50px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
