@@ -7420,3 +7420,11 @@ form h3.neon{
 .modal-question {
     text-align:left;
 }
+.tickets-test__data{
+    position: relative;
+}
+#TicketsTestData{
+    position:absolute;
+    left:570px;
+    top:-25px;
+}
