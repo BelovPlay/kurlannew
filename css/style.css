@@ -6870,6 +6870,9 @@ input.oper{
     .header__phone-text,.header__link{
         margin-top:15px;
     }
+    .description__text-paragraph{
+        width:350px;
+    }
 }
 @media (max-width: 321px){
     .services__item{
