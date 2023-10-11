@@ -7527,6 +7527,9 @@ form h3.neon{
     .header__inner{
         margin-left: -10px;
     }
+    .header__logo-pc,.header__phone-pc{
+        display:none;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
