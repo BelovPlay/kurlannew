@@ -2453,14 +2453,8 @@ span.bold {
     .map-mb,.soc__links-mb{
         display:none;
     }
-    .yarche-descr-mb{
-        display:none;
-    }
 }
 @media (max-width: 1441px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .btn-close {
         top: 40px;
         left: 100px;
@@ -2503,9 +2497,6 @@ span.bold {
     }
 }
 @media (max-width: 1367px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .about__info {
         grid-gap: 10px;
     }
@@ -2785,9 +2776,6 @@ span.bold {
     }
 }
 @media (max-width: 769px) {
-    .yarche-descr-mb{
-        display:none;
-    }я
     .menu__btn-open {
         margin-left: -200px;
     }
@@ -3007,9 +2995,6 @@ span.bold {
     }
 }
 @media (max-width: 541px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .menu__btn-open {
         margin-left: -100px;
     }
@@ -3451,9 +3436,6 @@ span.bold {
     }
 }
 @media (max-width: 415px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .title {
         margin-bottom: 0;
     }
@@ -3896,9 +3878,6 @@ span.bold {
     }
 }
 @media (max-width: 376px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .title-up,.span.smallinger{
         font-size:10px;
     }
@@ -4139,9 +4118,6 @@ span.bold {
     }
 }
 @media (max-width: 321px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .services__item-back,.flip,.services__item-back__list{
         visibility:hidden;
     }
@@ -4435,9 +4411,6 @@ span.bold {
     }
 }
 @media (max-width: 769px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .swiper-slide .about__img {
         height: 80%;
     }
@@ -5117,27 +5090,15 @@ input.oper{
     margin-left: 0;
 }
 @media (min-width: 2559px){
-    .yarche-descr-mb{
-        display:none;
-    }
 }
 @media (max-width: 1441px){
-    .yarche-descr-mb{
-        display:none;
-    }
 }
 @media (max-width: 1367px){
     .description__text-paragraph{
         width: 600px;
     }
-    .yarche-descr-mb{
-        display:none;
-    }
 }
 @media (max-width: 1025px){
-    .yarche-descr-mb{
-        display:none;
-    }
     .description__text-paragraph{
         width: 600px;
     }
@@ -5370,9 +5331,6 @@ input.oper{
     }
 }
 @media (max-width: 769px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
@@ -5691,9 +5649,6 @@ input.oper{
     }
 }
 @media (max-width: 541px){
-    .yarche-descr-mb{
-        display:none;
-    }
     .smallinger{
         font-size: 36px;
     }
@@ -6090,9 +6045,6 @@ input.oper{
     }
 }
 @media (max-width: 415px) {
-    .yarche-descr-mb{
-        display:none;
-    }
     .adress{
         width:450px;
     }
