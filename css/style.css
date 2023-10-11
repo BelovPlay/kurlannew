@@ -7584,6 +7584,15 @@ form h3.neon{
         left:100px;
         top:600px;
     }
+    .rasch{
+        padding-left:20px;
+    }
+    input#percent,input#sum{
+        margin-left:-10px;
+    }
+    h3.title-block{
+        padding-left:20px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
