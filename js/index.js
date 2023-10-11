@@ -181,11 +181,7 @@ kolvo.addEventListener('click',function(){
 btn.addEventListener('click',function(){
     event.preventDefault();
     block.style.display='block';
-    content.style.display='block';
-})
-btn.addEventListener('dblclick',function(){
-    block.style.display='none';
-    content.style.display='none';
+    // content.style.display='block';
 })
 plus.addEventListener('click',function(){
     event.preventDefault();
@@ -294,6 +290,14 @@ closemodalng.addEventListener('click',function(){
 // })
 let modalcalc=document.getElementById('TicketsTestData');
 let closemodalcalc=document.getElementById('closeCalcModal');
-closemodalcalc.addEventListener('click',function(){
+let closemodalf=document.getElementById('closeModalFormF');
+let closemodals=document.getElementById('closeModalFormS');
+modalcalc.addEventListener('click',function(){
+    event.preventDefault();
+    block.style.display='none';
+    content.style.display='none';
     modalcalc.style.display='none';
+    closemodalf.style.display='none';
+    closemodals.style.display='none';
+    block.style.display='none';
 })

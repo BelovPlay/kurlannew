@@ -77,16 +77,16 @@
 		<video class="lazyload hero__video" data-src="video/hero.mp4" playsinline autoplay loop preload="auto" muted></video>
 	</div>
 	<div id="block">
-		<div class="ticket-test">
+		<div class="ticket-test" id="ticketTest">
 			<div class="tickets__text">
 				<h2 class="tickets-test__title">Билет в Курланпарк<br> тариф безлимит</h2>
 				<p class="tickets-test__descr">Каждый следующий билет<br> дешевле предыдущего.<br> Чем больше билетов<br> тем больше скидка.</p>
 				<h3 class="tickets-price-test">Стоимость билета</h3>
 				<p class="tickets-kolvo-test"></p>
 			</div>
-			<div class="tickets-test__data" id="TicketsTestData">
-				<button class="modal-close"><img class="lazyload close-img" id="closeCalcModal" data-src="img/navigation/close.png" alt="close modal"></button>
-				<form action="php/index.php" method="POST" class="form-tickets-first">
+			<div class="tickets-test__data">
+				<button class="modal-close" id="TicketsTestData"><img class="lazyload close-img" id="closeCalcModal" data-src="img/navigation/close.png" alt="close modal"></button>
+				<form action="php/index.php" id="closeModalFormF" method="POST" class="form-tickets-first">
 					<div class="rasch">
 						<h3 class="neon">Кол-во билетов</h3>
 						<input type="submit" value="-" class="" id="minus">
@@ -102,7 +102,7 @@
 						<input type="submit" value="1980" class="" id="sum" name="sum">
 					</div>
 				</form>
-				<form action="php/index.php" method="POST" class="form-tickets-first form-tickets-two">
+				<form action="php/index.php" id="closeModalFormS" method="POST" class="form-tickets-first form-tickets-two">
 					<div class="">
 						<h3 class="neon" id="NameTitle">Имя</h3>
 						<input type="text" class="" id="Name" placeholder="Имя" name="Name">
