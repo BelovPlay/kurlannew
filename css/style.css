@@ -6739,6 +6739,7 @@ input.oper{
         display:flex;
         justify-content: center;
         margin-bottom: 20px;
+        margin-left:0px;
     }
     .title-sec{
         text-align:start;
@@ -7428,3 +7429,4 @@ form h3.neon{
     left:570px;
     top:-25px;
 }
+navigation__btn open-modal-krl btn-price
