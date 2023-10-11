@@ -7498,7 +7498,7 @@ form h3.neon{
     .sales__firstList{
         margin-left:-10px;
     }
-    .soc__links-mb,.header__inner,.container{
+    .soc__links-mb,.header__inner{
         display:flex;
         justify-content: start;
         align-items:center;
