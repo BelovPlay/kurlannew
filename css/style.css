@@ -7652,7 +7652,7 @@ form h3.neon{
     top:-25px;
 }
 @media(min-width:500px) and (max-width:2440px){
-    .yarche-descr-mb,.date-group-mb,.sales__thirdListmb{
+    .yarche-descr-mb,.date-group-mb,.sales__thirdListmb,.sales__secondList-li-mb{
         display:none;
     }
 }
