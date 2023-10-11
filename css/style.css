@@ -7408,6 +7408,31 @@ form h3.neon{
         margin-top:10px;
         margin-bottom:20px;
     }
+    .sales__thirdListli{
+        display:none;
+    }
+    span.skidka-b{
+        line-height:20px;
+    }
+    .free{
+        margin-bottom:25px;
+    }
+    .sales__secondList-li{
+        display:none;
+    }
+    .sales__secondList-li-mb b{
+        font-size:20px;
+    }
+    .sales__list--color-mb,#age{
+        font-size:20px;
+    }
+    #age{
+        color:#000;
+        font-size:26px;
+    }
+    .sales__secondList{
+        
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
