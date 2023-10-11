@@ -7388,6 +7388,9 @@ form h3.neon{
         margin-top:-15px;
         margin-bottom: 0px;
     }
+    #btn-modal-priceng,#btn-modal-pricepng{
+        padding-top:30px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
