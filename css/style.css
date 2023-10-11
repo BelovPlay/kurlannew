@@ -7391,6 +7391,12 @@ form h3.neon{
     #btn-modal-priceng,#btn-modal-pricepng{
         padding-top:30px;
     }
+    .yarche-descr,.date-group{
+        display:none;
+    }
+    .date-group-mb,.yarche-descr-mb{
+        color:#000;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
