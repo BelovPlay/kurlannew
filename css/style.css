@@ -7381,7 +7381,7 @@ form h3.neon{
         margin-left: 0px;
     }
     .navigation__item-descr-brdrbtm{
-        border-bottom:1px solid #000;
+        border-bottom:3px solid #000;
         padding-bottom:20px;
     }
 }
