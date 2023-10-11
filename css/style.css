@@ -7569,7 +7569,20 @@ form h3.neon{
         margin-left:200px;
     }
     .form-tickets-first{
-        margin-left:50px;
+        margin-left:-50px;
+    }
+    .form-tickets-first,.form-tickets-two{
+        margin-left: 0px;
+    }
+    .form-tickets-first{
+        margin-left: 20px;
+    }
+    input#buybtn{
+        position:absolute;
+        width:200px;
+        height: 25px;
+        left:100px;
+        top:600px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
