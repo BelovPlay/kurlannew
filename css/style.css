@@ -7530,6 +7530,12 @@ form h3.neon{
     .header__logo-pc,.header__phone-pc{
         display:none;
     }
+    .btn-buy-ticket-pc{
+        display:block;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 5px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
