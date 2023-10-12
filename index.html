@@ -35,7 +35,7 @@
 <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-	<header class="header">
+	<!-- <header class="header">
 		<div class="container">
 			<div class="header__inner">
 				<button class="menu__btn-open"><span></span></button>
@@ -46,18 +46,14 @@
 				</div>
 				<div class="soc__links-mb">
 					<a href="viber://chat?number=+79276340246" class="soc__links-header img link__soc viber"><img src="img/vb-mb.png" alt=""  height="100px" class="link__soc"></a>
-					<a href="https://wa.me/+79276340246" class="soc__links-header img link__soc"><img src="img/wa-mb.png" alt=""  height="100px" class="link__soc" id="link__soc-wa"></a>
-					<a href="https://t.me/+79276340246" class="soc__links-header img link__soc"><img src="img/tg-mb.png" alt=""  height="" class="link__soc" id="link__soc-tg"></a>
-					<div class="header__logo">
-						<img data-src="img/logo.png" alt="logotip" class="lazyload logo__img" id="logo">
-					</div>
-					<a href="#" class="btn-buy-ticket header__phone header__link btn-buy-ticket-pc"><span class="header__phone-arrow"></span><span class="header__phone-text header-text-buy" id="btn">Купить билет<br> со скидкой</span></a>
-					<a href="#" class="btn-buy-ticket header__phone header__link"><span class="header__phone-arrow"></span><span class="header__phone-text header-text-buy" id="btn">Купить билет<br> со скидкой</span></a>
-					<a href="tel:+79276340246" class="header__phone-text header__link header__link-call" class="link__soc"><img src="img/call-img.png" alt="" height="120px" class="link__soc img-call" id="img-call-link"></a>
+					<a href="https://wa.me/+79276340246" class="soc__links-header img link__soc"><img src="img/wa-mb.png" alt=""  height="100px" class="link__soc"></a>
+					<a href="https://t.me/+79276340246" class="soc__links-header img link__soc"><img src="img/tg-mb.png" alt=""  height="100px" class="link__soc"></a>
+				</div>
+				<div class="header__logo">
+					<img data-src="img/logo.png" alt="logotip" class="lazyload logo__img" id="logo">
 				</div>
 				<nav class="menu">
-					<ul class="menu__list">
-						<a href="tel:+79276340246" class="header__phone header__phone-menu"><span class="header__phone-text">Купить билет со скидкой</span></a>
+					<ul class="menu__list"><a href="tel:+79276340246" class="header__phone header__phone-menu"><span class="header__phone-text">Купить билет со скидкой</span></a>
 						<li class="menu__item"><a href="#gorki" class="menu__link">Снежные горки</a></li>
 						<li class="menu__item"><a href="#cafe" class="menu__link">Тёплое кафе</a></li>
 						<li class="menu__item"><a href="#oleni" class="menu__link">Северный олень</a></li>
@@ -72,19 +68,16 @@
 						<button class="btn-close"><img class="lazyload" data-src="img/navigation/close.png" alt="close img"></button>
 					</ul>
 				</nav>
-				<div class="header__logo header__logo-pc">
-					<img data-src="img/logo.png" alt="logotip" class="lazyload logo__img" id="logo">
-				</div>
-				<a href="tel:+79276340246" class="header__phone-text header__link header__phone-pc" class="link__soc"><img src="img/call-img.png" alt="" height="120px" class="link__soc img-call"></a>
+				<a href="tel:+79276340246" class="header__phone-text header__link" class="link__soc"><img src="img/call-img.png" alt="" height="120px" class="link__soc img-call"></a>
 				<a href="#" class="btn-buy-ticket header__phone header__link"><span class="header__phone-arrow"></span><span class="header__phone-text header-text-buy" id="btn">Купить билет<br> со скидкой</span></a>
 			</div>
 		</div>
-	</header>
-	<div class="hero" id="hero">
+	</header> -->
+	<!-- <div class="hero" id="hero">
 		<video class="lazyload hero__video" data-src="video/hero.mp4" playsinline autoplay loop preload="auto" muted></video>
-	</div>
-	<div id="block">
-		<div class="ticket-test" id="ticketTest">
+	</div> -->
+	<!-- <div id="block">
+		<div class="ticket-test">
 			<div class="tickets__text">
 				<h2 class="tickets-test__title">Билет в Курланпарк<br> тариф безлимит</h2>
 				<p class="tickets-test__descr">Каждый следующий билет<br> дешевле предыдущего.<br> Чем больше билетов<br> тем больше скидка.</p>
@@ -92,42 +85,41 @@
 				<p class="tickets-kolvo-test"></p>
 			</div>
 			<div class="tickets-test__data">
-				<button class="modal-close" id="TicketsTestData"><img class="lazyload close-img" id="closeCalcModal" data-src="img/navigation/close.png" alt="close modal"></button>
-				<form action="php/index.php" id="closeModalFormF" method="POST" class="form-tickets-first">
+				<form action="php/index.php" method="POST" class="form-tickets-first">
 					<div class="rasch">
 						<h3 class="neon">Кол-во билетов</h3>
 						<input type="submit" value="-" class="" id="minus">
 						<input type="submit" value="1" class="" id="kolvo">
 						<input type="submit" value="+" class="" id="plus">
 					</div>
-					<div class="skidka-block">
-						<h3 class="neon title-block">Размер скидки</h3>
-						<input type="submit" value="1%" class="" id="percent">
-					</div>
 					<div class="sum-block">
 						<h3 class="neon title-block">Сумма заказа</h3>
 						<input type="submit" value="1980" class="" id="sum" name="sum">
 					</div>
+					<div class="skidka-block">
+						<h3 class="neon title-block">Размер скидки</h3>
+						<input type="submit" value="1%" class="" id="percent">
+					</div>
 				</form>
-				<form action="php/index.php" id="closeModalFormS" method="POST" class="form-tickets-first form-tickets-two">
+				<form action="php/index.php" method="POST" class="form-tickets-first form-tickets-two">
 					<div class="">
 						<h3 class="neon" id="NameTitle">Имя</h3>
 						<input type="text" class="" id="Name" placeholder="Имя" name="Name">
 					</div>
 					<div class="">
-						<h3 class="neon" id="PhoneTitle">Телефон</h3>
-						<input type="tel" class="" id="Phone" placeholder="Телефон" name="Phone">
-					</div>
-					<div class="">
 						<h3 class="neon" id="EmailTitle">Электронная почта</h3>
 						<input type="email" class="" id="Email" placeholder="Электронная почта" name="Email">
+					</div>
+					<div class="">
+						<h3 class="neon" id="PhoneTitle">Телефон</h3>
+						<input type="tel" class="" id="Phone" placeholder="Телефон" name="Phone">
 					</div>
 				</form>
 			</div>
 			<input type="submit" class="" value="Оплатить" id="buybtn">
 		</div>
-	</div>
-	<div class="about" id="about">
+	</div> -->
+	<!-- <div class="about" id="about">
 		<div class="about__inner">
 			<div class="about__texts" data-aos="flip-right" data-aos-duration="1000">
 				<h2 class="about__texts-title neon black" data-aos="fade-up">Коротко <span class="black"><b class="neon black">о нас</b></span></h2>
@@ -174,9 +166,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<section class="services" id="services">
-		<!-- <input type="submit" id="btnbuys" value="Номер билета"> -->
+	</div> -->
+	<!-- <section class="services" id="services">
+		<input type="submit" id="btnbuys" value="Номер билета">
 		<h2 class="title"><div class="title-text title-text-mod">Развлечения и полезная информация <img class="lazyload" data-src="img/ice.png" alt="ice"></div></h2>
 		<div class="container">
 			<div class="services__inner">
@@ -326,7 +318,7 @@
 							<img class="lazyload services__item-img" data-src="img/services-img/transfer.png" id="transfer-li" alt="services img" data-aos="fade-right" data-aos-duration="3000">
 							<div class="services__item-back flip">Нажми</div>
 						</a></li>
-						<li class="services__item"><a href="#graphik" class="services__item rotatePulse timePusle-3"><h3 class="services__item-title besedki">График</h3>
+						<li class="services__item"><a href="#transfer" class="services__item rotatePulse timePusle-3"><h3 class="services__item-title besedki">График</h3>
 							<img class="lazyload services__item-img" data-src="img/services-img/grafik.png" alt="services img" id="grafik-li" data-aos="fade-right" data-aos-duration="3000">
 							<div class="services__item-back flip">Нажми</div>
 						</a></li>
@@ -346,8 +338,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="description">
+	</section> -->
+	<!-- <section class="description">
 		<div class="container">
 			<div class="description__inner" id="gorki">
 				<div class="description__text">
@@ -597,8 +589,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="day">
+	</section> -->
+	<!-- <section class="day">
 		<div class="container">
 			<div class="swiper mySwiper2">
 				<div class="swiper-wrapper">
@@ -634,8 +626,8 @@
 				<div class="swiper-button-prev"></div>
 			</div>
 		</div>
-	</section>
-	<section class="sales" id="sales">
+	</section> -->
+	<!-- <section class="sales" id="sales">
 		<div class="container">
 				<div class="sales__inners">
 					<div class="sales__inners-title"><span data-aos="fade-right" data-aos-duration="1000">Действуют</span><span class="sales__inners-title--big neon" data-aos="fade-left" data-aos-duration="1200"><span class="first" style="color:#fff">б</span><span class="second" style="color:#fff">о</span><span class="three" style="color:#fff">л</span><span class="four" style="color:#fff">ь</span><span class="five" style="color:#fff">ш</span><span class="six" style="color:#fff">и</span><span class="first" style="color:#fff">е</span></span><span data-aos="fade-right" data-aos-duration="1000">скидки</span></div>
@@ -647,9 +639,8 @@
 							<li><span>от 30 человек - <span class="sales__list--color"><b>скидка 30%</b></span></span></li>
 						</ul>
 						<ul class="sales__secondList" data-aos="fade-left" data-aos-duration="1200">
-							<li class="sales__secondList-li sales__secondList-li-pc"><span class="sales__list--color"><b>Детям</b></span> до 3 лет - <span class="sales__list--color"><b>БЕСПЛАТНО</b></span></li>
-							<li class="sales__secondList-li-mb"><span class="sales__list--color"><b>Детям</b>&nbsp;&nbsp;&nbsp;<span id="age">до 3 лет - </span><b>БЕСПЛАТНО</b></span></li>
-							<li class="sales__secondList-li sales__secondList-li-two-mb"><span class="sales__list--color"><b class="free">Бесплатный вход именинникам</b></span> за 5 дней до дня рождения<br> и 5 дней после</li>
+							<li class="sales__secondList-li"><span class="sales__list--color"><b>Детям</b></span> до 3 лет - <span class="sales__list--color"><b>БЕСПЛАТНО</b></span></li>
+							<li class="sales__secondList-li sales__secondList-li-two"><span class="sales__list--color"><b class="free">Бесплатный вход именинникам</b></span> за 5 дней до дня рождения<br> и 5 дней после</li>
 						</ul>
 					</div>
 					<div class="sales__inner-reverse">
@@ -663,30 +654,25 @@
 					</div>
 				</div>
 				<ul class="sales__thirdList" data-aos="fade-right" data-aos-duration="1200">
-					<li class="sales__thirdListli"><sub><span class="skidka-b">(все скидки предоставляются при предъявлении<br> соответствующих подтверждающих документов<br> или фотографий таких документов)</span></sub></li>
-					<li class="sales__thirdListmb"><span class="skidka-b">(все скидки предоставляются при предъявлении<br> соответствующих подтверждающих документов<br> или фотографий таких документов)</span></li>
+					<li><sub><span class="skidka-b">(все скидки предоставляются при предъявлении<br> соответствующих подтверждающих документов<br> или фотографий таких документов)</span></sub></li>
 				</ul>
 			</div>
 		</div>
-	</section>
-	<section class="navigation" id="navigation">
+	</section> -->
+	<!-- <section class="navigation" id="navigation">
 		<div class="container">
 			<div class="navigation__inner">
 				<div class="navigation__items">
 					<div class="navigation__item--border-r">
-						<div class="navigation__item-title title-ya" id="graphik"><span class="yarche">Сделай свой день ярче с</span></div>
+						<div class="navigation__item-title title-ya"><span class="yarche">Сделай свой день ярче с</span></div>
 						<h2 class="title-yarche"><span class="title-yarche"><b>Kурланпарк!</b></span></h2>
 						<div class="navigation__item-descr">
 							<ul>
 								<li class="date-group">с 16 по 30 декабря Парк работает<br> только <span class="sales__list--color"><b>для организованных школьных групп</b></span><br><br> 
-								<li class="date-group-mb">с 16 по 30 декабря Парк работает только <span class="sales__list--color"><b>для организованных школьных групп</b></span><br><br> 
 								<a href="https://elki-gorki-dedmoroz.ru" class="more-program smallinger">узнать о программе подробнее</a><br><br></li>
 								<li class="yarche-descr"><span class="sales__list--color"><b>1 января</b></span> мы открыты для всех желающих<br> с 12 дня до 20:00.</li><br><br>
-								<li class="yarche-descr-mb"><span class="sales__list--color"><b>1 января</b> мы открыты для всех желающих</span><br> с 12 дня до 20:00.</li><br><br>
 								<li class="yarche-descr"><span class="sales__list--color"><b>Со 2 по 8 января</b></span> и далее по выходным, а также в праздничные дни<br> мы ждём вас <span class="sales__list--color"><b>с 10 утра до 20:00.</b></span></li><br><br>
-								<li class="yarche-descr-mb"><span class="sales__list--color"><b>Со 2 по 8 января</b> и далее по выходным,</span> а также в праздничные дни<br> <span class="sales__list--color"></span>мы ждём вас <b>с 10 утра до 20:00.</b></span></li><br><br>
 								<li class="yarche-descr">Приглашайте с собой друзей, родственников,<br> знакомых, коллег и приезжайте все вместе<br> в <span class="sales__list--color"><b>Парк зимних развлечений</b></span> - Курланпарк!</li><br><br>
-								<li class="yarche-descr-mb">Приглашайте с собой друзей, родственников,<br> знакомых, коллег и приезжайте все вместе<br> <span class="sales__list--color"></span>в <b>Парк зимних развлечений</b></span><br> - Курланпарк!</li><br><br>
 							</ul>
 						</div>
 					</div>
@@ -710,8 +696,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="navigation" id="rozigrish">
+	</section> -->
+	<!-- <section class="navigation" id="rozigrish">
 		<h2 class="title nav__title navigation__title small"><div class="small">Дорогие <span class="neon smallinger title-up">&nbsp;подарки</span><br>для дорогих гостей</div></h2>
 		<div class="container cont-nav v">
 			<div class="navigation__inner">
@@ -719,7 +705,7 @@
 					<div class="navigation__item--border-b line">
 						<div class="navigation__item-title smallinger text-bold neon">Каждый час <span class="small">мы
 							<br> <span class="ml">возвращаем нашим гостям</span><br></span> <div class="navigation__item-title smallinger div neon">деньги</div> <span class="navigation__item-title smallinger ">за входные  билеты</span></div>
-						<div class="navigation__item-descr navigation__item-descr-brdrbtm">В нашем Парке каждый гость получает при входе билет с уникальным номером. <b class="vigod">Каждый час</b> в Новогодние праздники <span class="text-bold">мы проводим розыгрыш</span> по номерам среди билетов проданных за этот день. Случайным образом выбираем билет и возвращаем ту сумму денег за которую этот билет был куплен. Очень просто.&nbsp; <b class="vigod">Очень выгодно.</b></div>
+						<div class="navigation__item-descr">В нашем Парке каждый гость получает при входе билет с уникальным номером. <b class="vigod">Каждый час</b> в Новогодние праздники <span class="text-bold">мы проводим розыгрыш</span> по номерам среди билетов проданных за этот день. Случайным образом выбираем билет и возвращаем ту сумму денег за которую этот билет был куплен. Очень просто.&nbsp; <b class="vigod">Очень выгодно.</b></div>
 					</div>
 					<hr class="ll">
 					<div class="navigation__item--border-b">
@@ -728,38 +714,38 @@
 								<span class="text-bold-date">С 1 по 8 января снимайте сторис</span><br> <span>в Курланпарк и отмечайте наш<br> профиль в нельзяграмм - @kurlanpark</span>
 							</div>
 						</div>
-						<div class="navigation__item-descr navigation__item-descr-brdrbtm navigation__item-descr-left">
+						<div class="navigation__item-descr navigation__item-descr-left">
 							<span class="text-bold"> - Выигрывайте iPhone 15, фен Dyson, робот-пылесос, Яндекс. Станцию,</span> а так же другие ценные подарки и денежные призы.
 							<br><br>Мы бережно сохраним каждое фото, каждое видео ваших историй и 8 января в 16:30 в прямом эфире с помощью генератора случайных чисел определим счастливчиков и отправим им приз, где бы они не находились. А тем кто будет присутствовать во время розыгрыша - повезёт больше всех! <br><br>
 							<p>P.S. Прямой эфир и  результаты будут опубликованы в социальных сетях.</p></div>
 					</div>
 				</div>
-				<div class="navigation__items nav-navig navigation__items--second navigation__item-descr-brdrbtm">
+				<div class="navigation__items nav-navig navigation__items--second">
 					<div class="navigation__item--border padding-0 text-navig">
 						<div class="bold"><span class="text-bold">17-го марта</span> - широкая <span class="text-bold">Масленица</span> в Курланпарк и розыгрыш - <span class="text-bold">350000 рублей</span>. Принять участие может каждый кто в сезоне 2024 приезжал в Курланпарк и сохранил свой входной билет. По номерам входных билетов за весь сезон и будет проходить этот розыгрыш. Сумма в <b class="bolding">350000</b> рублей распределится среди нескольких участников. Кому-то достанется 1000 р, кому-то 5000, а кому-то и 50 тысяч рублей. Если Вас не будет 17 марта в Парке - денежный приз отправиться Вам на банковскую карту, а тем кто придёт в Парк повезёт гораздо больше. <b class="bolding">И правило здесь только одно - чем больше у Вас билетов, тем больше шанс выиграть!</b></div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="map" id="map">
+	</section> -->
+	<!-- <section class="map" id="map">
 		<div class="container">
 			<div class="map__inner">
 				<h2 class="map__title">Карта</h2><img class="lazyload map__img" data-src="img/map.jpg" alt="map" width="5000px"></div>
 		</div>
-	</section>
-	<section class="map-mb">
+	</section> -->
+	<!-- <section class="map-mb">
 		<div class="container">
 			<div class="map-mb__inner">
 				<h2 class="map__title-mb">Карта</h2><img src="img/map-mb.jpg" alt="" class="map__img" height="500px">
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<a class="navigation__btn open-modal-faq btn__faq"><span>часто задаваемые вопросы</span></a>
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__top">
-				<div class="footer__logo"><img class="lazyload footer__logo-img" data-src="img/footerLogo.png" alt="footer logotip"></div>
+				<!-- <div class="footer__logo"><img class="lazyload footer__logo-img" data-src="img/footerLogo.png" alt="footer logotip"></div> -->
 			</div>
 			<div class="footer__menu">
 				<ul class="footer__list">
@@ -796,10 +782,10 @@
 				<div class="footer__address"><a class="footer__address" href="rules/privacy.html" target="_blank">Политика конфиденциальности</a></div>
 			</div>
 		</div>
-	<div class="social">
+	<!-- <div class="social">
 		<a class="social__link" href="https://vk.com/kurlanpark" target="_blank"><img class="lazyload" data-src="img/social/vk.svg" alt="vk"></a>
-	</div>
-	<a class="arrow-top" href="#services"></a>
+	</div> -->
+	<!-- <a class="arrow-top" href="#services"></a> -->
 	<div class="modal-menu">
 		<div class="overlay">
 			<div class="modal__menu">
@@ -1057,6 +1043,27 @@
 			<a href="" class="btn-priceng-dop navigation__btn modal-open-tubing modal-open-tubing-sec" id="price-infopng">Что входит в стоимость?</a>
 		</ul>
 		<button class="modal-close modal-close-price" id="closemodalpng"><img class="lazyload close-img close-img-price" data-src="img/navigation/close.png" alt="close modal"></button>
+	</div>
+	<div class="modal-precalc">
+		<div class="modal-precalc__top">
+			<h3 class="ticket-electron__title"><span class="ticket-electron">Электронные билеты</span> дешевле, чем в кассе</h3>
+		</div>
+		<div class="modal-precalc__bottom">
+			<div class="modal-precalc-text">
+				<p class="modal-preca-descr">Ваш билет<br><span class="ticket-electron">в Курланпарк</span><br>тариф - безлимит</p>
+				<a href="#" class="header-logo-link-more ">Подробности</a>
+			</div>
+			<div class="modal-precalc-text">
+				<div class="modal-mind">Все включено</div>
+				<div class="modal-mind">Действует бессрочно</div>
+				<input type="submit" class="" value="Купить" id="buybtnprecalc">
+			</div>
+			<div class="modal-precalc-text modal-precalc-more">
+				<div class="header__logo">
+					<img data-src="img/logo.png" alt="logotip" class="lazyload logo__img" id="logo">
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- <div class="ticket-control">
 		<div class="ticket ticket-ctrl">
