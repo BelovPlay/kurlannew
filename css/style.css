@@ -7518,3 +7518,10 @@ hr{
     display:inline-block;
     padding-bottom: 10px;
 }
+.modal-descr-block{
+    position: relative;
+}
+#closeModalDescrCalc{
+    position:absolute;
+    left:1250px;
+}
