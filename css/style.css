@@ -7483,5 +7483,38 @@ form h3.neon{
 	padding-top: 25px;
 }
 .modal-precalc{
-	display:none;
+	/* display:none; */
+    position: relative;
+}
+.close-modal-precalc{
+    position:absolute;
+    left:800px;
+    top:0px;
+}
+.modal-descr-block{
+    border:1px solid #fff;
+    padding:20px;
+    width:1250px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.modal-descr-block p,ul,h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+hr{
+    display:block;
+    margin-bottom: 20px;
+}
+.modal-descr-block-links{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width:600px;
+    margin: 0px auto;
+}
+.link-opencalcmodal,.link-call-modal{
+    padding-top:10px;
+    display:inline-block;
+    padding-bottom: 10px;
 }

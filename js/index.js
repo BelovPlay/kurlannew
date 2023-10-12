@@ -175,9 +175,6 @@ let price=2000;
 let numticket=680;
 let skidka=document.getElementById('percent');
 let prsch,tmp,tmps;
-kolvo.addEventListener('click',function(){
-    event.preventDefault();
-})
 btn.addEventListener('click',function(){
     event.preventDefault();
     block.style.display='block';
@@ -265,15 +262,6 @@ priceng.addEventListener('click',function(){
 pricepng.addEventListener('click',function(){
     event.preventDefault();
 })
-// Кнопка для случайной нумерации билета
-// let btnbuys=document.getElementById('btnbuys');
-// btnbuys.addEventListener('click',function getRandomIntInclusive(min, max) {
-//     min = Math.ceil(1);
-//     max = Math.floor(5);
-//     let res=(Math.floor(Math.random() * (max - min + 1) + min));
-//     numticket+=res;
-//     alert('Ваш номер билета:'+numticket);
-// });
 let closemodalpng=document.getElementById('closemodalpng');
 closemodalpng.addEventListener('click',function(){
     modalpng.style.display='none';
@@ -282,12 +270,6 @@ let closemodalng=document.getElementById('closemodalng');
 closemodalng.addEventListener('click',function(){
     modalng.style.display='none';
 })
-// let form=document.getElementById('form');
-// form.addEventListener('click',function(event){
-//     if(event.ctrlKey && event.shiftKey && event.altKey){
-//         modalng.style.display='block';
-//     }
-// })
 let modalcalc=document.getElementById('TicketsTestData');
 let closemodalcalc=document.getElementById('closeCalcModal');
 let closemodalf=document.getElementById('closeModalFormF');
@@ -300,4 +282,9 @@ modalcalc.addEventListener('click',function(){
     closemodalf.style.display='none';
     closemodals.style.display='none';
     block.style.display='none';
+})
+let closemodalprecalc=document.getElementById('closeModalPrecalc');
+let calcPreModal=document.getElementById('modalPrecalc');
+closemodalprecalc.addEventListener('click',function(){
+    calcPreModal.style.display='none';
 })
