@@ -1,3 +1,17 @@
+let modalPreCalc=document.getElementById('modalPrecalc');
+let closetestf=document.getElementById('closetestf');
+closetestf.addEventListener('click',function(){
+	modalPreCalc.style.display='none';
+});
+let modalDescrBlock=document.getElementById('ModalDescrBlock');
+let closetests=document.getElementById('closeModalDescrCalc');
+closetests.addEventListener('click',function(){
+	modalDescrBlock.style.display='none';
+})
+// let closetestt=document.getElementById('closetestt');
+// closetestt.addEventListener('click',function(){
+
+// })
 document.addEventListener("DOMContentLoaded", () => {
     const e = document.querySelectorAll(".header__phone"),
         t = document.querySelector("span.header__phone-text");
