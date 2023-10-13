@@ -190,11 +190,11 @@ let price=2000;
 let numticket=680;
 let skidka=document.getElementById('percent');
 let prsch,tmp,tmps;
-btn.addEventListener('click',function(){
-    event.preventDefault();
-    modalPreCalc.style.display='block';
-    content.style.display='block';
-})
+// btn.addEventListener('click',function(){
+//     event.preventDefault();
+//     modalPreCalc.style.display='block';
+//     content.style.display='block';
+// })
 plus.addEventListener('click',function(){
     event.preventDefault();
     kolvo.value=Number(kolvo.value)+1;
@@ -306,13 +306,16 @@ closemodalng.addEventListener('click',function(){
 let ModalDescrBlock=document.getElementById('ModalDescrBlock');
 let btnmore=document.getElementById('btnmore');
 btnmore.addEventListener('click',function(){
+    event.preventDefault();
 	ModalDescrBlock.style.display='block';
 })
 let questionmodal=document.getElementById('opencalcmodal');
 questionmodal.addEventListener('click',function(){
+    event.preventDefault();
 	block.style.display='block';
 })
 let buybtnprecalc=document.getElementById('buybtnprecalc');
 buybtnprecalc.addEventListener('click',function(){
+    event.preventDefault();
 	block.style.display='block';
 })

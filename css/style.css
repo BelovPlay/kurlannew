@@ -7528,3 +7528,6 @@ hr{
 #modalPrecalc,#ModalDescrBlock{
     display:none;
 }
+#plus,#minus{
+    font-size: 36px;
+}
