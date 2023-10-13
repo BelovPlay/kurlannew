@@ -77,9 +77,9 @@
 		<video class="lazyload hero__video" data-src="video/hero.mp4" playsinline autoplay loop preload="auto" muted></video>
 	</div>
 	<div id="block">
-		<button class="modal-close modal-close-price" id="btnclosecalc"><img class="lazyload close-img modal-close-img" data-src="img/navigation/close.png" alt="close modal" id="btnclose"></button>
 		<div class="ticket-test">
 			<div class="tickets__text">
+				
 				<h2 class="tickets-test__title">Билет в Курланпарк<br> тариф безлимит</h2>
 				<p class="tickets-test__descr">Каждый следующий билет<br> дешевле предыдущего.<br> Чем больше билетов<br> тем больше скидка.</p>
 				<h3 class="tickets-price-test">Стоимость билета</h3>
@@ -88,6 +88,7 @@
 			<div class="tickets-test__data">
 				<form action="php/index.php" method="POST" class="form-tickets-first">
 					<div class="rasch">
+						<button class="modal-close-precalc modal-close modal-close-price" id="btnclosecalc"><img class="lazyload close-img modal-close-img" data-src="img/navigation/close.png" alt="close modal" id="btnclose"></button>
 						<h3 class="neon">Кол-во билетов</h3>
 						<input type="submit" value="-" class="" id="minus">
 						<input type="submit" value="1" class="" id="kolvo">
@@ -1068,34 +1069,36 @@
 		</div>
 	</div>
 	<div class="modal-descr-block" id="ModalDescrBlock">
-		<p>Электронный билет на тариф «безлимит» даёт возможность в течение одного дня (с 10 до 20:00) находиться на территории Парка и пользоваться его инфраструктурой. </p>
-		<hr>
-		<h2>В стоимость включено:</h2>
-		<ul>
-			<li>∗ Аренда тюбинга;</li>
-			<li>∗ Катание на снежных горках;</li>
-			<li>∗ Пользование канатными дорогами;</li>
-			<li>∗ Авторская программа от Деда Мороза;</li>
-			<li>∗ Катание на северных оленях;</li>
-			<li>∗ Обнимашки и фото с сибирскими хаски;</li>
-			<li>∗ Еда и напитки в кафе;</li>
-			<li>∗ Стрелковый призовой тир;</li>
-			<li>∗ Путешествие по зимнему лесу на турбо-банане;</li>
-			<li>∗ Мангальные зоны, чтобы пожарить шашлыки;</li>
-			<li>∗ Камеры хранения для вещей;</li>
-			<li>∗ Участие в розыгрышах ценных призов;</li>
-			<li>∗ Сувениры и подарки.</li>
-		</ul>
-		<button class="modal-close close-modal-precalc" id="closeModalDescrCalc"><img class="lazyload close-img" data-src="img/navigation/close.png" alt="close modal"></button>
-		<hr>
-		<p>Билет действителен для предъявления в любой день, согласно режима работы Парка. Срок действия не ограничен.</p>
-		<hr>
-		<p>Распечатывать билет не обязательно. Достаточно предъявить на кассе Парка его электронную версию.</p>
-		<hr>
-		Обмен и возврат билета возможен в любой день, согласно режима работы кассы Парка.<br><br><br>
-		<div class="modal-descr-block-links">
-			<a href="tel:+79276340246" class="link-call-modal header-logo-link-more">Есть вопросы<br> -позвоню-</a>
-			<a href="#" id="opencalcmodal" class="link-opencalcmodal header-logo-link-more" id="questionbtnmodal">Все понятно<br> -хочу купить-</a>
+		<div class="modal-descr-block__inner">
+			<p>Электронный билет на тариф «безлимит» даёт возможность в течение одного дня (с 10 до 20:00) находиться на территории Парка и пользоваться его инфраструктурой. </p>
+			<hr>
+			<h2>В стоимость включено:</h2>
+			<ul>
+				<li>∗ Аренда тюбинга;</li>
+				<li>∗ Катание на снежных горках;</li>
+				<li>∗ Пользование канатными дорогами;</li>
+				<li>∗ Авторская программа от Деда Мороза;</li>
+				<li>∗ Катание на северных оленях;</li>
+				<li>∗ Обнимашки и фото с сибирскими хаски;</li>
+				<li>∗ Еда и напитки в кафе;</li>
+				<li>∗ Стрелковый призовой тир;</li>
+				<li>∗ Путешествие по зимнему лесу на турбо-банане;</li>
+				<li>∗ Мангальные зоны, чтобы пожарить шашлыки;</li>
+				<li>∗ Камеры хранения для вещей;</li>
+				<li>∗ Участие в розыгрышах ценных призов;</li>
+				<li>∗ Сувениры и подарки.</li>
+			</ul>
+			<button class="modal-close close-modal-precalc" id="closeModalDescrCalc"><img class="lazyload close-img" data-src="img/navigation/close.png" alt="close modal"></button>
+			<hr>
+			<p>Билет действителен для предъявления в любой день, согласно режима работы Парка. Срок действия не ограничен.</p>
+			<hr>
+			<p>Распечатывать билет не обязательно. Достаточно предъявить на кассе Парка его электронную версию.</p>
+			<hr>
+			Обмен и возврат билета возможен в любой день, согласно режима работы кассы Парка.<br><br><br>
+			<div class="modal-descr-block-links">
+				<a href="tel:+79276340246" class="link-call-modal header-logo-link-more">Есть вопросы<br> -позвоню-</a>
+				<a href="#" id="opencalcmodal" class="link-opencalcmodal header-logo-link-more" id="questionbtnmodal">Все понятно<br> -хочу купить-</a>
+			</div>
 		</div>
 	</div>
 	<script src="js/libs/lazyload.js"></script>
