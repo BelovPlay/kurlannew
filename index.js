@@ -8,6 +8,7 @@ let closetests=document.getElementById('closeModalDescrCalc');
 closetests.addEventListener('click',function(){
 	modalDescrBlock.style.display='none';
 })
+let =document.getElementById('');
 // let closetestt=document.getElementById('closetestt');
 // closetestt.addEventListener('click',function(){
 
@@ -191,8 +192,8 @@ let skidka=document.getElementById('percent');
 let prsch,tmp,tmps;
 btn.addEventListener('click',function(){
     event.preventDefault();
-    block.style.display='block';
-    // content.style.display='block';
+    modalPreCalc.style.display='block';
+    content.style.display='block';
 })
 plus.addEventListener('click',function(){
     event.preventDefault();
@@ -284,21 +285,34 @@ let closemodalng=document.getElementById('closemodalng');
 closemodalng.addEventListener('click',function(){
     modalng.style.display='none';
 })
-let modalcalc=document.getElementById('TicketsTestData');
-let closemodalcalc=document.getElementById('closeCalcModal');
-let closemodalf=document.getElementById('closeModalFormF');
-let closemodals=document.getElementById('closeModalFormS');
-modalcalc.addEventListener('click',function(){
-    event.preventDefault();
-    block.style.display='none';
-    content.style.display='none';
-    modalcalc.style.display='none';
-    closemodalf.style.display='none';
-    closemodals.style.display='none';
-    block.style.display='none';
+// let modalcalc=document.getElementById('TicketsTestData');
+// let closemodalcalc=document.getElementById('closeCalcModal');
+// let closemodalf=document.getElementById('closeModalFormF');
+// let closemodals=document.getElementById('closeModalFormS');
+// modalcalc.addEventListener('click',function(){
+//     event.preventDefault();
+//     block.style.display='none';
+//     content.style.display='none';
+//     modalcalc.style.display='none';
+//     closemodalf.style.display='none';
+//     closemodals.style.display='none';
+//     block.style.display='none';
+// })
+// let closemodalprecalc=document.getElementById('closeModalPrecalc');
+// let calcPreModal=document.getElementById('modalPrecalc');
+// closemodalprecalc.addEventListener('click',function(){
+//     calcPreModal.style.display='none';
+// })
+let ModalDescrBlock=document.getElementById('ModalDescrBlock');
+let btnmore=document.getElementById('btnmore');
+btnmore.addEventListener('click',function(){
+	ModalDescrBlock.style.display='block';
 })
-let closemodalprecalc=document.getElementById('closeModalPrecalc');
-let calcPreModal=document.getElementById('modalPrecalc');
-closemodalprecalc.addEventListener('click',function(){
-    calcPreModal.style.display='none';
+// let btnlinkmore=document.getElementById('btnmore');
+// btnlinkmore.addEventListener('click',function(){
+// 	block.style.display='block';
+// })
+let questionmodal=document.getElementById('opencalcmodal');
+questionmodal.addEventListener('click',function(){
+	block.style.display='block';
 })
