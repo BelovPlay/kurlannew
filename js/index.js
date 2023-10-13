@@ -308,11 +308,11 @@ let btnmore=document.getElementById('btnmore');
 btnmore.addEventListener('click',function(){
 	ModalDescrBlock.style.display='block';
 })
-// let btnlinkmore=document.getElementById('btnmore');
-// btnlinkmore.addEventListener('click',function(){
-// 	block.style.display='block';
-// })
 let questionmodal=document.getElementById('opencalcmodal');
 questionmodal.addEventListener('click',function(){
+	block.style.display='block';
+})
+let buybtnprecalc=document.getElementById('buybtnprecalc');
+buybtnprecalc.addEventListener('click',function(){
 	block.style.display='block';
 })
