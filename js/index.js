@@ -8,7 +8,6 @@ let closetests=document.getElementById('closeModalDescrCalc');
 closetests.addEventListener('click',function(){
 	modalDescrBlock.style.display='none';
 })
-let =document.getElementById('');
 // let closetestt=document.getElementById('closetestt');
 // closetestt.addEventListener('click',function(){
 
@@ -193,7 +192,7 @@ let prsch,tmp,tmps;
 btn.addEventListener('click',function(){
     event.preventDefault();
     modalPreCalc.style.display='block';
-    content.style.display='block';
+    // content.style.display='block';
 })
 plus.addEventListener('click',function(){
     event.preventDefault();
@@ -316,3 +315,7 @@ let buybtnprecalc=document.getElementById('buybtnprecalc');
 buybtnprecalc.addEventListener('click',function(){
 	block.style.display='block';
 })
+let btnclosecalc=document.getElementById('btnclosecalc');
+btnclosecalc.addEventListener('click',function(){
+    block.style.display='none';
+});
