@@ -7581,3 +7581,12 @@ hr{
     margin:0px auto;
     width: 50%;
 }
+.btn-buy-ticket,.header__sphone,.header__link{
+    padding: 0px;
+    margin: 0px;
+}
+#btn{
+    padding: 25px;
+    margin-top:0px;
+    margin-left:-15px;
+}
