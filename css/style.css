@@ -7574,6 +7574,10 @@ hr{
 #closeModalDescrCalc{
     position:absolute;
     top:120px;
-    left:1320px;
+    left:1400px;
     height:20px;
+}
+.modal-precalc__bottom{
+    margin:0px auto;
+    width: 50%;
 }
