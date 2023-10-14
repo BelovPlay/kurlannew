@@ -7572,6 +7572,8 @@ hr{
     margin-top:0px;
 }
 #closeModalDescrCalc{
-    margin-top:0px;
+    position:absolute;
+    top:120px;
+    left:1320px;
     height:20px;
 }
