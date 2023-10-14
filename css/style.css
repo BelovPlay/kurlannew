@@ -2457,6 +2457,9 @@ span.bold {
     .map-mb,.soc__links-mb{
         display:none;
     }
+    .modal__block h3{
+        display:none;
+    }
 }
 @media (max-width: 1441px) {
     .btn-close {
@@ -2499,6 +2502,9 @@ span.bold {
     #tent .navigation__btn {
         max-width: 50%;
     }
+    .modal__block h3{
+        display:none;
+    }
 }
 @media (max-width: 1367px) {
     .about__info {
@@ -2516,6 +2522,9 @@ span.bold {
     }
     #prank .navigation__item-title span {
         font-size: 16px;
+    }
+    .modal__block h3{
+        display:none;
     }
 }
 @media (max-width: 1025px) {
@@ -2778,6 +2787,9 @@ span.bold {
     .map,.soc__links{
         display:none;
     }
+    .modal__block h3{
+        display:none;
+    }
 }
 @media (max-width: 769px) {
     .menu__btn-open {
@@ -2996,6 +3008,9 @@ span.bold {
     }
     .modal__block li{
         font-size:10px;
+    }
+    .modal__block h3{
+        display:none;
     }
 }
 @media (max-width: 541px) {
@@ -5094,9 +5109,14 @@ input.oper{
     margin-left: 0;
 }
 @media (min-width: 2559px){
+    .modal__block h3{
+        display:none;
+    }
 }
 @media (max-width: 1441px){
-
+    .modal__block h3{
+        display:none;
+    }
 }
 @media (max-width: 1367px){
     .description__text-paragraph{
@@ -7589,4 +7609,7 @@ hr{
     padding: 25px;
     margin-top:0px;
     margin-left:-15px;
+}
+.modal__block h3{
+    display:none;
 }
