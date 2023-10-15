@@ -7358,6 +7358,9 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    #btn-modal-priceng,#btn-modal-pricepng{
+        margin-left:0px;
+    }
     .modal__block{
         text-align-last: left;
     }
@@ -7618,4 +7621,8 @@ hr{
 }
 .header__phone-text{
     margin-top:20px;
+}
+.navigation__item--border-b{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
