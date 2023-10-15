@@ -4154,6 +4154,9 @@ span.bold {
         width:450px;
         margin-left:-60px;
     }
+    .navigation__item-title{
+        border:none;
+    }
 }
 @media (max-width: 321px) {
     .services__item-back,.flip,.services__item-back__list{
