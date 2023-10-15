@@ -5366,7 +5366,7 @@ input.oper{
     }
     span.sales__list--color{
         font-size: 16px;
-        display:block;
+        display:inline;
     }
     .overlay {
         width: 100%;
@@ -6801,6 +6801,9 @@ input.oper{
         text-align:left;
         width: 300px;
     }
+    .sales__list--color{
+        display:inline;
+    }
     span.skidka-b{
         display:inline-block;
         margin-bottom: 50px;
@@ -7230,9 +7233,6 @@ input.oper{
         margin-bottom:0px;
         width:250px;
     }
-    .services__item-title{
-        /* display:none; */
-    }
     img.services__item-img{
         height:50px;
     }
@@ -7423,6 +7423,13 @@ form h3.neon{
     }
     .navigation__btn.map-btn-nav{
         width:150px;
+    }
+    .yarche-descr{
+        padding-bottom:20px;
+        border-bottom:2px solid black;
+    }
+    .title-yarche{
+        margin-top: 0px;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
