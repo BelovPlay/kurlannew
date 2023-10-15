@@ -3662,6 +3662,7 @@ span.bold {
     }
     .sales__firstList li span {
         font-size: 22px;
+        width:350px;
     }
     .sales__firstList .small {
         margin-top: 5px;
@@ -6628,7 +6629,8 @@ input.oper{
         width: 350px;
         display:inline-block;
         margin-bottom: 0px;
-        padding-bottom:35px;
+        padding-top:25px;
+        padding-bottom:25px;
     }
     h2.black{
         width:350px;
@@ -7356,6 +7358,12 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    .navigation__btn,.open-modal-faq,.btn__faq{
+        margin-left:10px;
+    }
+    .navigation__btn,.open-modal-krl,.bron{
+        margin-left: 0px;
+    }
     #btn-modal-priceng,#btn-modal-pricepng{
         margin-left:0px;
     }
@@ -7389,7 +7397,7 @@ form h3.neon{
     }
     .adress{
         width:450px;
-        margin-left:-60px;
+        margin-left:-50px;
     }
     .navigation__btn.map-btn-nav{
         width:150px;
