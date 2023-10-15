@@ -7388,6 +7388,9 @@ form h3.neon{
     span.yarche{
         margin-top:50px;
     }
+    .bold{
+        width: 350px;
+    }
     .free{
         margin-bottom: 0px;
         padding-bottom:20px;
