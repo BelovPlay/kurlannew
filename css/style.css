@@ -5154,18 +5154,30 @@ input.oper{
     .modal__block h3{
         display:none;
     }
+    .link-more{
+        display:none;
+    }
 }
 @media (max-width: 1441px){
+    .link-more{
+        display:none;
+    }
     .modal__block h3{
         display:none;
     }
 }
 @media (max-width: 1367px){
+    .link-more{
+        display:none;
+    }
     .description__text-paragraph{
         width: 600px;
     }
 }
 @media (max-width: 1025px){
+    .link-more{
+        display:none;
+    }
     .description__text-paragraph{
         width: 600px;
     }
@@ -5398,6 +5410,9 @@ input.oper{
     }
 }
 @media (max-width: 769px) {
+    .link-more{
+        display:none;
+    }
     .modal__kurlanchiki{
         width:350px;
         margin:0px auto;
