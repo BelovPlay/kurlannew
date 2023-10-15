@@ -7434,8 +7434,18 @@ form h3.neon{
     .title-yarche{
         margin-top: 0px;
     }
+    .sales__secondList{
+        padding-top: 20px;
+        border-top:1px solid #000;
+    }
     .navigation__item-descr{
         border:none;
+    }
+    .sales__secondListli-one{
+        text-align-last:left;
+        width:350px;
+        padding-bottom: 20px;
+        border-bottom:1px solid #000;
     }
     .navigation__item-descr{
         padding-bottom: 20px;
