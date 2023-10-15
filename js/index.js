@@ -101,9 +101,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }), new Swiper(".mySwiper2", {
         effect: "coverflow",
         slidesPerView: 3,
-        autoplay: {
-            delay: 2000,
-          },
+        // autoplay: {
+        //     delay: 2000,
+        //   },
         coverflowEffect: {
             rotate: 50
         },
