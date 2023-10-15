@@ -5997,6 +5997,10 @@ input.oper{
         margin-bottom: 0px;
         align-items: center;
     }
+    .navigation__item-descr,.bold{
+        padding-bottom:20px;
+        border-bottom:2px solid black;
+    }
     .services__items-row{
         margin-top:50px;
         margin-bottom:0px;
