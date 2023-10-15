@@ -7375,6 +7375,10 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    .sales__thirdList{
+        margin: 0px;
+        padding: 0px;
+    }
     .free{
         margin-bottom: 0px;
         padding-bottom:20px;
