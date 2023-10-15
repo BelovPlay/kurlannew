@@ -5070,6 +5070,10 @@ input.oper{
     width:1025px;
     /* border-bottom:1px solid black; */
 }
+.free{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 .modal-tubing-sec{
     position:absolute;
     display:none;
@@ -7371,6 +7375,10 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    .free{
+        margin-bottom: 0px;
+        padding-bottom:20px;
+    }
     h2.dop__title{
         margin-top:40px;
     }
