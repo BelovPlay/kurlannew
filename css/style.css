@@ -7613,3 +7613,6 @@ hr{
 .modal__block h3{
     display:none;
 }
+#btn,.btn-buy-ticket{
+    display:none;
+}
