@@ -7379,6 +7379,12 @@ form h3.neon{
         margin: 0px;
         padding: 0px;
     }
+    .navigation__inner,.title,.nav__title,.navigation__title,.small{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; 
+    }
     .free{
         margin-bottom: 0px;
         padding-bottom:20px;
@@ -7389,6 +7395,10 @@ form h3.neon{
     .description__inner,#gorki{
         margin-top:0px;
         padding-top:0px;
+    }
+    div.small{
+        margin-top: 0px;
+        padding-top: 0px;
     }
     .services__inner{
         margin-top: 50px;
