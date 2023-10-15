@@ -7616,3 +7616,6 @@ hr{
 #btn,.btn-buy-ticket{
     display:none;
 }
+.header__phone-text{
+    margin-top:20px;
+}
