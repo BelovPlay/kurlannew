@@ -5173,6 +5173,9 @@ input.oper{
     .description__text-paragraph{
         width: 600px;
     }
+    .navigation__item-descr-left{
+        margin-left:40px;
+    }
 }
 @media (max-width: 1025px){
     .link-more{
