@@ -7458,6 +7458,13 @@ form h3.neon{
     .sales__inner-reverse{
         margin-top:25px;
     }
+    .sales__threeList li{
+        margin-left:170px;
+    }
+    li.sales__secondList-li,li.sales__secondList-li-two{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
     .sales__threeList,.sales__secondList{
         padding-bottom: 20px;
         border-bottom:1px solid black;
