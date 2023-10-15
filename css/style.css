@@ -3913,6 +3913,12 @@ span.bold {
         width: 350px;
         margin-left:0px;
     }
+    #rozigrish h2{
+        border-bottom:1px solid black;
+        width: 350px;
+        padding-bottom: 25px;
+        margin-left:20px;
+    }
     .navigation__item-title,.title-ya{
         margin-top: 0px;
         padding-top: 0px;
