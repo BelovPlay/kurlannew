@@ -3898,6 +3898,24 @@ span.bold {
     }
 }
 @media (max-width: 376px) {
+    h2.title-sec{
+        margin-top:50px;
+        margin-bottom: 25px;
+    }
+    h2.title-yarche{
+        padding-bottom: 25px;
+        border-bottom:2px solid black;
+    }
+    .navigation__item-title,.title-ya{
+        margin-top: 0px;
+        padding-top: 0px;
+        border-top:2px solid black;
+    }
+    .skidka-mb{
+        margin-bottom:25px;
+        padding-bottom:5px;
+        display:inline-block;
+    }
     .title-up,.span.smallinger{
         font-size:10px;
     }
@@ -7386,7 +7404,7 @@ form h3.neon{
         margin-bottom: 0px; 
     }
     span.yarche{
-        margin-top:50px;
+        margin-top:25px;
     }
     .bold{
         width: 350px;
