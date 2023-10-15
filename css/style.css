@@ -7438,6 +7438,16 @@ form h3.neon{
     .navigation__item-descr{
         border:none;
     }
+    .navigation__item-descr{
+        padding-bottom: 20px;
+        border-bottom:1px solid #000;
+    }
+    span.skidka-pc{
+        display:none;
+    }
+    .skidka-mb{
+        line-height:30px;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
