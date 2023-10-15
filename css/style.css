@@ -5042,9 +5042,6 @@ input.oper{
 .title-ya{
     margin-bottom: 0;
 }
-.navigation__item-descr-left{
-    margin-left: 25px;
-}
 .nav-descr{
     font-weight: bold;
 }
@@ -6074,11 +6071,11 @@ input.oper{
         width:450px;
     }
     .description__text-paragraph{
-        width:375px;
+        width:350px;
     }
     .navigation__btn,.open-modal-krl,.btn-price{
         width:350px;
-        margin-left:25px;
+        /* margin-left:25px; */
     }
     .smallinger{
         font-size: 36px;
@@ -6316,7 +6313,7 @@ input.oper{
         margin-bottom: 20px;
     }
     .nav-navig,.navigation__item-descr,.navigation__item--border-b{
-        width:320px;
+        width:350px;
         font-size: 14px;
     }
     .ll{
@@ -6717,8 +6714,9 @@ input.oper{
         margin-bottom: 20px;
     }
     .nav-navig,.navigation__item-descr,.navigation__item--border-b{
-        width:320px;
+        width:350px;
         font-size: 14px;
+        margin-bottom: 25px;
     }
     .ll{
         display:none;
