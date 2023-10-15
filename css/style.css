@@ -6472,6 +6472,9 @@ input.oper{
         left:470px;
         top:180px;
     }
+    .navigation__btn,.open-modal-faq,.btn__faq{
+        margin-left: 25px;
+    }
 }
 @media (max-width: 376px){
     span.smallinger{
@@ -6891,6 +6894,9 @@ input.oper{
         position:absolute;
         left:470px;
         top:180px;
+    }
+    a.navigation__btn,.open-modal-faq,.btn__faq{
+        margin-left:10px;
     }
 }
 @media (max-width: 321px){
@@ -7361,6 +7367,19 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+    h2.dop__title{
+        margin-top:40px;
+    }
+    .description__inner,#gorki{
+        margin-top:0px;
+        padding-top:0px;
+    }
+    .services__inner{
+        margin-top: 50px;
+    }
+    h2.title,h2.nav__title,h2.navigation__title small,.cont-nav{
+        margin-bottom: 0px;
+    }
     .navigation__btn,.open-modal-faq,.btn__faq{
         margin-left:10px;
     }
