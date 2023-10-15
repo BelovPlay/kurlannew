@@ -6967,6 +6967,12 @@ input.oper{
     a.navigation__btn,.open-modal-faq,.btn__faq{
         margin-left:10px;
     }
+    .navigation__item-descr,.navigation__item-descr-left{
+        margin-left:-20px;
+    }
+    .bold{
+        margin-left:-10px;
+    }
 }
 @media (max-width: 321px){
     .services__item{
