@@ -5102,7 +5102,7 @@ input.oper{
     font-weight: bold;
 }
 .black-span{
-    color:#000;
+    font-size: 20px;
 }
 .adress{
     display:inline-block;
