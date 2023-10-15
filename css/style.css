@@ -5101,6 +5101,9 @@ input.oper{
 .text-bold{
     font-weight: bold;
 }
+.black-span{
+    color:#000;
+}
 .adress{
     display:inline-block;
     padding-bottom:20px;
