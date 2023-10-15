@@ -6479,6 +6479,9 @@ input.oper{
         font-weight: bold;
         font-size:640px;
     }
+    .more-program.smallinger{
+        margin-left: 25px;
+    }
     .services__items{
         width: 100px;
     }
