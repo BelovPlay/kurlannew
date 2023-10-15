@@ -7435,6 +7435,9 @@ form h3.neon{
     .title-yarche{
         margin-top: 0px;
     }
+    .navigation__item-descr{
+        border:none;
+    }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
     width: 200px;
