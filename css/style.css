@@ -7428,9 +7428,8 @@ form h3.neon{
     .navigation__btn.map-btn-nav{
         width:150px;
     }
-    .yarche-descr{
-        padding-bottom:20px;
-        border-bottom:2px solid black;
+    .navigation__item-descr{
+        padding-bottom:-20px;
     }
     .title-yarche{
         margin-top: 0px;
