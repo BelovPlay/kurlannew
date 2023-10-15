@@ -3902,9 +3902,16 @@ span.bold {
         margin-top:50px;
         margin-bottom: 25px;
     }
-    h2.title-yarche{
-        padding-bottom: 25px;
-        border-bottom:2px solid black;
+    span.yarche{
+        border-top:2px solid black;
+        display:inline-block;
+        width: 350px;
+        padding-top: 25px;
+    }
+    .link-more{
+        border:1px solid #000;
+        width: 350px;
+        margin-left:0px;
     }
     .navigation__item-title,.title-ya{
         margin-top: 0px;
@@ -4156,6 +4163,9 @@ span.bold {
     }
     .navigation__item-title{
         border:none;
+    }
+    .age-child{
+        color:#000;
     }
 }
 @media (max-width: 321px) {
