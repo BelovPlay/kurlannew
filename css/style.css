@@ -6968,10 +6968,7 @@ input.oper{
         margin-left:10px;
     }
     .navigation__item-descr,.navigation__item-descr-left{
-        margin-left:-20px;
-    }
-    .bold{
-        margin-left:-10px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 321px){
@@ -7569,6 +7566,10 @@ form h3.neon{
     .sales__threeList,.sales__secondList{
         padding-bottom: 20px;
         border-bottom:1px solid black;
+    }
+    .yarche-descr-first{
+        padding-top:25px;
+        border-top:2px solid black;
     }
 }
 #sum,#kolvo,#percent,#Name,#Email,#Phone{
