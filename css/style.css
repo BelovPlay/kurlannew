@@ -7436,6 +7436,10 @@ form h3.neon{
     text-align:left;
 }
 @media(max-width:376px){
+	.link-menu-file{
+		margin-left:0px;
+		padding-left:0px;
+	}
     .sales__thirdList{
         margin: 0px;
         padding: 0px;
